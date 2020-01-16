@@ -1,0 +1,860 @@
+{
+    "pictures": {
+        "indianFestivalsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which festival is celebrated in this photo?",
+                        "italian": "Quale festival viene celebrato nella foto?",
+                        "japanese": "この写真で祝われている祭りはどれですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which festival",
+                        "italian": "Quale festival",
+                        "japanese": "どのお祭りですか"
+                    },
+                    "answers": {
+                        "english": [
+                            "Diwali",
+                            "Onam",
+                            "Holi",
+                            "Independence Day"
+                        ],
+                        "italian": [
+                            "Diwali",
+                            "Onam",
+                            "Holi ",
+                            "Giorno dell'Indipendenza"
+                        ],
+                        "japanese": [
+                            "ディワリ",
+                            "オナム",
+                            "ホーリー ",
+                            "独立記念日"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Diwali",
+                        "italian": "Diwali",
+                        "japanese": "ディワリ"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "How many children are in the photo?",
+                        "italian": "Quanti bambini ci sono nella foto?",
+                        "japanese": "写真に写っている子供は何人いますか"
+                    },
+                    "question-tablet": {
+                        "english": "Children number",
+                        "italian": "Quanti bambini",
+                        "japanese": "子供の数"
+                    },
+                    "answers": {
+                        "english": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "italian": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "japanese": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "2",
+                        "italian": "2",
+                        "japanese": "2"
+                    }
+                }
+            }
+        },
+        "indianLifeEventsCelebrationsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "What is celebrated in this photo?",
+                        "italian": "Cosa viene celebrato nella foto?",
+                        "japanese": "この写真で祝われているものは何ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which celebration",
+                        "italian": "Quale celebrazione",
+                        "japanese": "どのお祝い"
+                    },
+                    "answers": {
+                        "english": [
+                            "Annaprashana",
+                            "wedding",
+                            "Upanayana",
+                            "Eid celebrations"
+                        ],
+                        "italian": [
+                            "Annaprashana",
+                            "matrimonio",
+                            "Upanayana",
+                            "Eid"
+                        ],
+                        "japanese": [
+                            "アナプラシャン",
+                            "結婚式",
+                            "ウパナヤナ",
+                            "イード"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "wedding",
+                        "italian": "matrimonio",
+                        "japanese": "結婚式"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What does the couple wear around their necks?",
+                        "italian": "Cosa indossa la coppia attorno al collo?",
+                        "japanese": "カップルは首の周りに何を着けていますか"
+                    },
+                    "question-tablet": {
+                        "english": "Wearing what",
+                        "italian": "Cosa indossano",
+                        "japanese": "着けているもの"
+                    },
+                    "answers": {
+                        "english": [
+                            "garlands of flowers",
+                            "scarfs",
+                            "jewels",
+                            "nothing"
+                        ],
+                        "italian": [
+                            "ghirlande di fiori",
+                            "sciarpe",
+                            "gioielli",
+                            "niente"
+                        ],
+                        "japanese": [
+                            "花輪",
+                            "スカーフ",
+                            "宝石",
+                            "何もない"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "garlands of flowers",
+                        "italian": "ghirlande di fiori",
+                        "japanese": "花輪"
+                    }
+                }
+            }
+        },
+        "indianMonumentsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which monument is in the photo?",
+                        "italian": "Quale monumento è raffigurato nella foto?",
+                        "japanese": "写真にはどのモニュメントがありますか"
+                    },
+                    "question-tablet": {
+                        "english": "Which monument",
+                        "italian": "Quale monumento",
+                        "japanese": "モニュメント"
+                    },
+                    "answers": {
+                        "english": [
+                            "Gateway of India",
+                            "Taj Mahal",
+                            "Qutb Minar ",
+                            "India Gate"
+                        ],
+                        "italian": [
+                            "Portale dell'India",
+                            "Taj Mahal",
+                            "Qutb Minar ",
+                            "Porta dell'India"
+                        ],
+                        "japanese": [
+                            "インドのゲートウェイ",
+                            "タージマハル",
+                            "クトゥブミナール",
+                            "インド門"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Taj Mahal",
+                        "italian": "Taj Mahal",
+                        "japanese": "タージマハル"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What is the colour of the sari of the lady on the left side?",
+                        "italian": "Di che colore è il sari della donna a sinistra?",
+                        "japanese": "左側の女性のサリーの色は何ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Sari colour",
+                        "italian": "Colore sari",
+                        "japanese": "サリーの色"
+                    },
+                    "answers": {
+                        "english": [
+                            "blue",
+                            "red",
+                            "green",
+                            "orange"
+                        ],
+                        "italian": [
+                            "blu",
+                            "rosso",
+                            "verde",
+                            "arancione"
+                        ],
+                        "japanese": [
+                            "青",
+                            "赤",
+                            "緑",
+                            "オレンジ"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "blue",
+                        "italian": "blu",
+                        "japanese": "青"
+                    }
+                }
+            }
+        },
+        "japaneseFestivalsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which festival is celebrated in this photo?",
+                        "italian": "Quale festività viene celebrato nella foto?",
+                        "japanese": "この写真で祝われている祭りはどれですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which festival",
+                        "italian": "Quale festività",
+                        "japanese": "何のお祭り"
+                    },
+                    "answers": {
+                        "english": [
+                            "Tenjin festival",
+                            "New Year's Day",
+                            "Harvest festival",
+                            "Gion festival"
+                        ],
+                        "italian": [
+                            "Tenjin fest.",
+                            "Harvest fest.",
+                            "Gion fest.",
+                            "Capodanno"
+                        ],
+                        "japanese": [
+                            "天神祭",
+                            "お正月",
+                            "収穫祭",
+                            "祇園祭"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Gion festival",
+                        "italian": "Gion fest.",
+                        "japanese": "祇園祭"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What time of the day is it?",
+                        "italian": "In che momento del giorno è ambientata la scena?",
+                        "japanese": "1日のうちのいつですか"
+                    },
+                    "question-tablet": {
+                        "english": "Time of day",
+                        "italian": "Momento del giorno",
+                        "japanese": "いつ"
+                    },
+                    "answers": {
+                        "english": [
+                            "morning",
+                            "night",
+                            "dawn",
+                            "late evening"
+                        ],
+                        "italian": [
+                            "mattina",
+                            "notte",
+                            "alba",
+                            "tarda sera"
+                        ],
+                        "japanese": [
+                            "朝",
+                            "夜",
+                            "夜明け",
+                            "夜中"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "morning",
+                        "italian": "mattina",
+                        "japanese": "朝"
+                    }
+                }
+            }
+        },
+        "japaneseLifeEventsCelebrationsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which colour is the carpet?",
+                        "italian": "Di che colore è il tappeto?",
+                        "japanese": "カーペットは何の色ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Carpet colour",
+                        "italian": "Colore tappeto",
+                        "japanese": "カーペットの色"
+                    },
+                    "answers": {
+                        "english": [
+                            "white",
+                            "green",
+                            "red",
+                            "blue"
+                        ],
+                        "italian": [
+                            "bianco",
+                            "verde",
+                            "rosso",
+                            "blu"
+                        ],
+                        "japanese": [
+                            "白",
+                            "緑",
+                            "赤",
+                            "青"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "red",
+                        "italian": "rosso",
+                        "japanese": "赤"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "Which colour is the dress of the person in the foreground on the left?",
+                        "italian": "Di che colore è il vestito della persona in primo piano sulla sinistra?",
+                        "japanese": "左手前の人のドレスは何の色ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Dress colour",
+                        "italian": "Colore vestito",
+                        "japanese": "ドレスの色"
+                    },
+                    "answers": {
+                        "english": [
+                            "white",
+                            "red",
+                            "black",
+                            "pink"
+                        ],
+                        "italian": [
+                            "bianco",
+                            "rosso",
+                            "nero",
+                            "rosa"
+                        ],
+                        "japanese": [
+                            "白",
+                            "赤",
+                            "黒",
+                            "ピンク"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "red",
+                        "italian": "rosso",
+                        "japanese": "赤"
+                    }
+                }
+            },
+            "02": {
+                "1": {
+                    "question": {
+                        "english": "What is celebrated in this photo?",
+                        "italian": "Cosa viene celebrato nella foto?",
+                        "japanese": "この写真で祝われているものは何ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which celebration",
+                        "italian": "Quale celebrazione",
+                        "japanese": "祝われているもの"
+                    },
+                    "answers": {
+                        "english": [
+                            "graduation",
+                            "birthday",
+                            "wedding",
+                            "Shinto blessing"
+                        ],
+                        "italian": [
+                            "laurea",
+                            "compleanno",
+                            "matrimonio",
+                            "Shinto blessing"
+                        ],
+                        "japanese": [
+                            "卒業式",
+                            "誕生日",
+                            "結婚式",
+                            "神事"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "wedding",
+                        "italian": "matrimonio",
+                        "japanese": "結婚式"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What colour is the woman's dress?",
+                        "italian": "Di che colore è il vestito della donna?",
+                        "japanese": "女性の服は何の色ですか？"
+                    },
+                    "question-tablet": {
+                        "english": "Dress colour",
+                        "italian": "Colore vestito",
+                        "japanese": "服の色"
+                    },
+                    "answers": {
+                        "english": [
+                            "red",
+                            "blue",
+                            "purple ",
+                            "white"
+                        ],
+                        "italian": [
+                            "rosso",
+                            "blu",
+                            "viola",
+                            "bianco"
+                        ],
+                        "japanese": [
+                            "赤",
+                            "青",
+                            "紫",
+                            "白"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "red",
+                        "italian": "rosso",
+                        "japanese": "赤"
+                    }
+                }
+            }
+        },
+        "japaneseMonumentsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which monument is in this photo?",
+                        "italian": "Qual è il monumento nella foto?",
+                        "japanese": "写真にはどのモニュメントがありますか"
+                    },
+                    "question-tablet": {
+                        "english": "Which monument",
+                        "italian": "Quale monumento",
+                        "japanese": "記念碑"
+                    },
+                    "answers": {
+                        "english": [
+                            "Osaka Castle",
+                            "Itsukushima Shrine",
+                            "Great Buddha",
+                            "Todaiji Temple"
+                        ],
+                        "italian": [
+                            "Castello di Osaka",
+                            "Itsukushima Shrine",
+                            "Grande Buddha",
+                            "Tempio Todaiji"
+                        ],
+                        "japanese": [
+                            "大阪城",
+                            "厳島神社",
+                            "大仏",
+                            "東大寺"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Itsukushima Shrine",
+                        "italian": "Itsukushima Shrine",
+                        "japanese": "厳島神社"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "How many pillars can you see in the photo?",
+                        "italian": "Quante colonne hai visto nella foto?",
+                        "japanese": "写真には何本の柱が見えますか"
+                    },
+                    "question-tablet": {
+                        "english": "Number of pillar",
+                        "italian": "Numero di colonne ",
+                        "japanese": "柱の数"
+                    },
+                    "answers": {
+                        "english": [
+                            "1",
+                            "4",
+                            "6",
+                            "0"
+                        ],
+                        "italian": [
+                            "1",
+                            "4",
+                            "6",
+                            "0"
+                        ],
+                        "japanese": [
+                            "1",
+                            "4",
+                            "6",
+                            "0"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "6",
+                        "italian": "6",
+                        "japanese": "6"
+                    }
+                }
+            }
+        },
+        "britishRoyalFamilyMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which colour is the dress of the Queen Elizabeth?",
+                        "italian": "Di che colore è il vestito della Regina Elisabetta",
+                        "japanese": "エリザベス女王のドレスはどの色ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Queen colour",
+                        "italian": "Colore regina",
+                        "japanese": "エリザベス女王のドレスの色"
+                    },
+                    "answers": {
+                        "english": [
+                            "white",
+                            "green",
+                            "red",
+                            "blue"
+                        ],
+                        "italian": [
+                            "bianco",
+                            "verde",
+                            "rosso ",
+                            "blu"
+                        ],
+                        "japanese": [
+                            "白",
+                            "緑",
+                            "赤 ",
+                            "青"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "green",
+                        "italian": "verde",
+                        "japanese": "緑"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What is the child in the middle of the picture doing?",
+                        "italian": "Cosa sta facendo il bambino al centro della foto?",
+                        "japanese": "絵の真ん中にいる子供は何をしていますか"
+                    },
+                    "question-tablet": {
+                        "english": "Child action",
+                        "italian": "Azione bambino",
+                        "japanese": "子供の行動"
+                    },
+                    "answers": {
+                        "english": [
+                            "sneezing",
+                            "coughing",
+                            "greeting",
+                            "laughing"
+                        ],
+                        "italian": [
+                            "starnutisce",
+                            "tossisce",
+                            "saluta",
+                            "ride"
+                        ],
+                        "japanese": [
+                            "くしゃみ",
+                            "せき",
+                            "挨拶",
+                            "笑う"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "greeting",
+                        "italian": "saluta",
+                        "japanese": "挨拶"
+                    }
+                }
+            }
+        },
+        "britishFestivalsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which festival is celebrated in this photo?",
+                        "italian": "Quale festività è celebrata nella foto?",
+                        "japanese": "この写真で祝われている祭りはどれですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which festival",
+                        "italian": "Quale festività",
+                        "japanese": "お祭り"
+                    },
+                    "answers": {
+                        "english": [
+                            "Medieval Festival",
+                            "New Year",
+                            "Christmas",
+                            "St George's Day"
+                        ],
+                        "italian": [
+                            "Ferragosto",
+                            "Capodanno",
+                            "Natale",
+                            "Pasqua"
+                        ],
+                        "japanese": [
+                            "中世祭り",
+                            "お正月",
+                            "クリスマス",
+                            "ゲオルギオスの日"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Christmas",
+                        "italian": "Natale",
+                        "japanese": "クリスマス"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What colour is the ribbon on the tree on the right hand side?",
+                        "italian": "Di che colore è il nastro sull'albero a destra?",
+                        "japanese": "右側の木のリボンは何の色ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Ribbon colour",
+                        "italian": "Colore nastro",
+                        "japanese": "リボンの色"
+                    },
+                    "answers": {
+                        "english": [
+                            "red",
+                            "yellow",
+                            "blue",
+                            "silver"
+                        ],
+                        "italian": [
+                            "rosso",
+                            "giallo",
+                            "blu",
+                            "argento"
+                        ],
+                        "japanese": [
+                            "赤色",
+                            "黄色",
+                            "青色",
+                            "銀色"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "blue",
+                        "italian": "blu",
+                        "japanese": "青色"
+                    }
+                }
+            }
+        },
+        "britishLifeEventsCelebrationsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "What is celebrated in this photo?",
+                        "italian": "Cosa viene celebrato nella foto?",
+                        "japanese": "この写真で祝われているものは何ですか"
+                    },
+                    "question-tablet": {
+                        "english": "Which celebration",
+                        "italian": "Quale celebrazione",
+                        "japanese": "祝われているもの"
+                    },
+                    "answers": {
+                        "english": [
+                            "wedding",
+                            "baptism",
+                            "birthday",
+                            "graduation"
+                        ],
+                        "italian": [
+                            "matrimonio",
+                            "battesimo",
+                            "compleanno",
+                            "laurea"
+                        ],
+                        "japanese": [
+                            "結婚式",
+                            "洗礼",
+                            "誕生日",
+                            "卒業式"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "wedding",
+                        "italian": "matrimonio",
+                        "japanese": "結婚式"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "How many flower girls or boys are there?",
+                        "italian": "Quanti paggetti o damigelle ci sono nella foto?",
+                        "japanese": "フラワーガールやフラワーボーイは何人いますか"
+                    },
+                    "question-tablet": {
+                        "english": "Flower girls/boys",
+                        "italian": "Paggetti/damigelle",
+                        "japanese": "フラワーガールやフラワーボーイ"
+                    },
+                    "answers": {
+                        "english": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "italian": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ],
+                        "japanese": [
+                            "1",
+                            "2",
+                            "3",
+                            "4"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "1",
+                        "italian": "1",
+                        "japanese": "1"
+                    }
+                }
+            }
+        },
+        "britishMonumentsMemoryGame": {
+            "01": {
+                "1": {
+                    "question": {
+                        "english": "Which monument is in this photo?",
+                        "italian": "Qual è il monumento nella foto?",
+                        "japanese": "写真にはどのモニュメントがありますか"
+                    },
+                    "question-tablet": {
+                        "english": "Which monument",
+                        "italian": "Quale monumento",
+                        "japanese": "モニュメント"
+                    },
+                    "answers": {
+                        "english": [
+                            "London Bridge",
+                            "Big Ben",
+                            "Tower of London",
+                            "Stonehenge"
+                        ],
+                        "italian": [
+                            "London Bridge",
+                            "Big Ben",
+                            "Tower of London",
+                            "Stonehenge"
+                        ],
+                        "japanese": [
+                            "ロンドン橋",
+                            "ビッグベン",
+                            "ロンドン塔",
+                            "ストーンヘンジ"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "Big Ben",
+                        "italian": "Big Ben",
+                        "japanese": "ビッグベン"
+                    }
+                },
+                "2": {
+                    "question": {
+                        "english": "What is the weather like in the photo?",
+                        "italian": "Com'è il tempo nella foto?",
+                        "japanese": "写真の天気はどうですか"
+                    },
+                    "question-tablet": {
+                        "english": "Weather",
+                        "italian": "Meteo",
+                        "japanese": "天気"
+                    },
+                    "answers": {
+                        "english": [
+                            "rainy",
+                            "sunny",
+                            "dark and gloomy",
+                            "windy"
+                        ],
+                        "italian": [
+                            "piovoso",
+                            "soleggiato",
+                            "coperto",
+                            "ventoso"
+                        ],
+                        "japanese": [
+                            "雨",
+                            "晴れ",
+                            "どんより",
+                            "強風"
+                        ]
+                    },
+                    "correct-answer": {
+                        "english": "sunny",
+                        "italian": "soleggiato",
+                        "japanese": "晴れ"
+                    }
+                }
+            }
+        }
+    }
+}

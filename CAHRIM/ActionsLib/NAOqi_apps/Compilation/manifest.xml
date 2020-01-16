@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="caresses" version="0.0.0">
+ <names>
+  <name lang="en_US">Caresses</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="adab">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="clapping">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="canyourepeat">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="comehere">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="failure">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="dont touch">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="gainattention">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="greetingsuk">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="handshake">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="headnod">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="smallbow">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="offerhelp">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="namaste">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="leanforwardorbowing">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hug">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hot">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hesitate">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="steptotheright">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="stepback">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="successorhappy2">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="successorhappy">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="thinking">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="directoinpointing">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="disengage">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="welcome">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="cold">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hideeyes">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hideeyeswithrotation">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="greetingsuk_silent">
+   <nature></nature>
+   <permissions/>
+  </behaviorContent>
+  <behaviorContent path="hideeyesfloorwithrotation">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+</package>

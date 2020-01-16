@@ -1,0 +1,77 @@
+body {
+  margin: 0px;
+  background: url("background.png") white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  font-family: DIN round pro,Open Sans, Calibri, Arial, Helvetica, sans-serif;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 1024px;
+  height: 640px;
+  margin: auto;
+}
+
+.fbutton {
+  background-color: lightgray;
+  font-size: 70px;
+}
+
+.navigationMenu{
+  position:fixed;
+  bottom: 50px;
+  right: 0px;
+}
+
+#mvar {
+  font-size: 70px;
+}
+
+#numpad {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+#x {
+  background-color: red;
+}
+
+#v {
+  background-color: green;
+}
+
+#EXIT{
+  border-radius: 39px;
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  background-color: #eeeeee;
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  z-index: 1;
+  text-align:center;
+  font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+  position: relative;
+  margin-bottom: 0px;
+  /* top:-15px; */
+}
+

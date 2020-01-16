@@ -1,0 +1,47 @@
+.center-div
+{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 800px;
+  height: 950px;
+  /* background-color: #ccc; */
+  border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold 
+}
+
+hEmotion {
+    left: 0;
+    position: absolute;
+    text-align: center; 
+    top: 75%;
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold 
+}
+
+img {
+    position: center;
+    margin: auto;
+    display: block;
+    width: 400x;
+    height: 400px;
+}
+
+#hello {
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}

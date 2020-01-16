@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.1.1" uuid="asr2">
+ <names>
+  <name lang="en_US">ASR2</name>
+ </names>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents/>
+ <requirements>
+  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+ <services>
+  <service autorun="true" execStart="/usr/bin/python2 lib/asr2.py" name="ASR2"/>
+ </services>
+</package>

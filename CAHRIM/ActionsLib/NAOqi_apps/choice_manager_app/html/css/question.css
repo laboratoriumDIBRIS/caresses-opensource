@@ -1,0 +1,25 @@
+/****************************************************/
+/* Aldebaran Project Hopias                         */
+/* question.css                                     */
+/* Innovation - Protolab - mcaniot@aldebaran.com    */
+/* Aldebaran Robotics (c) 2016 All Rights Reserved. */
+/* This file is confidential.                       */
+/****************************************************/
+
+.groupButton {
+	position:absolute;
+    width:100%;
+    bottom:100px;
+    text-align:center;
+    font-size: 46px;
+}
+
+.groupQuestion {
+    text-align:center;
+    font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 105px;
+    font-style: normal;
+    font-weight: bold;
+    /* color:white; */ /*original value*/ 
+    color:#525252; /*caresses version*/
+}

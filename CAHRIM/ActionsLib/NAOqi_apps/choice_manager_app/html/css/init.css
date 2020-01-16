@@ -1,0 +1,191 @@
+/****************************************************/
+/* Aldebaran Project Hopias                         */
+/* init.css                                        */
+/* Innovation - Protolab - mcaniot@aldebaran.com    */
+/* Aldebaran Robotics (c) 2016 All Rights Reserved. */
+/* This file is confidential.                       */
+/****************************************************/
+
+.cssload-container *, .cssload-container *:before, .cssload-container *:after{
+	box-sizing: border-box;
+		-o-box-sizing: border-box;
+		-ms-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+}
+
+.cssload-container {
+	margin: 294px auto;
+	position: relative;
+	width: 588px;
+	height: 588px;
+}
+.cssload-container > div {
+	float: left;
+	background: rgb(185,108,255);
+	height: 100%;
+	width: 29px;
+	margin-right: 6px;
+	display: inline-block;
+}
+
+.cssload-container {
+	position: relative;
+	width: 588px;
+	height: 588px;
+}
+.cssload-container > div {
+	background: transparent;
+	border: 47px solid transparent;
+	border-color: rgb(56,178,235) transparent;
+	border-radius: 100%;
+		-o-border-radius: 100%;
+		-ms-border-radius: 100%;
+		-webkit-border-radius: 100%;
+		-moz-border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate"("-50%, -50%")";
+		-o-transform: translate"("-50%, -50%")";
+		-ms-transform: translate"("-50%, -50%")";
+		-webkit-transform: translate"("-50%, -50%")";
+		-moz-transform: translate"("-50%, -50%")";
+	transform: translate(-50%, -50%) rotate(0);
+		-o-transform: translate(-50%, -50%) rotate(0);
+		-ms-transform: translate(-50%, -50%) rotate(0);
+		-webkit-transform: translate(-50%, -50%) rotate(0);
+		-moz-transform: translate(-50%, -50%) rotate(0);
+	animation: cssload-wave 3.5s infinite ease-in-out;
+		-o-animation: cssload-wave 3.5s infinite ease-in-out;
+		-ms-animation: cssload-wave 3.5s infinite ease-in-out;
+		-webkit-animation: cssload-wave 3.5s infinite ease-in-out;
+		-moz-animation: cssload-wave 3.5s infinite ease-in-out;
+}
+.cssload-container .cssload-shaft1 {
+	animation-delay: 0.18s;
+		-o-animation-delay: 0.18s;
+		-ms-animation-delay: 0.18s;
+		-webkit-animation-delay: 0.18s;
+		-moz-animation-delay: 0.18s;
+	width: 118px;
+	height: 118px;
+}
+.cssload-container .cssload-shaft2 {
+	animation-delay: 0.35s;
+		-o-animation-delay: 0.35s;
+		-ms-animation-delay: 0.35s;
+		-webkit-animation-delay: 0.35s;
+		-moz-animation-delay: 0.35s;
+	width: 147px;
+	height: 147px;
+}
+.cssload-container .cssload-shaft3 {
+	animation-delay: 0.53s;
+		-o-animation-delay: 0.53s;
+		-ms-animation-delay: 0.53s;
+		-webkit-animation-delay: 0.53s;
+		-moz-animation-delay: 0.53s;
+	width: 206px;
+	height: 206px;
+}
+.cssload-container .cssload-shaft4 {
+	animation-delay: 0.7s;
+		-o-animation-delay: 0.7s;
+		-ms-animation-delay: 0.7s;
+		-webkit-animation-delay: 0.7s;
+		-moz-animation-delay: 0.7s;
+	width: 264px;
+	height: 264px;
+}
+.cssload-container .cssload-shaft5 {
+	animation-delay: 0.88s;
+		-o-animation-delay: 0.88s;
+		-ms-animation-delay: 0.88s;
+		-webkit-animation-delay: 0.88s;
+		-moz-animation-delay: 0.88s;
+	width: 323px;
+	height: 323px;
+}
+.cssload-container .cssload-shaft6 {
+	animation-delay: 1.05s;
+		-o-animation-delay: 1.05s;
+		-ms-animation-delay: 1.05s;
+		-webkit-animation-delay: 1.05s;
+		-moz-animation-delay: 1.05s;
+	width: 382px;
+	height: 382px;
+}
+.cssload-container .cssload-shaft7 {
+	animation-delay: 1.23s;
+		-o-animation-delay: 1.23s;
+		-ms-animation-delay: 1.23s;
+		-webkit-animation-delay: 1.23s;
+		-moz-animation-delay: 1.23s;
+	width: 441px;
+	height: 441px;
+}
+.cssload-container .cssload-shaft8 {
+	animation-delay: 1.4s;
+		-o-animation-delay: 1.4s;
+		-ms-animation-delay: 1.4s;
+		-webkit-animation-delay: 1.4s;
+		-moz-animation-delay: 1.4s;
+	width: 470px;
+	height: 470px;
+}
+.cssload-container .cssload-shaft9 {
+	animation-delay: 1.58s;
+		-o-animation-delay: 1.58s;
+		-ms-animation-delay: 1.58s;
+		-webkit-animation-delay: 1.58s;
+		-moz-animation-delay: 1.58s;
+	width: 499px;
+	height: 499px;
+}
+.cssload-container .cssload-shaft10 {
+	animation-delay: 1.75s;
+		-o-animation-delay: 1.75s;
+		-ms-animation-delay: 1.75s;
+		-webkit-animation-delay: 1.75s;
+		-moz-animation-delay: 1.75s;
+	width: 529px;
+	height: 529px;
+}
+
+
+
+@keyframes cssload-wave {
+	50% {
+		transform: translate(-50%, -50%) rotate(360deg);
+		border-color: rgb(255,255,255) transparent;
+	}
+}
+
+@-o-keyframes cssload-wave {
+	50% {
+		-o-transform: translate(-50%, -50%) rotate(360deg);
+		border-color: rgb(255,255,255) transparent;
+	}
+}
+
+@-ms-keyframes cssload-wave {
+	50% {
+		-ms-transform: translate(-50%, -50%) rotate(360deg);
+		border-color: rgb(255,255,255) transparent;
+	}
+}
+
+@-webkit-keyframes cssload-wave {
+	50% {
+		-webkit-transform: translate(-50%, -50%) rotate(360deg);
+		border-color: rgb(255,255,255) transparent;
+	}
+}
+
+@-moz-keyframes cssload-wave {
+	50% {
+		-moz-transform: translate(-50%, -50%) rotate(360deg);
+		border-color: rgb(255,255,255) transparent;
+	}
+}

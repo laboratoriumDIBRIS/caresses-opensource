@@ -1,0 +1,322 @@
+/****************************************************/
+/* Aldebaran Project Hopias                         */
+/* style.css                                        */
+/* Software - Application - jeichberg@aldebaran.com */
+/* Innovation - Protolab - mcaniot@aldebaran.com    */
+/* Aldebaran Robotics (c) 2016 All Rights Reserved. */
+/* This file is confidential.                       */
+/****************************************************/
+
+
+
+.groupHumanFace{
+    position:absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 150px;
+    height: 200px;
+
+}
+
+ .talkbubble {
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+    background: white;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+ .talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 100%;
+    bottom: 26px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 26px solid white;
+    border-bottom: 13px solid transparent;
+}
+
+#txtBubble{
+    text-align:center;
+    font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: bold;
+    color:black;
+}
+
+
+
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@font-face {
+    font-family: "DIN round pro";
+    src: url(../font/DINRoundOffcPro.ttf) format("truetype");
+}
+
+body {
+    margin: 0px;
+    /* background: url("../img/background.png") #128ec2; */ /*original value*/ 
+    background: url("../img/background.png") white; /*caresses version*/
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    font-family: DIN round pro,Open Sans, Calibri, Arial, Helvetica, sans-serif;
+}
+
+/*hidden*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #0C173E;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background-color: rgba(12, 23, 62, 0.32);
+}
+
+.fullscreen{
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    position: fixed;
+    z-index: 500;
+}
+
+.centered {
+  position: absolute;
+}
+
+.screen {
+  display: none;
+  /* margin-top: 15%; */
+}
+
+h1 {
+    font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+    font-size: 105px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 50px;
+    color:white;
+}
+
+.navigationMenu{
+  position:fixed;
+  bottom: 0;
+  right:40px;
+  width:45%;
+}
+
+#exitButton{
+  width: 33%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right:0%;
+}
+
+#backButton{
+  width: 33%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right:66%;
+}
+
+#nextButton{
+  width: 33%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  right:33%;
+}
+
+#EXIT{
+  border-radius: 39px;
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  /* background-color: #eeeeee; */ /*original value*/ 
+  background-color: #5b9bd5; /*caresses version*/
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  z-index: 1;
+  text-align:center;
+  font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+  position: relative;
+  margin-bottom: 0px;
+  right:3px;
+}
+#BACK{
+  border-radius: 39px;
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  /* background-color: #eeeeee; */ /*original value*/ 
+  background-color: #5b9bd5; /*caresses version*/
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  z-index: 1;
+  text-align:center;
+  font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+  position: relative;
+  margin-bottom: 0px;
+  right: 100px;
+}
+#NEXT{
+  border-radius: 39px;
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  /* background-color: #eeeeee; */ /*original value*/ 
+  background-color: #5b9bd5; /*caresses version*/
+  padding: 10px 40px 10px 40px;
+  display: inline-block;
+  z-index: 1;
+  text-align:center;
+  font-family: DIN round pro, Open Sans, Calibri, Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  color:black;
+  position: relative;
+  margin-bottom: 0px;
+  right:50px;
+}
+
+.button{
+    border-radius: 39px;
+    background-repeat: no-repeat;
+    background-position: 22px center;
+    /* background-color: white; */ /* original value  */
+    /* padding: 25px 40px 25px 110px; */ /* original value  */
+    background-color: #d4d4d4; /*caresses version*/
+    padding: 15px 15px 15px 15px; /*caresses version*/
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.buttonRed{
+    border-radius: 39px;
+    background-repeat: no-repeat;
+    background-position: 22px center;
+    padding: 25px 40px 25px 110px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-right: 50px;
+    background-color: #a31d26;
+}
+.buttonGrey{
+    border-radius: 39px;
+    background-repeat: no-repeat;
+    background-position: 22px center;
+    /* padding: 25px 40px 25px 110px; */ /*original value*/ 
+    padding: 15px 15px 15px 15px; /*caresses version*/
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-right: 50px;
+    background-color: #b1b1b1;
+}
+.button:after{
+    content: "";
+    display: block;
+    position: absolute;
+    transform: rotate(0deg);
+    z-index: -1;
+    border-color: #fff transparent;
+    border-width: 45px 45px 0 0;
+    border-style: solid;
+    bottom: -44px;
+    left: 36px;
+    /* opacity: 1; */ /*original value*/ 
+    /* transition: opacity 0.3s linear; */ /*original value*/ 
+    opacity: 0; /*caresses version*/
+}
+.button.hidden:after, .buttonRed.hidden:after, .buttonGrey.hidden:after{
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+.buttonRed:after{
+    content: "";
+    display: block;
+    position: absolute;
+    transform: rotate(0deg);
+    z-index: -1;
+    border-color: #a31d26 transparent;
+    border-width: 45px 45px 0 0;
+    border-style: solid;
+    bottom: -44px;
+    left: 36px;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+.buttonGrey:after{
+    content: "";
+    display: block;
+    position: absolute;
+    transform: rotate(0deg);
+    z-index: -1;
+    border-color: #b1b1b1 transparent;
+    border-width: 45px 45px 0 0;
+    border-style: solid;
+    bottom: -44px;
+    left: 36px;
+    /* opacity: 1; */ /*original value*/ 
+    /* transition: opacity 0.3s linear; */ /*original value*/ 
+    opacity: 0; /*caresses version*/
+}
+.button h2, .buttonRed h2, .buttonGrey h2{
+    color: black;
+    line-height: 50px;
+    margin: 0;
+    z-index: 2;
+    display: inline;
+}
+.buttonRed h2, .buttonGrey h2{
+    color: white !important;
+}
+.button h2:before, .button h2:after, .buttonRed h2:before, .buttonRed h2:after, .buttonGrey h2:before, .buttonGrey h2:after{
+    content: " ";
+    display: inline-block;
+    width: 0.7em;
+    transition: content 0.3s linear;
+}
+.button.quote h2:before, .button.quote h2:after{
+    content: "\"";
+    position: relative;
+    font-family: DIN round pro Bold;
+    transition: content 0.3s linear;
+    color: #0a0d52;
+}
+.buttonRed.quote h2:before, .buttonRed.quote h2:after,.buttonGrey.quote h2:before, .buttonGrey.quote h2:after{
+    content: "\"";
+    position: relative;
+    font-family: DIN round pro Bold;
+    transition: content 0.3s linear;
+}

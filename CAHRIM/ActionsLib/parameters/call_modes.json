@@ -1,0 +1,10 @@
+{
+  "IDs":{
+    "skypeMode":{
+      "full": "video call"
+    },
+    "phoneMode":{
+      "full": "phone call"
+    }
+  }
+}

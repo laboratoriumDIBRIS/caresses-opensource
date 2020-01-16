@@ -1,0 +1,287 @@
+{
+  "thunderstorm": {
+    "200": {
+      "english": "There are thunderstorms with light rain",
+      "italian": "C'è il temporale",
+      "japanese": "小雨で雷雨がある"
+    },
+    "201": {
+      "english": "There are thunderstorms with rain",
+      "italian": "C'è il temporale",
+      "japanese": "雨で雷雨がある"
+    },
+    "202": {
+      "english": "There are thunderstorms with heavy rain",
+      "italian": "C'è il temporale",
+      "japanese": "大雨で雷雨がある"
+    },
+    "210": {
+      "english": "There are light thunderstorms",
+      "italian": "C'è il temporale",
+      "japanese": "軽い雷雨がある"
+    },
+    "211": {
+      "english": "There are thunderstorms",
+      "italian": "C'è il temporale",
+      "japanese": "雷雨がある"
+    },
+    "212": {
+      "english": "There are heavy thunderstorms",
+      "italian": "C'è il temporale",
+      "japanese": "強い軽い雷雨がある"
+    },
+    "221": {
+      "english": "There are ragged thunderstorm",
+      "italian": "C'è il temporale",
+      "japanese": "雷雨がある"
+    },
+    "230": {
+      "english": "There are thunderstorms with light drizzle",
+      "italian": "C'è il temporale",
+      "japanese": "軽い霧雨で雷雨がある"
+    }
+    ,"231": {
+      "english": "There are thunderstorms with drizzle",
+      "italian": "C'è il temporale",
+      "japanese": "霧雨で雷雨がある"
+    }
+    ,"232": {
+      "english": "There are thunderstorms with heavy drizzle",
+      "italian": "C'è il temporale",
+      "japanese": "強い霧雨で雷雨がある"
+    }
+  },
+  "drizzle": {
+    "300": {
+      "english": "There is a light intensity drizzle",
+      "italian": "Pioviggina",
+      "japanese": "軽い霧雨がある"
+    },
+    "301": {
+      "english": "There is a drizzle",
+      "italian": "Pioviggina",
+      "japanese": "霧雨がある"
+    },
+    "302": {
+      "english": "There is a heavy intensity drizzle",
+      "italian": "Pioviggina",
+      "japanese": "強い霧雨がある"
+    },
+    "310": {
+      "english": "There is a light intensity drizzle rain",
+      "italian": "Pioviggina",
+      "japanese": "軽い霧雨がある"
+    },
+    "311": {
+      "english": "There is a drizzle rain",
+      "italian": "Pioviggina",
+      "japanese": "霧雨がある"
+    },
+    "312": {
+      "english": "There is heavy intensity drizzle rain",
+      "italian": "Pioviggina",
+      "japanese": "強い霧雨がある"
+    },
+    "313": {
+      "english": "There is shower rain and a drizzle",
+      "italian": "Pioviggina",
+      "japanese": "霧雨がある"
+    },
+    "314": {
+      "english": "There is heavy shower rain and a drizzle",
+      "italian": "Pioviggina",
+      "japanese": "強い霧雨がある"
+    },
+    "321": {
+      "english": "There is a shower drizzle",
+      "italian": "Pioviggina",
+      "japanese": "霧雨がある"
+    }
+  },
+  "rain": {
+    "500": {
+      "english": "There is light rain",
+      "italian": "Piove",
+      "japanese": "小雨がある"
+    },
+    "501": {
+      "english": "There is moderate rain",
+      "italian": "Piove",
+      "japanese": "雨がある"
+    },
+    "502": {
+      "english": "There is heavy intensity rain",
+      "italian": "Piove",
+      "japanese": "大雨がある"
+    },
+    "503": {
+      "english": "There is very heavy rain",
+      "italian": "Piove",
+      "japanese": "すごく大雨がある"
+    },
+    "504": {
+      "english": "There is extreme rain",
+      "italian": "Piove",
+      "japanese": "すごく大雨がある"
+    },
+    "511": {
+      "english": "There is freezing rain",
+      "italian": "Piove",
+      "japanese": "凍雨があります"
+    },
+    "520": {
+      "english": "There is light intensity shower rain",
+      "italian": "Piove",
+      "japanese": "小雨がある"
+    },
+    "521": {
+      "english": "There is shower rain",
+      "italian": "Piove",
+      "japanese": "雨がある"
+    },
+    "522": {
+      "english": "There is heavy intensity shower rain",
+      "italian": "Piove",
+      "japanese": "大雨がある"
+    },
+    "531": {
+      "english": "There is ragged shower rain",
+      "italian": "Piove",
+      "japanese": "大雨がある"
+    }
+  },
+  "snow": {
+    "600":{
+      "english": "There is light snow",
+      "italian": "Nevica",
+      "japanese": "小雪がある"
+    },
+    "601":{
+      "english": "There is snow",
+      "italian": "Nevica",
+      "japanese": "雪がある"
+    },
+    "602":{
+      "english": "There is heavy snow",
+      "italian": "Nevica",
+      "japanese": "大雪がある"
+    },
+    "611":{
+      "english": "There is sleet",
+      "italian": "Nevica",
+      "japanese": "袖がある"
+    },
+    "612":{
+      "english": "There is shower sleet",
+      "italian": "Grandina",
+      "japanese": "袖がある"
+    },
+    "615":{
+      "english": "There is light rain and snow",
+      "italian": "Viene pioggia mista a neve",
+      "japanese": "小雨や雪がある"
+    },
+    "616":{
+      "english": "There is rain and snow",
+      "italian": "Viene pioggia mista a neve",
+      "japanese": "雨や雪がある"
+    },
+    "620":{
+      "english": "There is light shower snow",
+      "italian": "Nevica",
+      "japanese": "小雪がある"
+    },
+    "621":{
+      "english": "There is shower snow",
+      "italian": "Nevica",
+      "japanese": "雪がある"
+    },
+    "622":{
+      "english": "There is heavy shower snow",
+      "italian": "Nevica",
+      "japanese": "大雪がある"
+    }
+  },
+  "atmosphere": {
+    "701":{
+      "english": "There is mist",
+      "italian": "C'è foschia",
+      "japanese": "霧がある"
+    },
+    "711":{
+      "english": "There is smoke",
+      "italian": "C'è fumo",
+      "japanese": "煙がある"
+    },
+    "721":{
+      "english": "There is haze",
+      "italian": "C'è foschia",
+      "japanese": "もやがある"
+    },
+    "731":{
+      "english": "There is sand and dust whirls",
+      "italian": "C'è una tempesta di sabbia",
+      "japanese": "砂やほこりがある"
+    },
+    "741":{
+      "english": "There is fog",
+      "italian": "C'è nebbia",
+      "japanese": "霧がある"
+    },
+    "751":{
+      "english": "There is sand",
+      "italian": "C'è una tempesta di sabbia",
+      "japanese": "砂がある"
+    },
+    "761":{
+      "english": "There is dust",
+      "italian": "C'è una tempesta di sabbia ",
+      "japanese": "ほこりがある"
+    },
+    "762":{
+      "english": "There is volcanic ash",
+      "italian": "C'è una nuvola di ceneri vulcaniche",
+      "japanese": "火山灰がある"
+    },
+    "771":{
+      "english": "There are squalls",
+      "italian": "C'è una bufera",
+      "japanese": "スコールがある"
+    },
+    "781":{
+      "english": "There are tornadoes",
+      "italian": "C'è un tornado",
+      "japanese": "竜巻がある"
+    }
+  },
+  "clear": {
+    "800": {
+      "english": "There is a clear sky",
+      "italian": "C'è il sole",
+      "japanese": "澄んだ空がある"
+    }
+  },
+  "clouds": {
+    "801":{
+      "english": "There are a few clouds",
+      "italian": "E' leggermente nuvoloso",
+      "japanese": "いくつかの雲がある"
+    },
+    "802":{
+      "english": "There are scattered clouds",
+      "italian": "Ci sono nuvole sparse",
+      "japanese": "散在する雲がある"
+    },
+    "803":{
+      "english": "There are broken clouds",
+      "italian": "Ci sono nuvole sparse",
+      "japanese": "壊れた雲がある"
+    },
+    "804":{
+      "english": "There are overcast clouds",
+      "italian": "E' nuvoloso",
+      "japanese": "曇り雲がある"
+    }
+  }
+
+}

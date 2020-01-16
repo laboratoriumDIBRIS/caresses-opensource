@@ -1,0 +1,55 @@
+{
+  "IDs":{
+    "slippers":{
+      "full": "the slippers"
+    },
+    "ornamentalPlates":{
+      "full": "the ornamental plates"
+    },
+    "equipmentForExercise":{
+      "full": "the equipment for exercise"
+    },
+    "glasses":{
+      "full": "the glasses"
+    },
+    "salwar":{
+      "full": "the salwar"
+    },
+    "dishes":{
+      "full": "the dishes"
+    },
+    "lamp":{
+      "full": "the lamp"
+    },
+    "familyPhotos":{
+      "full": "the picture of the family"
+    },
+    "ganeshPicture":{
+      "full": "the picture of Ganesh"
+    },
+    "teapot":{
+      "full": "the teapot"
+    },
+    "kettle":{
+      "full": "the kettle"
+    },
+    "colourfulPillows":{
+      "full": "the colourful pillows"
+    },
+    "kurta":{
+      "full": "the kurta"
+    },
+    "incenseHolderAndSticks":{
+      "full": "the incense holder and sticks"
+    },
+    "cutlery":{
+      "full": "the cutlery"
+    },
+    "walkingAid":{
+      "full": "the walking aid"
+    },
+    "cups":{
+      "full": "the cup"
+    }
+  }
+}

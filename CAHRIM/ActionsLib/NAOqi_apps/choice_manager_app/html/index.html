@@ -1,0 +1,59 @@
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!-- Aldebaran Project Hopias							 -->
+<!-- question.hmtl	   									 -->
+<!-- Innovation - Protolab - mcaniot@aldebaran.com	   	 -->
+<!-- Aldebaran Robotics (c) 2016 All Rights Reserved	 -->
+<!-- This file is confidential.	  						 -->
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<META charset="UTF-8" CONTENT="no-cache">
+		<META http-equiv="Cache-Control" content="no-cache">
+		<META http-equiv="Pragma" content="no-cache">
+		<META http-equiv="Expires" content="0">
+		<!-- No zoom in the page -->
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+		<!-- Include js files -->
+		<script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/question.js"></script>
+		<script src="js/connection.js"></script>
+
+
+		<!-- Include css files -->
+		<link rel="stylesheet" href="css/question.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body onload="startSubscribe('HTMLQuestion');">
+
+		<!-- Command Sent by choregraphe -->
+		<div class="groupCommand" id="command"></div>
+		<hr/>
+
+		<!-- Question -->
+		<div class="groupQuestion" id="objectQuestion"></div>
+
+		<!-- Response button-->
+		<div class="groupButton" id="objectButton"></div>
+
+		<div class="navigationMenu" id="navMenu">
+			<div class="subMenu" id="exitButton">
+					<!-- <div class="button" id="EXIT">EXIT</div> -->
+			</div>
+			<div class="subMenu" id="nextButton">
+				<!-- <div class="button" id="NEXT">NEXT</div> -->
+			</div>
+			<div class="subMenu" id="backButton">
+				<!-- <div class="button" id="BACK">BACK</div> -->
+			</div>
+		</div>
+
+	</body>
+
+</html>

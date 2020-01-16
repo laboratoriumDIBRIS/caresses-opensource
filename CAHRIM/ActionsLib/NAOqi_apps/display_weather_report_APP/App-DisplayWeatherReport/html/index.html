@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+  <title>Weather App</title>
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700,inherit,400" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/weather-icons.min.css">
+</head>
+
+<body class="body page-index clearfix">
+  <p id="myLog" hidden></p>
+  <p class="currently" hidden></p>
+  <div class="container clearfix">
+    <p class="location"></p>
+    <p class="temperature"></p>
+    <div class="climate_bg">
+      <i class="icon-now"></i>
+    </div>
+    <div class="info_bg">
+      <img class="dropicon" src="images/Droplet.svg">
+      <p class="humidity"></p>
+
+      <img class="windicon" src="images/Wind.svg">
+      <div class="windspeed"></div>
+    </div>
+  </div>
+
+  <script src="/libs/qi/2/qi.js"></script>
+  <script src="/libs/qimessaging/2/qimessaging.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+
+</html>

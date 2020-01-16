@@ -1,0 +1,149 @@
+body {
+  background-color: #bebebe;
+  font: 400 1em/1.38 Montserrat;
+  color: #ffffff;
+}
+
+.info_bg p {
+  margin-bottom: -.2em;
+}
+
+.climate_bg {
+  position: absolute;
+  top: 0;
+  left: 235px;
+  z-index: 6;
+  width: 163px;
+  height: 149px;
+  border-top-right-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.weathericon {
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 1.226993865%;
+  z-index: 5;
+  width: 160px;
+  height: auto;
+  overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  width: 690px;
+  height: 624px;
+  margin: auto;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  opacity: 0.8;
+}
+
+.dropicon {
+  display: block;
+  position: absolute;
+  top: 9px;
+  left: -3.9110429448%;
+  z-index: 3;
+  width: 41px;
+  height: auto;
+  overflow: hidden;
+}
+
+.not-available, .failed {
+  position: absolute;
+  top: 464px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 248px;
+  min-height: 24px;
+  margin: 0 auto;
+  font: 0.625em/1.38 'Trebuchet MS';
+  color: rgb(0, 0, 0);
+}
+
+.humidity {
+  position: absolute;
+  top: 19px;
+  left: 29px;
+  z-index: 2;
+  width: 46px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.info_bg {
+  position: absolute;
+  top: 149px;
+  left: 235px;
+  z-index: 4;
+  width: 163px;
+  height: 59px;
+  border-bottom-right-radius: 10px;
+  background-color: #1ab1ed;
+}
+
+.location {
+  position: absolute;
+  top: 384px;
+  left: 189px;
+  z-index: 8;
+  width: 324px;
+  min-height: 177px;
+  font-size: 3.94em;
+  font-weight: 400;
+  line-height: 4.14;
+  /* text-transform: uppercase; */
+  color: rgb(255, 255, 255);
+}
+
+.temperature {
+  position: absolute;
+  top: 114px;
+  left: 216px;
+  z-index: 7;
+  width: 327px;
+  min-height: 84px;
+  font-size: 12.75em;
+  font-weight: 700;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+
+.windicon {
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 43.1173312883%;
+  z-index: 1;
+  width: 50px;
+  height: auto;
+  overflow: hidden;
+}
+
+.windspeed {
+  position: absolute;
+  top: 9px;
+  left: 109px;
+  width: 50px;
+  min-height: 29px;
+  font-size: 1em;
+  line-height: 1.38;
+  text-align: center;
+  color: #ffffff;
+}
+
+.windspeed p {
+  margin-bottom: -.2em;
+}

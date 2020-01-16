@@ -1,0 +1,22 @@
+{
+  "IDs":{
+    "havingDessert":{
+      "full": "dessert"
+    },
+    "havingSnack":{
+      "full": "snack"
+    },
+    "havingDinner":{
+      "full": "dinner"
+    },
+    "havingBreakfast":{
+      "full": "breakfast"
+    },
+    "havingLunch":{
+      "full": "lunch"
+    },
+    "havingTea":{
+      "full": "tea"
+    }
+  }
+}

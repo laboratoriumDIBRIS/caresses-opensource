@@ -1,0 +1,3 @@
+- Install FacialExpression.pml project (inside the folder FacialExpression) on Pepper using Choregraphe.
+- Execute the action display_user_emotion.py
+- Touch on Pepper head or hand to finish the action

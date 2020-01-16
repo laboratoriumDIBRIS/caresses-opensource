@@ -1,0 +1,3675 @@
+{
+  "SUPPORTED-LANGUAGES": [
+    "english",
+    "italian",
+    "japanese"
+  ],
+  "STOP-INTERACTION": {
+    "english": "I will stop the execution of the current task.",
+    "italian": "Terminerò l'esecuzione di questa attività.",
+    "japanese": "現在のタスクの実行を中止します."
+  },
+  "KEYWORDS": {
+    "repeat": {
+      "english": ["repeat", "say it again"],
+      "italian": ["ripetere", "dirlo di nuovo"],
+      "japanese": ["もう一度","もう一度言ってください"]
+    },
+    "stop": {
+      "english": ["I want to quit", "quit", "abort", "exit", "over and out"],
+      "italian": ["basta", "passo e chiudo"],
+      "japanese": ["辞めたい","終了する","中止する","終了","中止"]
+    },
+    "affirmative": {
+      "english": [
+        "yes",
+        "yep",
+        "yeah",
+        "correct",
+        "true",
+        "right"
+      ],
+      "italian": [
+        "sì"
+      ],
+      "japanese": [
+        "はい",
+        "オーケー",
+        "はい,お願いします"
+      ]
+    },
+    "negative": {
+      "english": [
+        "no",
+        "nope",
+        "not at all",
+        "incorrect",
+        "false",
+        "wrong"
+      ],
+      "italian": [
+        "no",
+        "non direi"
+      ],
+      "japanese": [
+        "いいえ",
+        "違います"
+      ]
+    },
+    "options": {
+      "english": "option",
+      "italian": "opzioni",
+      "japanese": "オプション"
+    },
+    "options2": {
+      "english": [
+        "options"
+      ],
+      "italian": [
+        "opzioni"
+      ],
+      "japanese": "オプション"
+    },
+    "stop-call": {
+      "english": "hang up",
+      "italian": "metti giù",
+      "japanese": "電話を切る"
+    },
+    "yes": {
+      "english": [
+        "yes",
+        "sure",
+        "of course",
+        "maybe",
+        "yeah",
+        "I agree",
+        "sometimes",
+        "often",
+        "love it",
+        "like it",
+        "always",
+        "correct",
+        "true",
+        "right",
+        "exactly"
+      ],
+      "italian": [
+        "sì",
+        "certo",
+        "esattamente",
+        "eccome",
+        "molto",
+        "sempre",
+        "spesso",
+        "volentieri",
+        "ok"
+      ],
+      "japanese": [
+        "はい",
+        "オーケー",
+        "いいよ",
+        "もちろん",
+        "はい,お願いします"
+      ]
+    },
+    "no": {
+      "english": [
+        "no ",
+        "no,",
+        "not",
+        "don't",
+        "rarely",
+        "hate it",
+        " no",
+        "incorrect",
+        "false",
+        "wrong"
+      ],
+      "italian": [
+        " No ",
+        " no ",
+        "non direi",
+        "non penso",
+        " mai ",
+        "raramente"
+      ],
+      "japanese": [
+        "いいえ",
+        "違います"
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "bye",
+        " rest",
+        "go to sleep",
+        "charger",
+        "docking station",
+        "stop",
+        "freeze",
+        "block",
+        "see you later"
+      ],
+      "italian": [
+        "Ciao ciao",
+        "Arrivederci",
+        "Alla prossima",
+        "Addio",
+        "Devo andare",
+        "Ci vediamo",
+        "ciao ciao",
+        "arrivederci",
+        "alla prossima",
+        "devo andare",
+        "ci vediamo"
+      ],
+      "japanese": [
+        "またね",
+        "じゃあね",
+        "また明日",
+        "おやすみなさい",
+        "さようなら",
+        "ストップ"
+
+      ]
+    },
+    "repeat_chitchat": {
+      "english": [
+        "repeat",
+        "once again",
+        "it again",
+        "n't understood",
+        "not understood"
+      ],
+      "italian": [
+        "ripetere",
+        "non ho capito"
+      ],
+      "japanese": [
+        "もう一度お願いします",
+        "わかりません",
+        "わかりませんでした"
+      ]
+    },
+    "revise": {
+      "english": [
+        "revise"
+      ],
+      "italian": [
+        "rivedere",
+        "ho cambiato idea"
+      ],
+      "japanese": [
+        "修正する"
+      ]
+    },
+    "freeze": {
+      "english": [
+        "klaatu barada nikto"
+      ],
+      "italian": [
+        "fermati fermati"
+      ],
+      "japanese": [
+        "中止する"
+      ]
+    },
+    "continue": {
+      "english": [
+        "unblock"
+      ],
+      "italian": [
+        "sblocca"
+      ],
+      "japanese": [
+        "ブロック解除"
+      ]
+    },
+    "yestosuggestion": {
+      "english": [
+        " ok ",
+        " yes ",
+        " good "
+      ],
+      "italian": [
+        " ok ",
+        " va bene ",
+        " sì "
+      ],
+      "japanese": [
+        "いいよ"
+      ]
+    },
+    "gainAttention": {
+      "english": [
+        "Pepper",
+        "hey",
+        "hello"
+      ],
+      "italian": [
+        "Pepper",
+        "ehi"
+      ],
+      "japanese": [
+        "ペッパー",
+        "すみません",
+        "あのね",
+        "おーい"
+
+      ]
+    },
+    "thanks": {
+      "english": [
+        "thanks",
+        "thank you"
+      ],
+      "italian": [
+        "grazie",
+        "ti ringrazio"
+      ],
+      "japanese": [
+        "ありがとうございます.",
+        "すみません"
+
+      ]
+    },
+    "stopaction": {
+      "english": [
+        "shut up"
+      ],
+      "italian": [
+        "muori"
+      ],
+      "japanese": [
+        "黙って",
+        "話さないでください"
+
+      ]
+    },
+    "switchculture": {
+      "english": "abracadabra",
+      "italian": "Abracadabra",
+      "japanese": "アブラカダブラ"
+    }
+  },
+  "ADDITIONAL": {
+    "missedAnswer": {
+      "english": "Sorry, I am not sure I understood what you said. Please select an option on my tablet.",
+      "italian": "Scusa, non sono sicuro di aver capito. Per favore scegli un'opzione sul tablet.",
+      "japanese": "すみません,私はあなたが言ったことを理解できているかどうかわかりません. タブレットのオプションを選択してください."
+    },
+    "faultAdmission": {
+      "english": "My mistake, sorry.",
+      "italian": "Errore mio, mi dispiace.",
+      "japanese": "私の間違いです,ごめんなさい."
+    },
+    "failure":{
+      "english": "I'm sorry, something went wrong with the execution of your last request. Please try again later.",
+      "italian": "Mi spiace, qualcosa non ha funzionato nell'esecuzione della tua ultima richiesta. Per favore riprova più tardi.",
+      "japanese": "申し訳ありませんが、最後のリクエストの実行で問題が発生しました。 後でもう一度やり直してください。"
+    },
+    "cspemRestart":{
+      "english": "I'm sorry, a small error occurred. Please wait a few seconds while I restart part of my software.",
+      "italian": "Mi spiace, qualcosa è andato storto. Per favore, aspetta qualche secondo mentre riavvio una parte del software.",
+      "japanese": "すみません、小さなエラーが発生しました。 ソフトウェアの一部を再起動するまで数秒お待ちください。"
+    },
+    "showingOptions": {
+      "english": "I will show you the options on my tablet.",
+      "italian": "Ti mostrerò le opzioni possibili sul tablet.",
+      "japanese": "私のタブレットのオプションを紹介します."
+    },
+    "ok": {
+      "english": [
+        "Ok.",
+        "Fine.",
+        "Ok, good.",
+        "Ok, fine.",
+        "Alright."
+      ],
+      "italian": [
+        "Ok.",
+        "Va bene.",
+        "Ok, bene.",
+        "Ok, va bene."
+      ],
+      "japanese": [
+        "オーケー",
+        "いいよ",
+        "わかりました"
+      ]
+    }
+  },
+  "get-time": {
+    "ask-parameters": {
+      "0": {
+        "english": "At what time?",
+        "italian": "A che ora?",
+        "japanese": "何時ですか"
+      }
+    },
+    "parameter-answer": {
+      "0": {
+        "english": "Alright, $KEYWORD$.",
+        "italian": "Va bene, $KEYWORD$.",
+        "japanese": "わかりました, $KEYWORD$ ."
+      }
+    },
+    "ask-confirmation": {
+      "without-keyword": {
+        "english": "I understood that you said $CONFIRM$. Is that correct?",
+        "italian": "Ho capito $CONFIRM$. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と言ったことが分かりました, 合っていますか?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand what you said.",
+        "italian": "Scusa, non ho capito quello che hai detto.",
+        "japanese": "すみません,私はあなたが言ったことがわかりませんでした."
+      }
+    }
+  },
+  "get-date": {
+    "ask-parameters": {
+      "0": {
+        "english": "Can you please tell me when?",
+        "italian": "Puoi dirmi quando, per favore?",
+        "japanese": "日時を教えてください."
+      },
+      "1": {
+        "english": "Can you please tell me what year?",
+        "italian": "Puoi dirmi l'anno, per favore?",
+        "japanese": "何年か教えてください."
+      },
+      "2": {
+        "english": "Can you please tell me what month?",
+        "italian": "Puoi dirmi il mese, per favore?",
+        "japanese": "何月か教えてもらえますか? "
+      },
+      "3": {
+        "english": "Can you please tell me what day?",
+        "italian": "Puoi dirmi il giorno, per favore?",
+        "japanese": "何日か教えてもらえますか? "
+      },
+      "4": {
+        "english": "Can you please tell me what day of the week?",
+        "italian": "Puoi dirmi il giorno della settimana, per favore?",
+        "japanese": "何曜日か教えてください."
+      },
+      "day-month": {
+        "english": "Can you please tell me what day and what month?",
+        "italian": "Puoi dirmi il giorno e il mese, per favore?",
+        "japanese": "何月何日か教えてください."
+      }
+    },
+    "parameter-answer": {
+      "0": {
+        "english": "Alright, $KEYWORD$.",
+        "italian": "Va bene, $KEYWORD$.",
+        "japanese": "わかりました, $KEYWORD$ ."
+      }
+    },
+    "ask-confirmation": {
+      "without-keyword": {
+        "english": "I understood that you said $CONFIRM$. Is that correct?",
+        "italian": "Ho capito che hai detto $CONFIRM$. E' corretto?",
+        "japanese": "あなたが言ったことを理解しました $CONFIRM$. 合っていますか?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand what you said.",
+        "italian": "Scusa, non ho capito quello che hai detto.",
+        "japanese": "すみません,あなたが言ったことを理解できませんでした."
+      },
+      "1": {
+        "english": "I may have missed some information.",
+        "italian": "Potrei essermi perso qualche informazione.",
+        "japanese": "いくつかの情報を逃したかもしれません."
+      },
+      "2": {
+        "english": "I may need some more information.",
+        "italian": "Potrebbe servirmi ancora qualche informazione.",
+        "japanese": "もう少し情報が必要です."
+      },
+      "3": {
+        "english": "I still need your help.",
+        "italian": "Mi serve ancora il tuo aiuto.",
+        "japanese": "まだあなたの協力が必要です."
+      },
+      "4": {
+        "english": "I still need some information.",
+        "italian": "Mi servirebbe ancora qualche informazione.",
+        "japanese": "もっと情報が必要です."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "I'm not sure the date is correct.",
+        "italian": "Non sono sicuro che la data sia corretta.",
+        "japanese": "日付が正しいかどうかわかりません."
+      }
+    }
+  },
+  "SetReminder": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can set reminders for many different kinds of activities. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per diversi tipi di attività. Per favore, dimmi per cosa vuoi impostare un promemoria.",
+        "japanese": "私はいろいろな種類の活動を思い出させることができます. 私にリマインダーを設定して欲しいものを教えてください."
+      },
+      "1": {
+        "english": "I can remind you to $OPTION1$ and to do many other things. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per $OPTION1$ e molti altri tipi di attività. Per favore, dimmi per cosa vuoi impostare un promemoria.",
+        "japanese": " $OPTION1$ やその他のいろいろな活動のリマインダーを設定できます.私にリマインダーを設定して欲しいものを教えてください."
+      },
+      "2": {
+        "english": "I can remind you to $OPTION1$, $OPTION2$ and to do many other things. Please tell me what you want me to set a reminder for.",
+        "italian": "Posso impostare promemoria per $OPTION1$, $OPTION2$ e molti altri tipi di attività. Per favore, dimmi per cosa vuoi impostare un promemoria.",
+        "japanese": " $OPTION1$ や $OPTION2$ ,その他のいろいろな活動のリマインダーを設定できます.私にリマインダーを設定して欲しいものを教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Remind you about what?",
+        "italian": "Ricordare cosa?",
+        "japanese": "何をリマインダーに設定しますか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Very well, I will remind you to $KEYWORD$.",
+        "italian": "Va bene, ti ricorderò di $KEYWORD$.",
+        "japanese": "はい, $KEYWORD$ ことをリマインダーに設定します."
+      },
+      "without-keyword": {
+        "english": "Fine, I will remind you about that.",
+        "italian": "Ok, te lo ricorderò.",
+        "japanese": "わかりました,それについてリマインダーに設定します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to remind you to $CONFIRM$?",
+        "italian": "Vuoi che ti ricordi di $CONFIRM$?",
+        "japanese": "$CONFIRM$ ことをリマインダーに設定しますか."
+      },
+      "without-keyword": {
+        "english": "I understand that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": " あなたの依頼は '$CONFIRM$' だと理解しました, あっていますか."
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I'm not sure I understand what I should remind you about. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non sono sicuro di aver capito cosa ti devo ricordare. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません,私があなたに何を思い出させるべきか理解していません. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "I'm sorry, I cannot set reminders for the past.",
+        "italian": "Mi spiace ma non posso impostare promemoria nel passato.",
+        "japanese": "すみません,過去のリマインダーを設定することはできません."
+      },
+      "1": {
+        "english": "I also need to know when I should remind you about this. The reminder will only work if you set it for a date and time during our planned time together.",
+        "italian": "Ho anche bisogno di sapere quando dovrò ricordartelo. Il promemoria funziona solo se selezioni un giorno e un orario in cui è previsto che ci incontreremo di nuovo.",
+        "japanese": "これについてあなたに思い出させるべき時間を知る必要があります. 私たちが一緒にいる予定の時間に時刻が設定された場合のみリマインダーは機能します．"
+      }
+    },
+    "custom-option": {
+      "english": "DO SOMETHING ELSE",
+      "italian": "FARE QUALCOS'ALTRO",
+      "japanese": "何か他のものをしてください."
+    }
+  },
+  "Remind": {
+    "other": {
+      "0": {
+        "english": "Excuse me $USERNAME$, please remember to $REMINDER$.",
+        "italian": "Chiedo scusa $USERNAME$, ricorda di $REMINDER$.",
+        "japanese": " 失礼します $USERNAME$, $REMINDER$ を忘れないでください."
+      },
+      "1": {
+        "english": "Excuse me $USERNAME$, you asked me to remind you about this: $REMINDER$.",
+        "italian": "Chiedo scusa $USERNAME$, mi hai chiesto di ricordarti questo: $REMINDER$.",
+        "japanese": " 失礼します $USERNAME$, あなたは私にこれについて思い出させるように頼みました: $REMINDER$."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Did you find this reminder useful?",
+        "italian": "Puoi dirmi se hai trovato utile questo promemoria?",
+        "japanese": "このリマインダーは役に立ちましたか"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます．"
+      }
+    }
+  },
+  "SendLineMessage": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send messages to the people in your contact list. Please tell me who you want me to send your message to.",
+        "italian": "Posso inviare messaggi ai contatti nella tua rubrica. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": "連絡先リストのメンバーにメッセージを送信できます.私にあなたのメッセージを送って欲しい人を教えてください."
+      },
+      "1": {
+        "english": "I can send messages to your $OPTION1$ and to many other people. Please tell me who you want me to send your message to.",
+        "italian": "Posso inviare messaggi al contatto $OPTION1$ e a molte altre persone. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": " $OPTION1$ や,さらに他の人にも送れます.私にあなたのメッセージを送って欲しい人を教えてください."
+      },
+      "2": {
+        "english": "I can send messages to your $OPTION1$, your $OPTION2$ and to many other people. Please tell me who you want me to send your message to.",
+        "italian": "Posso inviare messaggi ai contatti $OPTION1$, $OPTION2$ e a molte altre persone. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": " $OPTION1$ や $OPTION2$ ,さらに他の人にも送れます.私にあなたのメッセージを送って欲しい人を教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Write to who?",
+        "italian": "Scrivere a chi?",
+        "japanese": "誰に書きますか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll send a message to your $KEYWORD$ .",
+        "italian": "Va bene, manderò un messaggio al contatto $KEYWORD$ .",
+        "japanese": "はい, $KEYWORD$ にメッセージを送ります."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send a message to your $CONFIRM$ ?",
+        "italian": "Vuoi che mandi un messaggio al contatto $CONFIRM$ ?",
+        "japanese": "私のメッセージをあなたの $CONFIRM$ に送って欲しいですか? "
+      },
+      "without-keyword": {
+        "english": "I understand that you said: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたは '$CONFIRM$' と頼みました,あっていますか."
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, this person is not in your contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet.",
+        "japanese": "すみません,この人はあなたの連絡先リストにありません. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Please select the message that you want to send.",
+        "italian": "Per favore, seleziona il messaggio che vuoi mandare.",
+        "japanese": "送信したいメッセージを選択してください."
+      },
+      "1": {
+        "english": "I've just sent the message you selected to your $RECIPIENT$.",
+        "italian": "Ho appena mandato il messaggio che hai selezionato al contatto $RECIPIENT$.",
+        "japanese": "選択したメッセージを $RECIPIENT$ に送信しました."
+      },
+      "2": {
+        "english": "I'm sorry, something went wrong and your message has not been delivered. Please try again later.",
+        "italian": "Mi spiace, qualcosa è andato storto e il messaggio non è stato consegnato. Per favore, riprova più tardi.",
+        "japanese": "すみません,何か問題が発生し,あなたのメッセージは届きませんでした. 後でもう一度やり直してください."
+      },
+      "3": {
+        "english": "Ok! Please dictate the text of the message you want to send.",
+        "italian": "Va bene! Per favore, dettami il testo del messaggio che vuoi mandare.",
+        "japanese": "OK! 送信したいメッセージの内容を言ってください."
+      },
+      "4": {
+        "english": "I'm sorry, the persons in your contact list have no messaging app. \\pau=1000\\ I cannot send them a message.",
+        "italian": "Mi spiace, le persone nella tua rubrica non hanno un'app di messaggistica. Non posso mandar loro nessun messaggio.",
+        "japanese": "申し訳ありませんが,連絡先リストに登録されている相手にはメッセージングアプリがありません. \\pau=1000\\ 私は彼らにメッセージを送ることができません."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you find sending messages useful?",
+        "italian": "Puoi dirmi se trovi utile la possibilità di mandare messaggi?",
+        "japanese": "メッセージの送信が便利だと感じたら教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "SendTelegramMessage": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send messages to the people in your contact list. Please tell me who you want me to send the message to.",
+        "italian": "Posso inviare messaggi ai contatti nella tua rubrica. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": "連絡先リストのメンバーにメッセージを送信できます. あなたが私にメッセージを送ってほしい人を教えてください."
+      },
+      "1": {
+        "english": "I can send messages to your $OPTION1$ and to many other people. Please tell me who you want me to send the message to.",
+        "italian": "Posso inviare messaggi al contatto $OPTION1$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": " $OPTION1$ や他の多くの人にメッセージを送れます. あなたが私にメッセージを送ってほしい人を教えてください."
+      },
+      "2": {
+        "english": "I can send messages to your $OPTION1$, your $OPTION2$ and to many other people. Please tell me who you want me to send the message to.",
+        "italian": "Posso inviare messaggi ai contatti $OPTION1$, $OPTION2$ e a molti altri. Per favore, dimmi a chi vuoi mandare il messaggio.",
+        "japanese": " $OPTION1$ や $OPTION2$ や他の多くの人にメッセージを送れます.私にあなたのメッセージを送って欲しい人を教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Write to who?",
+        "italian": "Scrivere a chi?",
+        "japanese": "誰に送りますか."
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll send a message to your $KEYWORD$.",
+        "italian": "Va bene, manderò un messaggio al contatto $KEYWORD$.",
+        "japanese": "それでは,私は $KEYWORD$ にメッセージを送ります."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send a message to your $CONFIRM$ ?",
+        "italian": "Vuoi che mandi un messaggio a $CONFIRM$ ?",
+        "japanese": "メッセージをあなたの $CONFIRM$ に送りましょうか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と言ったことが分かりました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "I'm afraid that person is not in your contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet.",
+        "japanese": "その人があなたの連絡先リストに載っていないのですが. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Please select the message that you want to send.",
+        "italian": "Per favore, seleziona il messaggio che vuoi mandare.",
+        "japanese": "送信したいメッセージを選択してください."
+      },
+      "1": {
+        "english": "I've just sent the message you selected to your $RECIPIENT$.",
+        "italian": "Ho appena mandato il messaggio che hai selezionato al contatto $RECIPIENT$.",
+        "japanese": "選択したメッセージを $RECIPIENT$ に送信しました."
+      },
+      "2": {
+        "english": "I'm sorry, something went wrong and your message has not been delivered. Please try again later.",
+        "italian": "Mi spiace, qualcosa è andato storto e il messaggio non è stato consegnato. Per favore, riprova più tardi.",
+        "japanese": "すみません,何か問題が発生し,あなたのメッセージは届きませんでした. 後でもう一度やり直してください."
+      },
+      "3": {
+        "english": "Ok! Please dictate the text of the message that you want me to send.",
+        "italian": "Va bene! Per favore, dettami il testo che vuoi mandare.",
+        "japanese": "それでは、あなたが送りたいメッセージのテキストを言ってください."
+      },
+      "4": {
+        "english": "I'm sorry, the persons in your contact list have no messaging app. \\pau=1000\\ I cannot send them a message.",
+        "italian": "Mi spiace, le persone nella tua rubrica non hanno un'app di messaggistica. Non posso mandar loro nessun messaggio.",
+        "japanese": "申し訳ありませんが,連絡先リストに登録されている相手にはメッセージングアプリがありません. \\pau=1000\\ 私は彼らにメッセージを送ることができません."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you find sending messages useful?",
+        "italian": "Puoi dirmi se trovi utile la possibilità di mandare messaggi?",
+        "japanese": "メッセージの送信は便利ですか教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "SetNode": {
+    "other": {
+      "0": {
+        "english": "Can you take me by the hand and take me to a specific place on the map? Once we get there, please select the place on my tablet.",
+        "italian": "Puoi prendermi per mano e portarmi in un punto specifico della mappa? Seleziona il posto sul tablet una volta che siamo lì.",
+        "japanese": "私の手を引いてマップ上の特定の場所に連れていってくれませんか? 到着したら,タブレット上の場所を選択してください."
+      },
+      "1": {
+        "english": "Thanks, now I know where I am.",
+        "italian": "Grazie, adesso so dove mi trovo.",
+        "japanese": "ありがとう,今私は私がどこにいるか知っています."
+      }
+    }
+  },
+  "GoTo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can go to different places in your room. Please tell me where you want me to go.",
+        "italian": "Posso andare in diversi punti della stanza. Per favore, dimmi dove vuoi che vada.",
+        "japanese": "私はあなたの部屋のいろいろな場所に行くことができます. あなたが私に行ってほしい場所を教えてください."
+      },
+      "1": {
+        "english": "I can go towards the $OPTION1$ and towards other places in your room. Please tell me where you want me to go.",
+        "italian": "Posso andare verso $OPTION1$ e in altri punti della stanza. Per favore, dimmi dove vuoi che vada.",
+        "japanese": "私は $OPTION1$ や、さらにあなたの部屋の他の場所に向かうこともできます. あなたが私に行ってほしい場所を教えてください."
+      },
+      "2": {
+        "english": "I can go towards the $OPTION1$, $OPTION2$ and towards other places in your room. Please tell me where you want me to go.",
+        "italian": "Posso andare verso $OPTION1$, $OPTION2$ e in altri punti della stanza. Per favore, dimmi dove vuoi che vada.",
+        "japanese": " $OPTION1$ や $OPTION2$ ,さらにあなたの部屋の他の場所に行くことができます. あなたが私に行ってほしい場所を教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Go where?",
+        "italian": "Andare dove?",
+        "japanese": "どこに? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll go towards the $KEYWORD$.",
+        "italian": "Va bene, vado verso $KEYWORD$.",
+        "japanese": "さて,私は $KEYWORD$ に向かいます."
+      },
+      "without-keyword": {
+        "english": "Fine, I'll go there.",
+        "italian": "Ok, ci vado subito.",
+        "japanese": "それでは行ってきます."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to go towards the $CONFIRM$?",
+        "italian": "Vuoi che vada verso $CONFIRM$?",
+        "japanese": "私に $CONFIRM$ に向かってもらいたいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と命令したことを理解しました. 合っていますか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand where you want me to go. Do I know this place? Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito dove. E' un posto che conosco? Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません, 私はあなたが私に行ってほしい場所を理解できませんでした. 私はこの場所を知っていますか? タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Sorry, I'm afraid I'm lost.",
+        "italian": "Mi spiace, penso di essermi perso.",
+        "japanese": "すみません,私は道に迷っています."
+      },
+      "1": {
+        "english": "Sorry, I cannot find the map. I can't go anywhere!",
+        "italian": "Mi spiace, non trovo la mappa. Non posso andare da nessuna parte!",
+        "japanese": "申し訳ありませんが,地図が見つかりません. 私はどこにも行けない!"
+      },
+      "2": {
+        "english": "Sorry, I don't know that place. I can't go there.",
+        "italian": "Mi spiace, non conosco questo posto. Non posso andarci!",
+        "japanese": "すみません,私はその場所を知りません. なので行けません"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      }
+    }
+  },
+  "SkypeCall-Recipient": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can call one of the people in your contact list. If you prefer, you can enter a specific phone-number on my tablet. Please tell me who you want to call.",
+        "italian": "Posso chiamare i contatti nella tua rubrica. Se preferisci, puoi digitare un numero di telefono specifico sul mio tablet. Per favore, dimmi chi vuoi chiamare",
+        "japanese": "連絡先リストの中の1人に電話をかけることができます. ご希望の場合は,私のタブレットに特定の電話番号を入力できます. 電話をかけたい相手を教えてください."
+      },
+      "1": {
+        "english": "I can call your $OPTION1$ and many other people in your contact list. If you prefer, you can enter a specific phone-number on my tablet. Please tell me who you want to call.",
+        "italian": "Posso chiamare il contatto $OPTION1$ e molti altri contatti nella tua rubrica. Se preferisci, puoi digitare un numero di telefono specifico sul mio tablet. Per favore, dimmi chi vuoi chiamare.",
+        "japanese": " $OPTION1$ やさらにあなたの連絡先リストの他の多くの人に電話をかけることができます. ご希望の場合は,私のタブレットに特定の電話番号を入力できます. 電話をかけたい相手を教えてください."
+      },
+      "2": {
+        "english": "I can call your $OPTION1$, your $OPTION2$ and many other people in your contact list. If you prefer, you can enter a specific phone-number on my tablet. Please tell me who you want to call.",
+        "italian": "Posso chiamare i contatti $OPTION1$, $OPTION2$ e molti altri contatti nella tua rubrica. Se preferisci, puoi digitare un numero di telefono specifico sul mio tablet. Per favore, dimmi chi vuoi chiamare.",
+        "japanese": " $OPTION1$ や $OPTION2$ ,さらにあなたの連絡先リストの他の多くの人に電話をかけることができます. ご希望の場合は,私のタブレットに特定の電話番号を入力できます. 電話をかけたい相手を教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Call who?",
+        "italian": "Chiamare chi?",
+        "japanese": "誰にしますか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, let's call your $KEYWORD$.",
+        "italian": "Va bene, telefoniamo al contatto $KEYWORD$.",
+        "japanese": "それでは,あなたの $KEYWORD$ に電話しましょう."
+      },
+      "without-keyword": {
+        "english": "Fine, let me do that.",
+        "italian": "Ok, lascia fare a me.",
+        "japanese": "はい,そうしましょう."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to call your $CONFIRM$?",
+        "italian": "Vuoi che telefoni al contatto $CONFIRM$?",
+        "japanese": " $CONFIRM$ に電話をかけましょうか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と命令したことを理解しました"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand the name you said. Do I know that person? Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il nome che hai detto. E' qualcuno che conosco? Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,私はあなたが言った名前がわかりませんでした. 私はその人を知っていますか? タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "The phone call is about to start",
+        "italian": "Stai per essere messo in contatto con il numero scelto ",
+        "japanese": "電話をかけようとしています"
+      },
+      "1": {
+        "english": "Please wait a few seconds.",
+        "italian": "Per favore aspetta qualche secondo.",
+        "japanese": "数秒待ってください."
+      },
+      "2": {
+        "english": "Please, type the phone number that you want to call, without the international code. \\pau=300\\ When you are ready, press the OK button.",
+        "italian": "Per favore, inserisci il numero di telefono da chiamare, senza il prefisso internazionale. \\pau=300\\ Quando hai fatto, premi il tasto OK",
+        "japanese": "国際コードを使わずに、電話をかけたい電話番号を入力してください。 \\pau=300\\ 準備ができたら、OKボタンを押します。"
+      },
+      "3": {
+        "english": "I can't find the phone number or the Skype contact of your $RECIPIENT$ in my address book. \\pau=800\\Would you like to enter the number yourself?",
+        "italian": "Non trovo né il numero di telefono, né l'indirizzo Skype del contatto $RECIPIENT$ nella mia rubrica. \\pau=800\\ Vuoi digitare direttamente tu il numero?",
+        "japanese": "私のアドレス帳にあなたの $RECIPIENT$ の電話番号やSkypeの連絡先が見つかりません. \\pau=800\\　自分で番号を入力しますか? "
+      },
+      "4": {
+        "english": "Do you want to hang up?",
+        "italian": "Vuoi mettere giù?",
+        "japanese": "電話を切りますか? "
+      },
+      "5": {
+        "english": "The video call is about to start",
+        "italian": "La videochiamata sta per incominciare.",
+        "japanese": "テレビ電話をかけようとしています"
+      },
+      "6": {
+        "english": "When the call is over, please remember to touch my head.",
+        "italian": "Quando la chiamata è finita, ricorda di toccarmi la testa.",
+        "japanese": "電話が終わったら, 忘れずに私の頭に触れてください."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "Pepper",
+          "hang up"
+        ],
+        "italian": [
+          "Pepper",
+          "metti giù",
+          "attacca",
+          "riattacca"
+        ]
+        ,
+        "japanese":  [
+          "電話を切ります."
+        ]
+      } 
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can I ask you about the Skype call? Do you think you will make a Skype call again in the future?",
+        "italian": "Posso farti una domanda a proposito della chiamata? Pensi che farai altre chiamate in futuro?",
+        "japanese": "Skype通話についてお聞かせください. あなたはまたSkypeで電話をかけますか? "
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "SkypeCall-Mode": {
+    "ask-parameters": {
+      "0": {
+        "english": "Would you like to make a $OPTION1$, or a $OPTION2$?",
+        "italian": "Vorresti fare una $OPTION1$, o una $OPTION2$?",
+        "japanese": " $OPTION1$ と $OPTION2$ のどちらにしますか? "
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Select the call mode",
+        "italian": "Seleziona la modalità",
+        "japanese": "通話モードを選択してください."
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I will help you make a $KEYWORD$.",
+        "italian": "Va bene, ti faccio fare una $KEYWORD$.",
+        "japanese": "それでは,私はあなたが $KEYWORD$ を作るのを手伝います."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene.",
+        "japanese": "オーケー."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to make a $CONFIRM$?",
+        "italian": "Vuoi fare una $CONFIRM$?",
+        "japanese": "あなたは $CONFIRM$ を作りたいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが頼んだことを理解しました: '$CONFIRM$'. その通りですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I'm afraid I didn't get that. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません,私はそれが手に入らなかったのです. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      }
+    }
+  },
+  "DisplayInstructions": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you many different instruction videos. Please tell me what kind of instructions you would like to have.",
+        "italian": "Posso farti vedere molti video tutòrial. Per favore dimmi quale video vorresti vedere.",
+        "japanese": "私はあなたに多くの解説動画を見せることができます. どんな解説がいいのか教えてください."
+      },
+      "1": {
+        "english": "I can show you a video on $OPTION1$ and many other different instruction videos. Please tell me what kind of instructions you would like to have.",
+        "italian": "Posso farti vedere un video su $OPTION1$ e molti altri video tutòrial. Per favore dimmi quale video vorresti vedere.",
+        "japanese": "私はあなたに $OPTION1$ やさらに他の多くの解説動画を見せることができます. どんな指示が欲しいのか教えてください."
+      },
+      "2": {
+        "english": "I can show you a video on $OPTION1$, $OPTION2$ and many other different instruction videos. Please tell me what kind of instructions you would like to have.",
+        "italian": "Posso farti vedere un video su $OPTION1$, $OPTION2$ e molti altri video tutòrial. Per favore dimmi quale video vorresti vedere.",
+        "japanese": "私はあなたに $OPTION1$や $OPTION2$ ,さらに他の多くの解説動画を見せることができます. どんな指示が欲しいのか教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which instruction video?",
+        "italian": "Quale video tutorial?",
+        "japanese": "どの解説動画? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play a video on $KEYWORD$.",
+        "italian": "Va bene, ti faccio vedere un video su $KEYWORD$.",
+        "japanese": "それでは,私は $KEYWORD$ の動画を再生します."
+      },
+      "without-keyword": {
+        "english": "Great, I'll play a video about this topic.",
+        "italian": "Va bene, ti mostrerò un video su quest'argomento.",
+        "japanese": "この話題についての動画を再生します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to watch a video on $CONFIRM$?",
+        "italian": "Vuoi vedere un video su $CONFIRM$?",
+        "japanese": " $CONFIRM$ の動画を再生しましょうか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' と頼んだと理解しました.fそうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I'm afraid I didn't get what you would like to watch. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che cosa vorresti vedere. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません, あなたが見たいものが手に入りませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You've already watched part of this video. Would you like to continue watching it from where you stopped?",
+        "italian": "Hai già guardato questo video. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?",
+        "japanese": "あなたはすでにこのビデオの一部を見ました. あなたが前回停止したところからそれを見続けたいですか? "
+      },
+      "1": {
+        "english": "Please wait a few seconds while I load the video on the tablet.",
+        "italian": "Per favore, aspetta qualche secondo mentre carico il video sul tablet.",
+        "japanese": "タブレットにビデオをロードしています, しばらくお待ちください."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore.",
+        "japanese": "少々時間がかかる場合がありますので, しばらくお待ちください."
+      },
+      "3":{
+        "english": "Do you want to watch another video?",
+        "italian": "Vuoi vedere un altro video?",
+        "japanese": "別のビデオを見たいですか？"
+      },
+      "video-unavailable": {
+        "english": "The video I wanted to show you is no longer available, let me look for another one.",
+        "italian": "Il video che volevo mostrarti non è più disponibile, lascia che ne cerchi un altro.",
+        "japanese": "私があなたに見せたかったビデオはもう利用できません, 別のものを見てみましょう."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO",
+      "japanese": "ほかのもの"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell me if you enjoyed watching this instruction video?",
+        "italian": "Ti è piaciuto guardare questo video?",
+        "japanese": "この説明ビデオを見て楽しんだかどうか教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "Load": {
+    "other": {
+      "0": {
+        "english": "Please put $OBJECT$ inside my bag.",
+        "italian": "Per favore metti $OBJECT$ nel mio zaino.",
+        "japanese": "私のバッグの中に $OBJECT$ を入れてください."
+      },
+      "1": {
+        "english": "When you are done, please touch my head.",
+        "italian": "Quando hai finito, per favore toccami la testa.",
+        "japanese": "完了したら, 私の頭に触れてください."
+      },
+      "2": {
+        "english": "Good, thanks! \\pau=300\\ I'm about to turn around. Please take a step back and be careful.",
+        "italian": "Ottimo, grazie! \\pau=300\\ Sto per girarmi. Per favore, fai un passo indietro e fa' attenzione.",
+        "japanese": "よし, ありがとう! \\pau=300\\ 私は回転し始めます. 一歩後退して気をつけてください."
+      }
+    }
+  },
+  "Unload": {
+    "other": {
+      "0": {
+        "english": "Please, remove $OBJECT$ from my bag.",
+        "italian": "Per favore, rimuovi $OBJECT$ dal mio zaino.",
+        "japanese": "バッグから $OBJECT$ を取り出してください."
+      },
+      "1": {
+        "english": "When you are done, please touch my head.",
+        "italian": "Quando hai finito, per favore toccami la testa.",
+        "japanese": "完了したら, 私の頭に触れてください."
+      },
+      "2": {
+        "english": "Good, thanks! \\pau=300\\ I'm about to turn around. Please, take a step back and be careful.",
+        "italian": "Ottimo, grazie! \\pau=300\\ Sto per girarmi. Per favore, fai un passo indietro e fa' attenzione.",
+        "japanese": "ありがとうございます. \\pau=300\\ 私は回転し始めます. 一歩後退して気をつけてください."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?",
+        "italian": "Puoi dirmi per favore se hai trovato utile questa attività?",
+        "japanese": "この活動は役に立ちましたか, 教えてください "
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "RemindLocation": {
+    "other": {
+      "0": {
+        "english": "Try to look $LOCATION$! \\pau=400\\ I saw $OBJECT$ \\emph=2\\ there \\pau=200\\ last time!",
+        "italian": "Prova a guardare $LOCATION$! \\pau=400\\ Ho visto $OBJECT$ \\emph=2\\ lì \\pau=200\\ l'ultima volta!",
+        "japanese": " $LOCATION$ を見てみてください. \\pau=400\\ 私は \\pau=200\\ 前回そこで $OBJECT$ \\emph=2\\ を見ました!"
+      },
+      "1": {
+        "english": "I think I saw $OBJECT$ $LOCATION$ last time. Try and look there!",
+        "italian": "Credo di aver visto $OBJECT$ $LOCATION$ l'ultima volta. Prova a guardare lì.",
+        "japanese": "前回 $LOCATION$ で $OBJECT$ を見ました. そこを見てみてください."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you found this information useful?",
+        "italian": "Puoi dirmi se hai trovato utile quest'informazione?",
+        "japanese": "あなたがこの情報を役に立ったら, 私に教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "ReactToSound": {
+    "other": {
+      "0": {
+        "english": "I am here!",
+        "italian": "Sono qui!",
+        "japanese": "私はここにいる!"
+      },
+      "1": {
+        "english": "Here I am!",
+        "italian": "Eccomi!",
+        "japanese": "ここにいるよ!"
+      },
+      "2": {
+        "english": "I'm coming!",
+        "italian": "Arrivo!",
+        "japanese": "今行きます"
+      },
+      "3": {
+        "english": "Did you just call me?",
+        "italian": "Mi hai chiamato?",
+        "japanese": "私に電話しましたか? "
+      },
+      "4": {
+        "english": "Did you say something?",
+        "italian": "Hai detto qualcosa?",
+        "japanese": "私を呼びましたか?"
+      },
+      "5": {
+        "english": "I'm sorry, I still need some rest. My battery level is currently $LEVEL$ percent and I need to reach $MINIMUM$ percent. Please, call me again later.",
+        "italian": "Mi spiace, ho ancora bisogno di riposarmi. Il mio livello di batteria al momento è $LEVEL$ percento e devo raggiungere il $MINIMUM$ percento. Per favore, chiamami nuovamente più tardi.",
+        "japanese": "すみません、まだ休みが必要です。 現在、バッテリー残量は$LEVEL$パーセントであり、$MINIMUM$パーセントに達する必要があります。 後でもう一度電話してください。"
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "hello pepper",
+          "hello peppa",
+          "hello papa"
+        ],
+        "italian": [
+          "ciao pepper",
+          "ciao peppe",
+          "ciao beppe"
+        ],
+        "japanese": [
+          "ブロック解除",
+          "もしもし",
+          "ペッパー",
+          "ここに来て",
+          "こんにちは,ペッパー"
+        ]
+      }
+    }
+  },
+  "PlayMusicAndVideo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can play many different songs and many kinds of music. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": "Posso farti ascoltare molte canzoni o generi musicali. Per favore dimmi il titolo della canzone, l'artista o il genere che vorresti ascoltare.",
+        "japanese": "私はさまざまな曲やさまざまな種類の音楽を再生できます. あなたが聴きたい曲のタイトルやアーティスト,ジャンルを教えてください."
+      },
+      "1": {
+        "english": "I can play $OPTION1$ and many other songs or kinds of music. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": "Posso farti ascoltare $OPTION1$ e molte canzoni o generi musicali. Per favore dimmi il titolo della canzone, l'artista o il genere che vorresti ascoltare.",
+        "japanese": " 私は $OPTION1$ だけでなく、さらに他の多くの曲やさまざまな種類の音楽を再生できます.あなたが聴きたい曲のタイトルやアーティスト,ジャンルを教えてください."
+      },
+      "2": {
+        "english": "I can play $OPTION1$, $OPTION2$ and many other songs or kinds of music. Please tell me the title of the song, the artist or the genre you would like to listen to.",
+        "italian": "Posso farti ascoltare $OPTION1$, $OPTION2$ e molte canzoni o generi musicali. Per favore dimmi il titolo della canzone, l'artista o il genere che vorresti ascoltare.",
+        "japanese": " $OPTION1$ や $OPTION2$ だけでなく、さらに他の多くの曲や音楽を再生できます.あなたが聴きたい曲のタイトルやアーティスト,ジャンルを教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which music video?",
+        "italian": "Quale canzone?",
+        "japanese": "どのミュージックビデオ? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, ti farò ascoltare '$KEYWORD$'.",
+        "japanese": "わかりました,それでは私は '$KEYWORD$' を再生します."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, la cerco.",
+        "japanese": "わかりました,私はそれを捜します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to listen to '$CONFIRM$'?",
+        "italian": "Vuoi ascoltare '$CONFIRM$'?",
+        "japanese": " '$CONFIRM$' を聞きたいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' と言ったと理解しました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand what you would like to listen to. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che musica vorresti sentire. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,あなたが何を聞きたいのかわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You've listened to this song before. Would you like to continue listening to it from where you stopped?",
+        "italian": "Hai già ascoltato questa canzone. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?",
+        "japanese": "あなたは前にこの歌を聞いたことがあります. あなたが前回停止したところからそれを聞き続けたいですか? "
+      },
+      "1": {
+        "english": "Please wait a few seconds while I load the music video on the tablet.",
+        "italian": "Per favore, aspetta qualche secondo mentre carico il video della canzone sul tablet.",
+        "japanese": "タブレットにミュージックビデオをロードしているのでしばらくお待ちください."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore.",
+        "japanese": "しばらく時間がかかる場合がありますので,しばらくお待ちください."
+      },
+      "3":{
+        "english": "Do you want to listen to another song?",
+        "italian": "Vuoi ascoltare un'altra canzone?",
+        "japanese": "あなたは別の歌を聞きたいですか? "
+      },
+      "video-unavailable": {
+        "english": "The song I wanted to play is no longer available, let me look for another version.",
+        "italian": "La canzone che volevo farti ascoltare non è più disponibile, lascia che ne cerchi un'altra versione.",
+        "japanese": "再生したかった曲はもう利用できません.別のバージョンを探してみます."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO",
+      "japanese": "ほかのもの"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you enjoyed listening to some music?",
+        "italian": "Ti è piaciuto ascoltare un po' di musica?",
+        "japanese": "音楽を楽しめましたか? "
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "PlayVideo": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you many film-clips. Please tell me what film-clip you would like to watch.",
+        "italian": "Posso farti vedere alcune scene di molti film. Per favore dimmi il film che vorresti vedere.",
+        "japanese": "私はあなたに多くの映画の一部を見せることができます. その見たいクリップを教えてください."
+      },
+      "1": {
+        "english": "I can show you $OPTION1$ and many other film-clips. Please tell me what film-clip you would like to watch.",
+        "italian": "Posso farti vedere $OPTION1$ e alcune scene di molti film. Per favore dimmi il film che vorresti vedere.",
+        "japanese": "私はあなたに $OPTION1$ と他の映画の一部を見せることができます.その見たいクリップを教えてください."
+      },
+      "2": {
+        "english": "I can show you $OPTION1$, $OPTION2$ and many other film-clips. Please tell me what film-clip you would like to watch.",
+        "italian": "Posso farti vedere $OPTION1$, $OPTION2$ e alcune scene di molti film. Per favore dimmi il film che vorresti vedere.",
+        "japanese": "私はあなたに $OPTION1$ , $OPTION2$ そして他の多くの映画の一部を見せることができる.その見たいクリップを教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "What film-clip?",
+        "italian": "Quale film?",
+        "japanese": "どんな映画? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, ti farò vedere '$KEYWORD$'.",
+        "japanese": "それでは,私は '$KEYWORD$' を再生します."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, lo cerco.",
+        "japanese": "任せてください,私はそれを捜します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to watch '$CONFIRM$'?",
+        "italian": "Vuoi vedere '$CONFIRM$'?",
+        "japanese": " '$CONFIRM$' を見たいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' と頼んだと理解しました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the name of the film-clip you would like to watch. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il nome del film che vorresti vedere. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,見たいフィルムクリップの名前がわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have watched part of this video before. Do you want to continue watching it from where you stopped?",
+        "italian": "Hai già guardato questo video. Vuoi continuare dal minuto in cui hai interrotto l'ultima volta?",
+        "japanese": "あなたは前にこのビデオの一部を見ました. あなたが止まったところからそれを見続けたいですか? "
+      },
+      "1": {
+        "english": "Please wait a few seconds while I load the video on the tablet.",
+        "italian": "Per favore, aspetta qualche secondo mentre carico il video sul tablet.",
+        "japanese": "タブレットにビデオをロードしている数秒待ってください."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore.",
+        "japanese": "しばらく時間がかかる場合がありますので,しばらくお待ちください."
+      },
+      "3":{
+        "english": "Do you want to watch another film-clip?",
+        "italian": "Vuoi vedere qualche scena di un altro film?",
+        "japanese": "別の映画クリップを見たいですか？"
+      },
+      "video-unavailable": {
+        "english": "The video I wanted to show you is no longer available, I'll look for another one.",
+        "italian": "Il video che volevo mostrarti non è più disponibile, lascia che ne cerchi un altro.",
+        "japanese": "私があなたに見せたかったビデオはもう利用できません,私は別のものを探してみます."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO",
+      "japanese": "ほかのもの"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you enjoyed watching a film-clip on the tablet?",
+        "italian": "Ti è piaciuto guardare uno spezzóne di film sul tablet?",
+        "japanese": "タブレットでフィルムクリップを見て楽しんだか教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "PlayKaraoke": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can play many karaoke songs. Please tell me what song you would like to sing.",
+        "italian": "Posso farti cantare molte canzoni al kara-oke. Per favore dimmi quale canzone vorresti cantare.",
+        "japanese": "私は多くのカラオケ用の歌を流せます.どんな歌を歌いたいかを私に教えてください."
+      },
+      "1": {
+        "english": "I can play $OPTION1$ and many other karaoke songs. Please tell me what song you would like to sing.",
+        "italian": "Posso farti cantare $OPTION1$ e molte altre canzoni al kara-oke. Per favore dimmi quale canzone vorresti cantare.",
+        "japanese": "私は $OPTION1$ や他の多くのカラオケ曲を演奏できます. どんな歌を歌いたいですか."
+      },
+      "2": {
+        "english": "I can play $OPTION1$, $OPTION2$ and many other karaoke songs. Please tell me what song you would like to sing.",
+        "italian": "Posso farti cantare $OPTION1$, $OPTION2$ e molte altre canzoni al kara-oke. Per favore dimmi quale canzone vorresti cantare.",
+        "japanese": "私は $OPTION1$ や $OPTION2$ ,さらに他の多くのカラオケ用の歌を流せます. どんな歌を歌いたいですか."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which song?",
+        "italian": "Quale canzone?",
+        "japanese": "どの歌にしますか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll play '$KEYWORD$'.",
+        "italian": "Va bene, metterò la base per '$KEYWORD$'.",
+        "japanese": "それでは,私は '$KEYWORD$' を再生します."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, la cerco.",
+        "japanese": "わかりました,私はそれを捜します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to sing '$CONFIRM$'?",
+        "italian": "Vuoi cantare '$CONFIRM$'?",
+        "japanese": " '$CONFIRM$' を歌いたいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' と頼んでいると理解しました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the name of the song you would like to sing. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il nome della canzone che vorresti cantare. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,歌いたい曲の名前がわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      },
+      "1": {
+        "english": "Please wait a few seconds while I load the karaoke video on the tablet.",
+        "italian": "Per favore aspetta qualche secondo mentre carico il video del karaoke sul tablet.",
+        "japanese": "私がタブレットにカラオケビデオをロードしている間,しばらく待ってください."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore.",
+        "japanese": "少々時間がかかる場合がありますので,しばらくお待ちください."
+      },
+      "3":{
+        "english": "Do you want to sing another song?",
+        "italian": "Vuoi cantare un'altra canzone?",
+        "japanese": "他の曲を歌いたいですか? "
+      },
+      "video-unavailable": {
+        "english": "The karaoke video I wanted to use is no longer available, I'll look for another one.",
+        "italian": "Il video che volevo usare per il karaoke non è più disponibile, lascia che ne cerchi un altro.",
+        "japanese": "私が使いたかったカラオケビデオはもう利用できません,私は別のものを探してみます."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO",
+      "japanese": "ほかのもの"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you enjoyed singing this song?",
+        "italian": "Ti è piaciuto cantare questa canzone?",
+        "japanese": "この歌を歌うのを楽しんだか教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "ReadAudiobook": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can read many audiobooks for you. Please tell me what book you would like me to read.",
+        "italian": "Posso leggerti molti audiolibri. Per favore dimmi quale libro vuoi che ti legga.",
+        "japanese": "たくさんのオーディオブックを読むことができます. どの本を読んでほしいのか教えてください."
+      },
+      "1": {
+        "english": "I can read $OPTION1$ and many other audiobooks for you. Please tell me what book you would like me to read.",
+        "italian": "Posso leggerti $OPTION1$ e molti altri audiolibri. Per favore dimmi quale libro vuoi che ti legga.",
+        "japanese": " $OPTION1$ や他のオーディオブックを読むことができます. どの本を読んでほしいのか教えてください."
+      },
+      "2": {
+        "english": "I can read $OPTION1$, $OPTION2$ and many other audiobooks for you. Please tell me what book you would like me to read.",
+        "italian": "Posso leggerti $OPTION1$, $OPTION2$ e molti altri audiolibri. Per favore dimmi quale libro vuoi che ti legga.",
+        "japanese": " $OPTION1$ や $OPTION2$ または他のオーディオブックを読むことができます. どの本を読んでほしいのか教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which audiobook?",
+        "italian": "Quale audiolibro?",
+        "japanese": "どのオーディオブック? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll read '$KEYWORD$'.",
+        "italian": "Va bene, ti leggerò '$KEYWORD$'.",
+        "japanese": "わかりました, 私は '$KEYWORD$' を読みます."
+      },
+      "without-keyword": {
+        "english": "Alright, I'll search for it.",
+        "italian": "Va bene, lo cerco.",
+        "japanese": "わかりました,私はそれを捜します."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to read '$CONFIRM$'?",
+        "italian": "Vuoi che legga '$CONFIRM$'?",
+        "japanese": "私に '$ CONFIRM $'と読んでほしいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' を尋ねたことに気づきました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the name of the book you would like me to read to you Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il titolo dell'audiolibro che vorresti sentire. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,あなたが読みたい本の名前がわかりませんでした.タブレットでオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "You have already started to listen to this audiobook. Do you want me to continue reading from where I stopped last time?",
+        "italian": "Hai già cominciato a sentire questo audiolibro. Vuoi che continui a leggere dal punto in cui mi sono fermato l'ultima volta?",
+        "japanese": "あなたはすでにこのオーディオブックを聴いています. 前回停止したところから読み続けますか."
+      },
+      "1": {
+        "english": "Please wait a few seconds while I load the audiobook on the tablet.",
+        "italian": "Per favore aspetta qualche secondo mentre carico l'audiolibro sul tablet.",
+        "japanese": "オーディオブックをタブレットにロードしている間,しばらく待ってください."
+      },
+      "2": {
+        "english": "It might take a while so please be patient.",
+        "italian": "Potrebbe volerci un po' quindi abbi ancora un po' di pazienza, per favore.",
+        "japanese": "少々時間がかかる場合がありますので,しばらくお待ちください."
+      },
+      "3":{
+        "english": "Do you want me to read another book?",
+        "italian": "Vuoi che legga un altro libro?",
+        "japanese": "別の本を読んでほしいですか？"
+      },
+      "video-unavailable": {
+        "english": "The audiobook I wanted to read is no longer available, I'll look look for another version.",
+        "italian": "L'audiolibro che volevo leggere non è più disponibile, lascia che ne cerchi un'altra versione.",
+        "japanese": "読みたかったオーディオブックはもう利用できません,私は別のバージョンを探します."
+      }
+    },
+    "custom-option": {
+      "english": "SOMETHING ELSE",
+      "italian": "QUALCOS'ALTRO",
+      "japanese": "ほかのもの"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you enjoyed listening to this audiobook?",
+        "italian": "Ti è piaciuto ascoltare questo audiolibro?",
+        "japanese": "このオーディオブックを聴いて楽しかったら教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "DisplayWeatherReport": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can show you the weather report for many different cities. Please tell me the name of the city whose weather you are interested in.",
+        "italian": "Posso mostrarti il meteo di molte città. Per favore dimmi il nome della città di cui vuoi sapere il meteo.",
+        "japanese": "私は多くの都市の天気予報を見せることができます. 天気が知りたい都市の名前を教えてください."
+      },
+      "1": {
+        "english": "I can show you the weather report for $OPTION1$ and many other cities. Please tell me the name of the city whose weather you are interested in.",
+        "italian": "Posso mostrarti il meteo di $OPTION1$ e di molte altre città. Per favore dimmi il nome della città di cui vuoi sapere il meteo.",
+        "japanese": "私は $OPTION1$ や他の多くの都市の天気予報を見せることができます. 天気が知りたい都市の名前を教えてください."
+      },
+      "2": {
+        "english": "I can show you the weather report for $OPTION1$, $OPTION2$ and many other cities. Please tell me the name of the city whose weather you are interested in.",
+        "italian": "Posso mostrarti il meteo di $OPTION1$, $OPTION2$ e di molte altre città. Per favore dimmi il nome della città di cui vuoi sapere il meteo.",
+        "japanese": "私は $OPTION1$ や $OPTION2$ または他の多くの都市の天気予報を見せることができます. 天気が知りたい都市の名前を教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which city?",
+        "italian": "Quale città?",
+        "japanese": "どの都市?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll show you what the weather is in $KEYWORD$.",
+        "italian": "Va bene, ti mostrerò che tempo fa a $KEYWORD$.",
+        "japanese": "わかりました, $KEYWORD$ の天気をお見せします"
+      },
+      "without-keyword": {
+        "english": "Alright, let me check.",
+        "italian": "Va bene, lasciami controllare.",
+        "japanese": "わかりました,確認してみます."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to know what the weather is like in $CONFIRM$?",
+        "italian": "Vuoi vedere che tempo fa a $CONFIRM$?",
+        "japanese": " $CONFIRM$ の天気が見たいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' と頼んでいると理解しています, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the name of the city. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito il nome della città. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません,私はその都市の名前がわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "$STATUS$ in $CITY$. The temperature is $TEMPERATURE$ degrees.",
+        "italian": "$STATUS$ a $CITY$. Ci sono $TEMPERATURE$ gradi.",
+        "japanese": " $CITY$ の $STATUS$ . 気温は $TEMPERATURE$ 度です."
+      },
+      "1":{
+        "english": "I'm sorry, I cannot get any weather information about $CITY$ at the moment.",
+        "italian": "Mi spiace ma al momento non riesco a trovare nessuna informazione sulle condizioni meteo di $CITY$.",
+        "japanese": "すみません,現時点では $CITY$ に関する天気情報がありません."
+      },
+      "2":{
+        "english": "I'm sorry, I don't know any city called $CITY$.",
+        "italian": "Mi spiace ma non conosco nessuna città che si chiami $CITY$.",
+        "japanese": "すみません,私は $CITY$ と呼ばれる都市を知りません."
+      }
+    },
+    "end-action": {
+      "english": [
+        "stop",
+        "thanks",
+        "thank you"
+      ],
+      "italian": [
+        "basta",
+        "grazie"
+      ],
+      "japanese": [
+        "以上です",
+        "ありがとう",
+        "ありがとうございました"
+      ]
+    },
+    "custom-option": {
+      "english": "ANOTHER CITY",
+      "italian": "UN'ALTRA CITTA'",
+      "japanese": "別の都市"
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you please tell me if you found it useful?",
+        "italian": "Puoi dirmi se l'hai trovato utile?",
+        "japanese": "あなたがこれを役に立ったら, 教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "Greet": {
+    "other": {
+      "0": {
+        "english": "Good morning $USERNAME$.",
+        "italian": "Buongiorno $USERNAME$.",
+        "japanese": "おはようございます $USERNAME$."
+      },
+      "1": {
+        "english": "Namastay $USERNAME$.",
+        "italian": "Namasté $USERNAME$.",
+        "japanese": "Namastay $USERNAME$."
+      },
+      "2": {
+        "english": "Hello $USERNAME$.",
+        "italian": "Ciao $USERNAME$.",
+        "japanese": "こんにちは $USERNAME$."
+      }
+    }
+  },
+  "Chitchat": {
+    "username": {
+      "english": [
+        "my human friend",
+        "my dear"
+      ],
+      "italian": [
+        "amico mio"
+      ],
+      "japanese": [
+        "私の友達"
+      ]
+    },
+    "hello": {
+      "english": [
+        "hello",
+        "hi",
+        "good morning"
+      ],
+      "italian": [
+        "ciao",
+        "buon giorno"
+      ],
+      "japanese": [
+        "こんにちは",
+        "おはようございます"
+      ]
+    },
+    "acceptrequest": {
+      "english": [
+        "Please tell me what I can do for you",
+        "Let's have a chat, I am here for you",
+        "It's very nice to be here with you",
+        "Let's do something. What would you like to do?"
+      ],
+      "italian": [
+        "Per favore, fammi sapere cosa posso fare per te",
+        "Sono qui a tua disposizione"
+      ],
+      "japanese": [
+        "私があなたにできることを教えてください",
+        "私はあなたのためにここにいます"
+      ]
+    },
+    "yes": {
+      "english": [
+        "Sure, no problem",
+        "Of course",
+        "No problem",
+        "I will do that",
+        "Sure"
+      ],
+      "italian": [
+        "Certo, nessun problema",
+        "Certo",
+        "Nessun problema"
+      ],
+      "japanese": [
+        "もちろん,問題ありません",
+        "問題ない",
+        "もちろん"
+      ]
+    },
+    "revise": {
+      "english": [
+        "Sure. Let's change your previous answer",
+        "No problem! Let's go back to the previous question",
+        "Of course! Let me think.\\pau=500\\ I asked you:"
+      ],
+      "italian": [
+        "Certo. Torniamo alla domanda precedente",
+        "Nessun problema. Fammi pensare.\\pau=500\\ Possiamo cambiare la tua risposta precedente"
+      ],
+      "japanese": [
+        "前の質問に戻りましょう",
+        "問題ありません.考えてみましょう. \\pau=500\\ 前回の回答を変更することができます"
+      ]
+    },
+    "goback": {
+      "english": [
+        "Now we can go back to what we were saying",
+        "Let's go back to what we were saying"
+      ],
+      "italian": [
+        "Torniamo a quello che stavamo dicendo"
+      ],
+      "japanese": [
+        "私たちが言っていたことに戻りましょう."
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "Bye bye!",
+        "Goodbye!",
+        "It's been a pleasure talking with you! Goodbye!"
+      ],
+      "italian": [
+        "Va bene! A presto!",
+        "è stato un piacere parlare con te! Ciao!",
+        "Arrivederci!",
+        "A presto",
+        "Alla prossima"
+      ],
+      "japanese": [
+        "バイバイ!",
+        "さようなら!",
+        "あなたと話すのが楽しみでした!さようなら!"
+      ]
+    },
+    "notsure": {
+      "english": [
+        "I am not sure I understood you correctly",
+        "Sorry, I think I haven't understood what you said",
+        "I'm afraid I didn't understand what you said"
+      ],
+      "italian": [
+        "Non sono sicuro di aver capito correttamente",
+        "Scusa ma forse non ho capito bene cosa hai detto"
+      ],
+      "japanese": [
+        "正しく理解できたかどうかわかりません",
+        "すみません,私はあなたが言ったことを理解できませんでした."
+      ]
+    },
+    "showinterest": {
+      "english": [
+        "Oh, interesting!",
+        "It's nice to learn more about you",
+        "I see, very interesting!",
+        "Oh ok, now that's clear",
+        "I understand what you said, it's good to know!",
+        "Ok, I understand",
+        "I see",
+        "I like to listen to you",
+        "Interesting",
+        "Good to know",
+        "I understand what you said",
+        "I am learning a lot of things about you",
+        "Thank you for sharing this with me"
+      ],
+      "italian": [
+        "Molto interessante",
+        "è bello sapere più cose di te",
+        "Capisco, interessante!",
+	"Grazie delle informazioni",
+	"Capisco, bene!",
+	"Mi piace imparare le tue preferenze",
+        "Ok, capisco",
+	"Adesso è chiaro, grazie"
+      ],
+      "japanese": [
+        "とてもおもしろい",
+        "わかりました,おもしろい!",
+        "あなたについてもっと知ることができてうれしいです"
+      ]
+    },
+    "showhappiness": {
+      "english": [
+        "Ok!",
+        "I see"
+      ],
+      "italian": [
+        "Ok",
+        "Bene!"
+      ],
+      "japanese": [
+        "オーケー",
+        "わかりました"
+      ]
+    },
+    "noproblem": {
+      "english": [
+        "Ok, no problem",
+        "I see",
+        "No problem",
+        "Ok"
+      ],
+      "italian": [
+        "Capisco, nessun problema",
+        "Ok"
+      ],
+      "japanese": [
+        "問題ない",
+        "オーケー",
+        "分かりました"
+      ]
+    },
+    "showhappiness2": {
+      "english": [
+        "Great, let's do that!",
+        "Ok, let's do it!",
+        "Nice! I will help you do this!",
+        "Great, I am happy to be helpful!"
+      ],
+      "italian": [
+        "Bene, facciamolo!",
+        "Ottimo, sono contento di aiutarti!",
+        "Ok ottimo",
+        "Che bello!",
+        "Con piacere"
+      ],
+      "japanese": [
+        "それをしよう",
+        "お役に立てて光栄です!"
+      ]
+    },
+    "notrevise": {
+      "english": [
+        "Sorry, I'm not sure I am able to change that",
+        "Sorry, I don't remember the question!"
+      ],
+      "italian": [
+        "Scusa, non ricordo la domanda"
+      ],
+      "japanese": [
+        "すみません,私は質問を覚えていません",
+        "申し訳ありませんが,変更できるかどうかわかりません"
+      ]
+    },
+    "canrepeat": {
+      "english": [
+        "Sorry, I am not sure I understood, I will repeat my question. ",
+        "Sorry, I didn't get that. I will repeat my question."
+      ],
+      "italian": [
+        "Scusa ma non ho capito. Potresti ripetere?"
+      ],
+      "japanese": [
+        "すみません,わかりませんでした、もう一回質問します. "
+      ]
+    },
+    "canrepeat2": {
+      "english": [
+        "Sorry, I am not sure I understood, I will repeat my question. ",
+        "Sorry, I didn't get that. I will repeat my question. "
+      ],
+      "italian": [
+        "Scusa ma non ho capito. Ti ripeto la domanda."
+      ],
+      "japanese": [
+        "すみません,わかりませんでした.私は質問を繰り返します."
+      ]
+    },
+    "no": {
+      "english": "no",
+      "italian": "no",
+      "japanese": "いいえ"
+    },
+    "prefix_question": {
+      "english": [
+        "Please tell me, I'd like to know more. ",
+        "May I ask you a question? ",
+        "If you don't mind, I will ask you a question. ",
+        "I'd love to learn more about this. ",
+        "I find that really interesting. ",
+        "I have learned a little about that. ",
+        "I only know a little about this. "
+      ],
+      "italian": [
+        "Sono curioso, ",
+        "Posso farti una domanda? ",
+        "Parliamone, ",
+        "Dimmi, ",
+        "Mi piacerebbe saperne di più, ",
+        "Ti vorrei chiedere una cosa, ",
+        "Levami una curiosità, "
+      ],
+      "japanese": [
+        "質問してもいいですか? "
+      ]
+    },
+    "prefix_confirm": {
+      "english": [
+        "Just to confirm, ",
+        "Sorry to ask you this again, but I am not sure. ",
+        "I may have asked you this before, but "
+      ],
+      "italian": [
+        "Forse te l'ho già chiesto, ma",
+        "Scusa per la ripetizione",
+        "Giusto per conferma"
+      ],
+      "japanese": [
+        "確認させてください、",
+        "繰り返しですみません、",
+        "もう一度お聞きします、"
+      ]
+    },
+    "prefix_pandw": {
+      "english": [
+        "Please, "
+      ],
+      "italian": [
+        "Scusami, "
+      ],
+      "japanese": [
+        "どうぞ"
+      ]
+    },
+    "over_and_out":{
+      "english": [
+        "over and out",
+        "what do you think",
+        "what about you",
+        "how about you",
+        "yourself",
+        "do you know what I mean"
+      ],
+      "italian": [
+        "Passo e chiudo",
+        "Cosa ne pensi",
+        "cosa ne pensi"
+      ],
+      "japanese": [
+        "どう思いますか",
+        "あなたはどう",
+        "あなたはどう思いますか",
+        "以上"
+      ]
+    },
+    "I_am_going":{
+      "english": "Do you want me to go now?",
+      "italian": "Vuoi che vada via ora?",
+      "japanese": "あなたは私に今行きたいですか? "
+    },
+    "goodbye_confirm":{
+      "english": "Goodbye?",
+      "italian": "Ciao ciao?",
+      "japanese": "バイバイ!"
+    },
+    "action_confirm":{
+      "english": "Are you sure?",
+      "italian": "Ok?",
+      "japanese": "本当に良いですか"
+    },
+    "repeat":{
+      "english":"repeat",
+      "italian":"ripetere",
+      "japanese": "繰り返します"
+    },
+    "say_again":{
+      "english":"say it again",
+      "italian":"dirlo di nuovo",
+      "japanese": "もう一度言ってください"
+    },
+    "repeat_confirm":{
+      "english": "Do you want me to repeat my last sentence?",
+      "italian": "Vuoi che ripeta l'ultima frase detta?",
+      "japanese": "私の最後の文を繰り返して欲しいですか? "
+    },
+    "repeat_tablet":{
+      "english": "Repeat?",
+      "italian": "Ripeto?",
+      "japanese": "繰り返す"
+    },
+    "over_and_out_only":{
+      "english": "over and out",
+      "italian": "passo e chiudo",
+      "japanese": "通信終わり"
+    },
+    "move_object_t":{
+      "english": "Move Object",
+      "italian": "Muovi un Oggetto",
+      "japanese": "オブジェクトを移動する"
+    },
+    "remind_object_t":{
+      "english": "Remind Object Location",
+      "italian": "Ricorda Posizione Oggetti",
+      "japanese": "オブジェクトの場所を覚えておく"
+    },
+    "meal_keyword":{
+      "english": "meal",
+      "italian": "pasto",
+      "japanese": "食事"
+    }
+  },
+  "AcceptRequest": {
+    "Chitchat":{
+      "english":"Chitchat",
+      "italian":"Chiacchiera",
+      "japanese":"お喋り"      
+    },
+    "switch1":{
+      "english": "Please select your background culture",
+      "italian": "Per favore, seleziona la tua cultura di provenienza",
+      "japanese": "背景文化を選択してください"
+    },
+    "switch1tab":{
+      "english": "Culture?",
+      "italian": "Cultura?",
+      "japanese": "背景文化"
+    },
+    "switch2":{
+      "english": "Please select your language",
+      "italian": "Per favore, seleziona la tua lingua",
+      "japanese": "言語を選択してください"
+    },
+    "switch2tab":{
+      "english": "Language?",
+      "italian": "Lingua?",
+      "japanese": "言語"
+    },
+    "english":{
+      "english": "English",
+      "italian": "Inglese",
+      "japanese": "英語"
+    },
+    "italian":{
+      "english": "Italian",
+      "italian": "Italiano",
+      "japanese": "イタリアの"
+    },
+    "japanese":{
+      "english": "Japanese",
+      "italian": "Giapponese",
+      "japanese":"日本人"
+    },
+    "england":{
+      "english": "English",
+      "italian": "Inglese",
+      "japanese": "英語"
+    },
+    "india":{
+      "english": "Indian",
+      "italian": "Indiana",
+      "japanese": "インド人"
+    },
+    "japan":{
+      "english": "Japanese",
+      "italian": "Giapponese",
+      "japanese":"日本人"
+    },
+    "waitforswitch":{
+      "english": "Please wait for a while, I will restart the system with the new parameters",
+      "italian": "Sto riavviando il sistema con i nuovi parametri. Dovrai aspettare un pochino",
+      "japanese":"しばらくお待ちください、新しいパラメータでシステムを再起動します"
+    },
+    "hello": {
+      "english": [
+        "It's very nice to be here with you",
+        "I am so happy to be here with you"
+      ],
+      "italian": [
+        "Salve. Per favore, fammi sapere cosa posso fare per te",
+        "Buongiorno. Sono qui a tua disposizione",
+        "Ciao! Ti va di parlare un po' con me?",
+        "E' un piacere poter parlare con te",
+        "Mi piacerebbe chiacchierare un po' insieme",
+        "Posso rubarti un po' di tempo?"
+      ],
+      "japanese": [
+        "あなたとここにいるのはとても楽しいです",
+        "私はあなたのためにここにいます"
+      ]
+    },
+    "suggestion": {
+      "english": [
+        "For example I can ",
+        "As a suggestion, I could ",
+        "Among other things, I can "
+      ],
+      "italian": [
+        "Per esempio potrei ",
+        "Tra le altre cose, posso ",
+        "Per darti un suggerimento, potrei ",
+        "Sai cosa pensavo? Posso ",
+        "Lo sai? Posso "
+      ],
+      "japanese": [
+        "例えば,私は,",
+        "提案ですが,",
+        "私からの提案です."
+      ]
+    },
+    "waitingtime": {
+      "english": [
+        "If you're not sure what to choose, I can show you some of the things that I can do on my tablet. Would you like me to do that?",
+        "Do you want me to show you some options on my tablet?"
+      ],
+      "italian": [
+        "Se non sai bene cosa scegliere, posso mostrarti alcune delle  cose che posso fare sul tablet. Ti va?",
+        "Vuoi che ti mostri qualche opzione sul tablet?"
+      ],
+      "japanese": [
+        "何を選べばよいかわからない場合は,タブレットでできることを紹介します.そうして欲しいですか? ",
+        "タブレットのいくつかのオプションを表示しましょうか? "
+      ]
+    },
+    "yes": {
+      "english": "yes",
+      "italian": "sì",
+      "japanese": "はい"
+    },
+    "no": {
+      "english": "no",
+      "italian": "no",
+      "japanese": "いいえ"
+    },
+    "waitrequest": {
+      "english": [
+        "Is there anything I can do for you?",
+        "Tell me if there is anything I can do for you",
+        "Please tell me what I can do for you",
+        "Please tell me what to do, I am here for you",
+        "Let's do something. Do you have any ideas?"
+      ],
+      "italian": [
+        "C'è qualcosa che posso fare per te? ",
+        "Mi piacerebbe fare qualcosa per te. Hai qualche idea? ",
+        "Per favore, dimmi quello che posso fare per te. ",
+        "Posso fare molte cose per te. ",
+        "Possiamo fare tantissime attività insieme. ",
+        "Divertiamoci. Hai qualcosa in ménte? "
+      ],
+      "japanese": [
+        "あなたのために私ができることはありますか? ",
+        "あなたのためにできることがあれば教えてください",
+        "あなたのためにできることは何か教えてください",
+        "何をすべきか教えてください,私はあなたのためにここにいます",
+        "何かしましょう.何か考えはありますか? "
+      ]
+    },
+    "achievegoal": {
+      "english": [
+        "Ok, let's do that!",
+        "Let's do that!",
+        "I am happy to be helpful!",
+        "I will help you do that"
+      ],
+      "italian": [
+        "Bene, facciamolo!",
+        "Ok, ottimo!",
+        "Che bello!",
+        "Ok, con piacere!"
+      ],
+      "japanese": [
+        "それじゃあ,やってみましょう!",
+        "お役に立ててうれしいです"
+      ]
+    },
+    "letstalk": {
+      "english": [
+        "Let's talk a little!",
+        "Interesting! Let's talk about that",
+        "I would like to know more!",
+        "Please tell me more",
+        "I am very curious, let's talk about that"
+      ],
+      "italian": [
+        "Parliamo insieme",
+        "Interessante! Mi piacerebbe saperne di più!"
+      ],
+      "japanese": [
+        "少しお話ししましょう!",
+        "面白いですね!それについて話しましょう",
+        "もっと知りたいです!",
+        "もっと教えてください",
+        "とても興味があります,それについて話しましょう"
+      ]
+    },
+    "revise": {
+      "english": [
+        "Do you want me to revise your previous answer?",
+        "We could revise your previous answer. Do you want to do that?"
+      ],
+      "italian": [
+        "Vuoi modificare la tua ultima risposta?"
+      ],
+      "japanese": [
+        "あなたの以前の回答を修正しましょうか? ",
+        "以前の回答を修正することができます.そうしましょうか? "
+      ]
+    },
+    "revise_cm": {
+      "english": "Revise?",
+      "italian": "Rivedi?",
+      "japanese": "修正しますか? "
+    },
+    "options_cm": {
+      "english": "Show Options?",
+      "italian": "Mostro le Opzioni?",
+      "japanese": "オプションを表示しますか? "
+    },
+    "noproblem": {
+      "english": [
+        "Ok, no problem",
+        "No problem!",
+        "Ok!"
+      ],
+      "italian": [
+        "Ok, va bene"
+      ],
+      "japanese": [
+        "問題ありません"
+      ]
+    },
+    "repeat": {
+      "english": [
+        "Sure! I said ",
+        "Sure! I will repeat my last sentence! ",
+        "Of course, no problem. "
+      ],
+      "italian": [
+        "Certo!"
+      ],
+      "japanese": [
+        "はい,最後の文を繰り返します",
+        "もちろん問題ありません"
+      ]
+    },
+    "goodbye": {
+      "english": [
+        "Do you want me to go now?",
+        "Shall I go to rest for a while?",
+        "Shall I go to sleep?",
+        "Do you want to stop talking?"
+      ],
+      "italian": [
+        "Vuoi smettere di parlare con me?"
+      ],
+      "japanese": [
+        "どこかへ出ていったほうが良いですか? ",
+        "しばらく休んでおきましょうか? ",
+        "話すのをやめましょうか? "
+      ]
+    },
+    "goodbye_cm": {
+      "english": "Goodbye?",
+      "italian": "Ciao?",
+      "japanese": "さようなら"
+    },
+    "goodbye_yes": {
+      "english": [
+        "Ok! It has been a pleasure talking with you! Goodbye!",
+        "Goodbye! Thank you for your time!",
+        "I hope I've been helpful. Goodbye"
+      ],
+      "italian": [
+        "Ciao! Spero di esserti stato di aiuto",
+        "Ciao, a presto!",
+        "Arrivederci",
+        "Alla prossima"
+      ],
+      "japanese": [
+        "わかりました!あなたと話すのは楽しかったです!さようなら!",
+        "さようなら!お時間をいただきありがとうございます.",
+        "私が役に立ったことを願っています.さようなら"
+      ]
+    },
+    "goodbye_no": {
+      "english": [
+        "Great! I am happy that we can keep talking!",
+        "Ok, let's keep talking!",
+        "I'm glad I misunderstood you!"
+      ],
+      "italian": [
+        "Bene, sono contento che possiamo continuare a parlare",
+        "Ottimo, possiamo continuare a parlare allora!"
+      ],
+      "japanese": [
+        "いいですね!お話を続けることができてできてうれしいです!",
+        "わかりました,話を続けましょう!",
+        "私の勘違いだと気づき安心しました!"
+      ]
+    },
+    "action_check": {
+      "english": [
+        "Just to make sure, do you want me to ",
+        "I have understood that you want me to ",
+        "Let me check, do you want me to "
+      ],
+      "italian": [
+        "Te lo chiedo per sicurezza, vuoi che "
+      ],
+      "japanese": [
+        "確認させてください,私にしてほしいことは"
+      ]
+    },
+    "cm_question": {
+      "english": [
+        "Great! Please select what you want me to do for you!",
+        "I am happy to be helpful! These are the things that I can do for you.",
+        "Please use the tablet to choose what I can do for you."
+      ],
+      "italian": [
+        "Dimmi pure cosa posso fare per te"
+      ],
+      "japanese": [
+        "私にしてもらいたいことを選んでください!",
+        "お役に立ててうれしいです.これらは私があなたのためにできることです.",
+        "タブレットに出ている私ができることの中から選んでください."
+      ]
+    },
+    "cm_q1": {
+      "english": "Options",
+      "italian": "Cosa devo fare?",
+      "japanese": "どうしたらよいですか? "
+    },
+    "cm_q2": {
+      "english": "Options",
+      "italian": "Optioni",
+      "japanese": "オプション"
+    },
+    "continue": {
+      "english": [
+        "Do you want to unblock me?"
+      ],
+      "italian": [
+        "Vuoi sbloccarmi?"
+      ],
+      "japanese": "私のブロック状態を解除しますか? "
+    },
+    "continue_cm": {
+      "english": "Unblock",
+      "italian": "Sblocca",
+      "japanese": "ブロック解除します"
+    },
+    "freeze": {
+      "english": [
+        "Do you want to freeze me?"
+      ],
+      "italian": [
+        "Vuoi bloccarmi?"
+      ],
+      "japanese": "私を止めたいですか? "
+    },
+    "freeze_cm": {
+      "english": "Freeze",
+      "italian": "Blocca",
+      "japanese": "停止します"
+    },
+    "freezed": {
+      "english": [
+        "Now I am frozen. If you want to unblock me, please say unblock"
+      ],
+      "italian": [
+        "Sono in pausa. Se vuoi sbloccarmi, dì la parola sblocca"
+      ],
+      "japanese": [
+        "現在停止中です.私のブロック状態を解除したい場合は,ブロック解除と言ってください"
+      ]
+    },
+    "display_to_be_appended": {
+      "english": ["Beliefs and Values", "History", "Hobbies", "Daily Routine", "Festivities", "Health", "Preferences", "Life", "Physical environment", "Pepper's capabilities", "Family and friends"],
+      "italian": ["Religione e Valori", "Storia", "Hobby", "Vita Quotidiana", "Festività", "Salute", "Preferenze", "Vita", "Luoghi", "Capacità di Pepper", "Famiglia e Amici"],
+      "japanese":["宗教と価値", "歴史", "趣味", "日常生活", "お祭り", "健康", "設定", "生活", "物理的環境", "ペッパーの能力", "家族や友達"]
+    },
+    "keywords_to_be_appended":{
+      "english": ["belief", "the_past", "hobbies", "everyday", "festivities", "health_aspects", "my_preference", "about_me", "physical_environment", "suggest", "family_friend"],
+      "italian": ["credenze", "la_storia", "hobby", "giornalmente", "celebrazioni", "stato_di_salute", "preferenze", "su_di_me", "ambiente", "suggerisci", "famiglia_amici" ],
+      "japanese":["信念", "過去", "趣味", "日常", "お祝い", "健康面", "私の好み", "私について", "物理的環境", "提案", "友だち家族"]
+    },
+    "backup_sentence":{
+      "english": "I am happy to be helpful",
+      "italian": "Sono felice di essere d'aiuto",
+      "japanese": "お役に立ててうれしいです"
+    },
+    "replacement": {
+      "english": ["your a custom number", "someone you know"],
+      "italian": ["esempio sorella", "esempio tua sorella", "esempio fratello", "esempio tuo fratello", "esempio nipote", "esempio tuo nipote", "esempio un numero", "oppure un numero", "esempio marito", "esempio tuo marito", "esempio figlio", "esempio tuo figlio", "esempio amico", "esempio tuo amico"],
+      "japanese": ["あなたのカスタムナンバー", "あなたの知っている誰か"]
+    },
+    "other":{
+      "english":"other",
+      "italian":"altro",
+      "japanese": "その他"
+    }
+  },
+  "OperateIoT": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can control some of the devices in this room. Please tell me which device you would like me to control.",
+        "italian": "Posso controllare alcuni dei dispositivi in questa stanza. Per favore, dimmi quale dispositivo vorresti controllare.",
+        "japanese": "私はこの部屋の中のいくつかのデバイスを制御できます. どのデバイスを制御したいか教えてください."
+      },
+      "1": {
+        "english": "I can control $OPTION1$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": "Posso controllare $OPTION1$ e altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo vorresti controllare.",
+        "japanese": "私は部屋の中で $OPTION1$ や他のデバイスを制御することができます. どのデバイスを制御したいか教えてください."
+      },
+      "2": {
+        "english": "I can control $OPTION1$, $OPTION2$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": "Posso controllare $OPTION1$, $OPTION2$ e altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo vorresti controllare.",
+        "japanese": "私は部屋の中で $OPTION1$ や $OPTION2$ さらに他のデバイスを制御することができます. どのデバイスを制御したいか教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which device?",
+        "italian": "Quale dispositivo?",
+        "japanese": "どのデバイス? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I can help you control $KEYWORD$.",
+        "italian": "Va bene, ti aiuto a controllare $KEYWORD$.",
+        "japanese": "さて,私はあなたが $KEYWORD$ を制御する手助けをすることができます."
+      },
+      "without-keyword": {
+        "english": "Alright, let me do it.",
+        "italian": "Va bene, lascia fare a me.",
+        "japanese": "じゃあ,私にやらせてください."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to control $CONFIRM$?",
+        "italian": "Vuoi controllare $CONFIRM$?",
+        "japanese": " $CONFIRM$ を制御しますか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' を尋ねたことに気づきました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand which device you want to control. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che dispositivo vuoi controllare. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,どのデバイスを制御したいのかわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "The current status of $DEVICE$ is $STATUS$. Do you want me to $ACTION$ $DEVICE$ in the $ROOM$?",
+        "italian": "Al momento $DEVICE$ è $STATUS$. Vuoi $ACTION$ $DEVICE$ in $ROOM$?",
+        "japanese": " $DEVICE$ の現在の状態は $STATUS$ です. $ROOM$ の中で $DEVICE$ を $ACTION$ にしてほしいですか? "
+      },
+      "1": {
+        "english": "$DEVICE$ is already $STATUS$.",
+        "italian": "$DEVICE$ è già $STATUS$.",
+        "japanese": " $DEVICE$ はすでに $STATUS$ の状態である."
+      },
+      "2": {
+        "english": "Ok.",
+        "italian": "Va bene.",
+        "japanese": "オーケー"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?",
+        "japanese": "この活動は役に立ちましたか, 教えてください? "
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "ReadIoT": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can give you the readings for some of the devices in this room. Please tell me which readings you are interested in.",
+        "italian": "Posso darti le letture per alcuni dei dispositivi in questa stanza. Per favore, dimmi quali letture ti interessano.",
+        "japanese": "私はあなたにこの部屋の中のいくつかのデバイスの状態を教えることができます. どのデバイスに興味があるか教えてください."
+      },
+      "1": {
+         "english": "I can tell you the status of some of the devices in this room. Please tell me which status you are interested in.",
+         "italian": "Posso dirti lo stato di alcuni dei dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa.",
+         "japanese": "この部屋にあるいくつかのデバイスの状態をを確認できます. どのデバイスに興味があるのか教えてください."
+      },
+      "2": {
+        "english": "I can give you the readings for $OPTION1$ and other devices in this room. Please tell me which device you are interested in.",
+        "italian": "Posso darti le letture di $OPTION1$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa.",
+        "japanese": "私はあなたにこの部屋の $OPTION1$ やさらに他のデバイスの読みを与えることができます. どのデバイスに興味がありますか."
+      }, 
+      "3": {
+        "english": "I can tell you the status of $OPTION1$ and of some of the devices in this room. Please tell me which status you are interested in.",
+        "italian": "Posso dirti lo stato di $OPTION1$ e di alcuni dei dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa.",
+        "japanese": "私はあなたにこの部屋の中の $OPTION1$ やさらに他のデバイスの状態を伝えることができます. どのデバイスに興味があるのか教えてください."
+      },
+      "4": {
+        "english": "I can give you the readings for $OPTION1$, $OPTION2$ and other devices in this room. Please tell me which device you are interested in.",
+        "italian": "Posso darti le letture di $OPTION1$, $OPTION2$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa.",
+        "japanese": "私はあなたにこの部屋の中の $OPTION1$ や $OPTION2$ ,さらに他のデバイスの読みを与えることができます. どのデバイスに興味がありますか."
+      },
+      "5": {
+      "english": "I can tell you the status of $OPTION1$, $OPTION2$ and other devices in this room. Please tell me which status you are interested in.",
+      "italian": "Posso dirti lo stato di $OPTION1$, $OPTION2$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa.",
+      "japanese": "この部屋の $OPTION1$ や $OPTION2$ ,やさらに他のデバイスの状態を確認できます. どのデバイスに興味があるのか教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which device?",
+        "italian": "Quale dispositivo?",
+        "japanese": "どのデバイス? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, let me check $KEYWORD$.",
+        "italian": "Va bene, controllo $KEYWORD$.",
+        "japanese": "それでは,私は $KEYWORD$ をチェックしましょう."
+      },
+      "without-keyword": {
+        "english": "Alright, let me check.",
+        "italian": "Va bene, lasciami controllare.",
+        "japanese": "それでは,私はチェックしましょう."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Did you say $CONFIRM$?",
+        "italian": "Hai detto $CONFIRM$?",
+        "japanese": "あなたは $CONFIRM$ と言いましたか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai detto: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と頼んだことが分かりました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand what you want to know. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito cosa vuoi sapere. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,私はあなたが知りたいことが理解できませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "$DEVICE$ in the $ROOM$ is currently $STATUS$.",
+        "italian": "Al momento $DEVICE$ in $ROOM$ è $STATUS$.",
+        "japanese": " $ROOM$ 内の $DEVICE$ は現在 $STATUS$ です."
+      },
+      "1": {
+        "english": "Do you want to know $DEVICE$ in the $ROOM$?",
+        "italian": "Vuoi sapere $DEVICE$ in $ROOM$?.",
+        "japanese": " $ROOM$ 内の $DEVICE$ を知りたいですか? "
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?",
+        "japanese": "この活動は役に立ちましたか, 教えてください? "
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "OperateiHouse": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can control some of the devices in this room. Please tell me which device you would like me to control.",
+        "italian": ""
+      },
+      "1": {
+        "english": "I can control $OPTION1$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": ""
+      },
+      "2": {
+        "english": "I can control $OPTION1$, $OPTION2$ and other devices in the room. Please tell me which device you would like me to control.",
+        "italian": ""
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which device?",
+        "italian": "Quale dispositivo?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll let you control $KEYWORD$.",
+        "italian": "Va bene, ti faccio controllare $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright, let me do it.",
+        "italian": "Va bene, lascia fare a me."
+      }
+    },
+    "ask-confirmation":{
+      "with-keyword": {
+        "english": "Do you want to control $CONFIRM$?",
+        "italian": "Vuoi controllare $CONFIRM$?"
+      },
+      "without-keyword":{
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which device you want to control. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito che dispositivo vuoi controllare. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "The current status of $DEVICE$ is $STATUS$. What would you like to do? Please select an option on my tablet.",
+        "italian": "Al momento $DEVICE$ è $STATUS$. Cosa vorresti fare? Per favore scegli un'opzione sul tablet."
+      },
+      "1": {
+        "english": "$DEVICE$ is already $STATUS$.",
+        "italian": "$DEVICE$ è già $STATUS$."
+      },
+      "2": {
+        "english": "Done!",
+        "italian": "Fatto!"
+      },
+      "3": {
+        "english": "The current status of $DEVICE$ is $STATUS$. Do you want me to $ACTION$ $DEVICE$ in the $ROOM$?",
+        "italian": "Al momento $DEVICE$ è $STATUS$. Vuoi $ACTION$ $DEVICE$ in $ROOM$?"
+      },
+      "4": {
+        "english": "I am sorry. Currently I am not able to satisfy your request. Please, try again later.",
+        "italian": "Mi dipiace. Al momento non sonon in grado di soddisfare la tua richiesta. Per favore, riprova più tardi."
+      },
+      "5": {
+        "english": "I cannot increase the level beyond its current value.",
+        "italian": "Non posso aumentare il livello oltre il suo valore attuale."
+      },
+      "6": {
+        "english": "I cannot decrease the level beyond its current value.",
+        "italian": "Non posso diminuire il livello oltre il suo valore attuale."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "ReadiHouse": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can give you the readings for some of the devices in this room. Please tell me which readings you are interested in.",
+        "italian": "Posso darti le letture per alcuni dei dispositivi in questa stanza. Per favore, dimmi quali letture ti interessano."
+      },
+      "1": {
+         "english": "I can tell you the status of some of the devices in this room. Please tell me which status you are interested in.",
+         "italian": "Posso dirti lo stato di alcuni dei dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa."
+      },
+      "2": {
+        "english": "I can give you the readings for $OPTION1$ and other devices in this room. Please tell me which device you are interested in.",
+        "italian": "Posso darti le letture di $OPTION1$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa."
+      }, 
+      "3": {
+        "english": "I can tell you the status of $OPTION1$ and of some of the devices in this room. Please tell me which status you are interested in.",
+        "italian": "Posso dirti lo stato di $OPTION1$ e di alcuni dei dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa."
+      },
+      "4": {
+        "english": "I can give you the readings for $OPTION1$, $OPTION2$ and other devices in this room. Please tell me which device you are interested in.",
+        "italian": "Posso darti le letture di $OPTION1$, $OPTION2$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa."
+      },
+      "5": {
+      "english": "I can tell you the status of $OPTION1$, $OPTION2$ and other devices in this room. Please tell me which status you are interested in.",
+      "italian": "Posso dirti lo stato di $OPTION1$, $OPTION2$ e di altri dispositivi in questa stanza. Per favore, dimmi quale dispositivo ti interessa."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which information?",
+        "italian": "Quale informazione?"
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll retrieve $KEYWORD$.",
+        "italian": "Va bene, controllo $KEYWORD$."
+      },
+      "without-keyword": {
+        "english": "Alright, let me check for it.",
+        "italian": "Va bene, lasciami controllare."
+      }
+    },
+    "ask-confirmation":{
+      "with-keyword": {
+        "english": "Do you want to know $CONFIRM$?",
+        "italian": "Vuoi sapere $CONFIRM$?"
+      },
+      "without-keyword":{
+        "english": "I understood that you asked: '$CONFIRM$'. Is it correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you want to know. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito cosa vuoi sapere. Per favore scegli un'opzione sul tablet."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "$DEVICE$ in the $ROOM$ is currently $STATUS$.",
+        "italian": "Al momento $DEVICE$ in $ROOM$ è $STATUS$."
+      },
+      "1": {
+        "english": "Do you want to know $DEVICE$ in the $ROOM$?",
+        "italian": "Vuoi sapere $DEVICE$ in $ROOM$?."
+      },
+      "2": {
+        "english": "I am sorry. Currently I am not able to satisfy your request. Please, try again later.",
+        "italian": "Mi dipiace. Al momento non sonon in grado di soddisfare la tua richiesta. Per favore, riprova più tardi."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this activity useful?" ,
+        "italian": "Puoi dirmi per favore se hai trovato utile questo servizio?"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione."
+      }
+    }
+  },
+  "IoT-iHouse-Room": {
+    "ask-parameters": {
+      "0": {
+        "english": "In which room?",
+        "italian": "In quale stanza?",
+        "japanese": "どの部屋? "
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which room?",
+        "italian": "Quale stanza?",
+        "japanese": "どの部屋? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene.",
+        "japanese": "大丈夫"
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene.",
+        "japanese": "大丈夫"
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand which room. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale stanza. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみません,私はどの部屋がわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      }
+    }
+  },
+  "Privacy": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "May I look now?",
+        "italian": "Posso guardare adesso?",
+        "japanese": "もう振り返っていいですか."
+      },
+      "1": {
+        "english": "Ok, sorry. I will wait.",
+        "italian": "Va bene, scusa. Aspetterò ancora.",
+        "japanese": "ごめんなさい, 待ちます."
+      },
+      "2": {
+        "english": "Please touch my head when you want me to turn back towards you.",
+        "italian": "Per favore, toccami la testa quando vuoi che mi giri di nuovo verso di te.",
+        "japanese": "振り返ってよいときには、私の頭に触れてください."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "you can turn",
+          "turn around",
+          "turn",
+          "look",
+          "you can look"
+        ],
+        "italian": [
+          "puoi girarti",
+          "girati",
+          "guarda",
+          "puoi guardare"
+        ],
+        "japanese": [
+          "振り向く",
+          "見て",
+          "回す"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      }
+    }
+  },
+  "TellDateTime": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "Today is $WEEKDAY$, $DATE$.",
+        "italian": "Oggi è $WEEKDAY$, $DATE$.",
+        "japanese": "今日は $WEEKDAY$, $DATE$ です."
+      },
+      "1": {
+        "english": "It is $TIME12$.",
+        "italian": "Sono le $TIME24$.",
+        "japanese": " $TIME12$ です."
+      }
+    }
+  },
+  "ReadNews-Source": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can read you the news from many channels. Please tell me the news channel you would like me to read from.",
+        "italian": "Posso leggerti le notizie da diverse testate. Per favore dimmi la testata di cui vuoi che ti legga le notizie.",
+        "japanese": "私は多くのチャンネルのニュースを読むことができます. あなたが私に読んでもらいたいニュースチャンネルを教えてください."
+      },
+      "1": {
+        "english": "I can read you the news from $OPTION1$ and many other channels. Please tell me the news channel you would like me to read from.",
+        "italian": "Posso leggerti le notizie da $OPTION1$ e da diverse altre testate. Per favore dimmi la testata di cui vuoi che ti legga le notizie.",
+        "japanese": "私は $OPTION1$ や他の多くのチャンネルからのニュースを読むことができます. あなたが私に読んでもらいたいニュースチャンネルを教えてください."
+      },
+      "2": {
+        "english": "I can read you the news from $OPTION1$, $OPTION2$ and many other channels. Please tell me the news channel you would like me to read from.",
+        "italian": "Posso leggerti le notizie da $OPTION1$, $OPTION2$ e da diverse altre testate. Per favore dimmi la testata di cui vuoi che ti legga le notizie.",
+        "japanese": "私は $OPTION1$ や $OPTION2$ さらに他の多くのチャンネルからのニュースを読むことができます. あなたが私に読んでもらいたいニュースチャンネルを教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which channel?",
+        "italian": "Quale testata?",
+        "japanese": "どのチャンネル? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll get the news from $KEYWORD$.",
+        "italian": "Va bene, cerco le notizie su $KEYWORD$.",
+        "japanese": "では,私は $KEYWORD$  からニュースを探します."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene.",
+        "japanese": "では"
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to read the news from $CONFIRM$?",
+        "italian": "Vuoi che cerchi le notizie su $CONFIRM$?",
+        "japanese": "あなたは私に $CONFIRM$  からのニュースを読んでほしいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と頼んだことを理解しました. あれは正しいですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't understand which channel you said. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale testata hai detto. Per favore scegli un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,あなたがどの記事のことを言ったのかわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "I found this article: $ART_HEAD$.",
+        "italian": "Ho trovato questo articolo: $ART_HEAD$.",
+        "japanese": "私はこの記事を見つけました: $ART_HEAD$."
+      },
+      "1": {
+        "english": "Do you want to read this article?",
+        "italian": "Vuoi leggere questo articolo?",
+        "japanese": "この記事を読みたいですか? "
+      },
+      "2": {
+        "english": "Sorry, there are no more articles. Feel free to ask me to read you the news again.",
+        "italian": "Mi spiace, non ci sono altri articoli. Sentiti libero di chiedermi nuovamente di leggerti le notizie.",
+        "japanese": "すみません,他に記事はありません.このニュースをもう一回読んでほしいなら私に教えでください"
+      },
+      "3": {
+        "english": "Do you want me to go on with the next %d headlines?",
+        "italian": "Vuoi che continui con i prossimi %d titoli?",
+        "japanese": "次の %d タイトルに続けますか? "
+      },
+      "4": {
+        "english": "Do you want me to read the article aloud for you?",
+        "italian": "Vuoi che legga l'articolo ad alta voce?",
+        "japanese": "あなたは私にこの記事を声を出して読んでほしいか? "
+      },
+      "5": {
+        "english": "Shall I keep reading?",
+        "italian": "Vuoi che continui a leggere?",
+        "japanese": "読み続けますか."
+      },
+      "6": {
+        "english": "Here it is.",
+        "italian": "Eccolo.",
+        "japanese": "ここです"
+      },
+      "7": {
+        "english": "Do you want me to read another article?",
+        "italian": "Vuoi che legga un altro articolo?",
+        "japanese": "他の記事を読みましょうか."
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, did you enjoy reading the news of the day?",
+        "italian": "Ti è piaciuto sapere le notizie del giorno?",
+        "japanese": "今日のニュースを読むのは楽しかったですか.教えてください."
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "TakeAndSendPicture": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can send the picture to the people in your contact list. Please tell me who you want to send the picture to.",
+        "italian": "Posso inviare la foto ai contatti nella tua rubrica. Per favore dimmi a chi vuoi mandare la foto.",
+        "japanese": "私はあなたの連絡先リストの人々に写真を送ることができます. 誰に写真を送りたいのか教えてください."
+      },
+      "1": {
+        "english": "I can send the picture to your $OPTION1$ and to many other people in your contact list. Please tell me who you want to send the the picture to.",
+        "italian": "Posso inviare la foto al contatto $OPTION1$ e a molti altri contatti nella tua rubrica. Per favore dimmi a chi vuoi mandare la foto.",
+        "japanese": "私はあなたの $OPTION1$ や連絡先リストの他の人に写真を送ることができます. 誰に写真を送りたいのか教えてください."
+      },
+      "2": {
+        "english": "I can send the picture to your $OPTION1$, your $OPTION2$ and to many other people in your contact list. Please tell me who you want to send the the picture to.",
+        "italian": "Posso inviare la foto ai contatti $OPTION1$, $OPTION2$ e a molti altri contatti nella tua rubrica. Per favore dimmi a chi vuoi mandare la foto.",
+        "japanese": "私はあなたの $OPTION1$ や $OPTION2$ ,または連絡先リストの他の人に写真を送ることができます. 誰に写真を送りたいのか教えてください."
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Send the picture to who?",
+        "italian": "Inviare la foto a chi?",
+        "japanese": "誰に写真を送りますか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Great, I'll send the picture to your $KEYWORD$ .",
+        "italian": "Va bene, manderò la foto al contatto $KEYWORD$ .",
+        "japanese": "さて,私はこの写真を $KEYWORD$  に送ります."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to send the picture to your $CONFIRM$ ?",
+        "italian": "Vuoi che mandi la foto al contatto $CONFIRM$ ?",
+        "japanese": "あなたはこの写真をあなたの $CONFIRM$  に送ってほしいか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と言ったことを分かりました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, this person is not in your contact list. Please select an option on my tablet.",
+        "italian": "Scusa, questa persona non è in rubrica. Per favore, seleziona un'opzione sul tablet.",
+        "japanese": "申し訳ありませんが,この人の電話番号は入っていません.タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "When you are ready for the picture, press the button on my tablet and look at me. I will count to 3 before shooting.",
+        "italian": "Quando vuoi, premi il tasto sul tablet e guardami. Conterò fino a 3, prima di scattare.",
+        "japanese": "写真を撮るの準備ができたら,タブレットのボタンを押して私を見てください.カウントダウンを始めます."
+      },
+      "1": {
+        "english": "",
+        "italian": "",
+        "japanese": ""
+      },
+      "2": {
+        "english": "Good! Now, please don't move.\\pau=1000\\1, \\pau=1000\\2, \\pau=1000\\3.",
+        "italian": "Bene! Ora per favore cerca di non muoverti. \\pau=1000\\1, \\pau=1000\\2, \\pau=1000\\3.",
+        "japanese": "撮りますよー! 動かないでくださーい. \\pau=1000\\1, \\pau=1000\\2, \\pau=1000\\3."
+      },
+      "3": {
+        "english": "Done! I will display it on the tablet!",
+        "italian": "Fatto! La mostrerò sul tablet.",
+        "japanese": "撮影完了!タブレットに表示します!"
+      },
+      "4": {
+        "english": "Take your time and look at the picture as long as you like. Then please tell me if you want to keep the picture or delete it.",
+        "italian": "Prenditi tutto il tempo che vuoi per guardare la foto. Poi dimmi se vuoi salvarla o eliminarla.",
+        "japanese": "この写真をゆっくりみていいですよ,見終わったらこの写真を保存するか削除するかを教えてください."
+      },
+      "5": {
+        "english": "Do you want to send the picture to someone?",
+        "italian": "Vuoi mandare la foto a qualcuno?",
+        "japanese": "あなたは写真を誰かに送りたいか? "
+      },
+      "6": {
+        "english": "Do you want to take another picture?",
+        "italian": "Vuoi fare un'altra foto?",
+        "japanese": "あなたは別の写真を撮りたいですか? "
+      },
+      "7": {
+        "english": "Sorry, I didn't get that. Do you want to keep the picture or delete it?",
+        "italian": "Scusa, non ho capito. Vuoi salvare la foto o eliminarla?",
+        "japanese": "すみません,それはわかりませんでした. 写真をそのまま保存しますか,それとも削除しますか."
+      },
+      "8": {
+        "english": "Keep or delete?",
+        "italian": "Salva o elimina?",
+        "japanese": "保存または削除しますか? "
+      },
+      "9": {
+        "english": "Please select how you want to send the picture to your $RECIPIENT$.",
+        "italian": "Per favore, seleziona in che modo vuoi inviare la foto al contatto $RECIPIENT$.",
+        "japanese": "写真を $RECIPIENT$ に送信する方法を選択してください"
+      },
+      "10": {
+        "english": "Select mode",
+        "italian": "Seleziona il modo",
+        "japanese": "モードを選択"
+      },
+      "11": {
+        "english": "I've just sent the picture to your $RECIPIENT$.",
+        "italian": "Ho appena mandato la foto al contatto $RECIPIENT$.",
+        "japanese": "私はたった今写真をあなたの $RECIPIENT$ に送りました."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "SHOOT"
+        ],
+        "italian": [
+          "SCATTA"
+        ],
+        "japanese": [
+          "撮影"
+        ]
+      },
+      "keep": {
+        "english": [
+          "keep",
+          "save"
+        ],
+        "italian": [
+          "salva",
+          "tieni",
+          "tener"
+        ],
+        "japanese": [
+          "保存",
+          "保存して"
+        ]
+      },
+      "delete": {
+        "english": [
+          "delete",
+          "trash"
+        ],
+        "italian": [
+          "elimina",
+          "cancella",
+          "butta"
+        ],
+        "japanese": [
+          "消す",
+          "消して",
+          "クリア",
+          "削除",
+          "削除して"
+        ]
+      }
+    },
+    "settings":{
+      "email-object":{
+        "english": "CARESSES Project - $USERNAME$ is sending a picture",
+        "italian": "CARESSES Project - $USERNAME$ ti ha mandato una foto",
+        "japanese": "CARESSES Project - $USERNAME$さんが写真を送っています"
+      },
+      "message": {
+        "english": "Hello $RECIPIENT$,\nthis picture is for you.\n\n$USERNAME$",
+        "italian": "Ciao $RECIPIENT$,\nquesta foto è per te.\n\n$USERNAME$",
+        "japanese": "こんにちは $RECIPIENT$,\nこの写真はあなたへのものです.\n\n$USERNAME$"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell if you enjoyed taking this picture?",
+        "italian": "Puoi dirmi se ti è piaciuto scattare questa foto?",
+        "japanese": "この写真を撮って楽しめたか教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie mille!",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "ReadMenu": {
+    "ask-parameters": {
+      "0": {
+        "english": "Which meal would you like some information about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?",
+        "japanese": "どの食事について知りたいか私に教えてください: $OPTION1$ $OPTION2$ または $OPTION3$ ? "
+      },
+      "1": {
+        "english": "Can you tell me which meal you would like some information about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Puoi dirmi su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?",
+        "japanese": "どの食事について知りたいか教えてくれませんか: $OPTION1$ $OPTION2$ または $OPTION3$ ? "
+      },
+      "2": {
+        "english": "Please, tell me which meal you would like some information about: $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Per favore, su quale pasto vuoi essere informato: $OPTION1$, $OPTION2$ o $OPTION3$?",
+        "japanese": "あなたがどの食事について知りたいか私に教えてください: $OPTION1$ $OPTION2$ または $OPTION3$ ? "
+      },
+      "3": {
+        "english": "Which meal would you like some information about: $OPTION1$ or $OPTION2$?",
+        "italian": "Su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?",
+        "japanese": "どの食事について知りたいですか教えてください: $OPTION1$ または $OPTION2$ ? "
+      },
+      "4": {
+        "english": "Can you tell me which meal you would like some information about: $OPTION1$ or $OPTION2$?",
+        "italian": "Puoi dirmi su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?",
+        "japanese": "あなたがどの食事について知りたいか私に教えてください: $OPTION1$ または $OPTION2$ ? "
+      },
+      "5": {
+        "english": "Please, tell me which meal you would like some information about: $OPTION1$ or $OPTION2$?",
+        "italian": "Per favore, su quale pasto vuoi essere informato: $OPTION1$ o $OPTION2$?",
+        "japanese": "あなたがどの食事について知りたいか私に教えてください: $OPTION1$ または $OPTION2$ ? "
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which meal?",
+        "italian": "Quale pasto?",
+        "japanese": "どの食事? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I'll tell you what you can have for $KEYWORD$.",
+        "italian": "Va bene, ti dirò che cosa puoi avere per $KEYWORD$.",
+        "japanese": "わかりました,あなたが $KEYWORD$ で食べられるものをお教えします."
+      },
+      "without-keyword": {
+        "english": "Alright.",
+        "italian": "Va bene.",
+        "japanese": "よし"
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Would you like to know what you can have for $CONFIRM$?",
+        "italian": "Vuoi sapere che cosa puoi avere per $CONFIRM$?",
+        "japanese": ""
+      },
+      "without-keyword": {
+        "english": "I understood that you asked: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito che mi hai chiesto: '$CONFIRM$'. E' corretto?",
+        "japanese": "あなたが '$CONFIRM$' を尋ねたことに気づきました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get which meal you said. Please select an option on my tablet.",
+        "italian": "Mi spiace ma non ho capito quale pasto hai scelto. Per favore scegli un'opzione sul tablet.",
+        "japanese": "すみませんが,あなたが選んだ食事がわかりませんでした.タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Today for $MEAL$ you can have: $MENU$.",
+        "italian": "Oggi a $MEAL$ puoi mangiare: $MENU$.",
+        "japanese": "今日は $MEAL$ を食べられます: $MENU$ ."
+      },
+      "1": {
+        "english": "I'm sorry, I have no information about today's menu.",
+        "italian": "Mi spiace ma non ho nessuna informazione sul menù del giorno.",
+        "japanese": "すみません、今日のメニューに関する情報はありません"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Please tell me, was this information useful?",
+        "italian": "Puoi dirmi per favore se hai trovato utile quest'informazione?",
+        "japanese": "この情報は役に立ちましたか? 教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "ShowPictures": {
+    "ask-parameters": {},
+    "ask-before-options": {},
+    "parameter-answer": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "ask-confirmation": {
+      "with-keyword": {},
+      "without-keyword": {}
+    },
+    "wrong-parameter": {},
+    "other": {
+      "0": {
+        "english": "I will show you all the pictures we took! Tell me '$STOPKEYWORD$' when you want to quit.",
+        "italian": "Ti faccio vedere le foto che abbiamo scattato! Dimmi '$STOPKEYWORD$' quando vuoi interrompere.",
+        "japanese": "私たちが撮ったすべての写真をお見せします!あなたがやめたいときには '$STOPKEYWORD$' と言ってください."
+      },
+      "1": {
+        "english": "That's all $USERNAME$!",
+        "italian": "Non c'è altro $USERNAME$, sono finite!",
+        "japanese": "これですべての $USERNAME$ です."
+      },
+      "2": {
+        "english": "I hope you liked them!",
+        "italian": "Spero che ti siano piaciute",
+        "japanese": "あなたがそれらが好きならといいなぁと思っています"
+      },
+      "3": {
+        "english": "Sorry, there are no pictures yet.",
+        "italian": "Mi spiace, non c'è ancora nessuna foto da vedere.",
+        "japanese": "すみません,まだ写真がありません."
+      }
+    },
+    "user": {
+      "0": {
+        "english": [
+          "stop",
+          "please stop",
+          "exit"
+        ],
+        "italian": [
+          "basta",
+          "per favore basta",
+          "esci"
+        ],
+        "japanese": [
+          "止まって",
+          "中止",
+          "終了",
+          "やめたい",
+          "やめる"
+        ]
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Tell me, did you enjoy looking at these pictures?",
+        "italian": "Ti è piaciuto guardare le foto?",
+        "japanese": "あなたはこれらの写真を見て楽しんでいましたか, 教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "Accompany": {
+    "other": {
+      "0": {
+        "english": "You can take me by the hand if you like. When we arrive, please remember to press the button on my tablet.",
+        "italian": "Prendimi pure per mano se vuoi. Quando arriviamo, per favore ricorda di premere il tasto sul mio tablet.",
+        "japanese": "もしあなたが好きなら, 私の手を連れてもいい. 到着したら, タブレットのボタンを押してください."
+      },
+      "1": {
+        "english": "It was very nice to walk together with you.",
+        "italian": "E' stato bello camminare insieme.",
+        "japanese": "あなたと一緒に歩くのはとてもいいことです."
+      },
+      "2": {
+        "english": "Are we there yet?",
+        "italian": "Siamo arrivati?",
+        "japanese": "私達は到着しましたか? "
+      }
+    },
+    "user": {
+      "0": {
+        "english": "yes",
+        "italian": "sì",
+        "japanese": "はい"
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Can you tell me if you liked walking with me?",
+        "italian": "Ti è piaciuto camminare con me?",
+        "japanese": "あなたが私と一緒に歩いて好きか, 教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとう."
+      }
+    }
+  },
+  "Fallback": {
+    "other": {
+      "0": {
+        "english": "I'm sorry, I need to rest for a while now. Let's talk some more later. Bye bye!",
+        "italian": "Scusami, ho bisogno di riposarmi un po' adesso. Parliamo di nuovo più tardi. A presto!",
+        "japanese": "すみません,今しばらく休む必要があります. もう少し後で話しましょう. バイバイ!"
+      }
+    }
+  },
+  "PlayGameMemory": {
+    "ask-parameters": {
+      "0": {
+        "english": "I can help you play a Memory Game with pictures about different topics. Please tell me which topic you choose.",
+        "italian": "Puoi giocare al Memory Game con immagini su diversi temi. Per favore, dimmi quale tema scegli.",
+        "japanese": "私はあなたが様々なジャンルの写真でメモリーゲームをプレイする手助けをすることができます。 ジャンルを選択してください。"
+      },
+      "1": {
+        "english": "I can help you play a Memory Game with pictures about $OPTION1$ and many other topics. Please tell which topic you choose.",
+        "italian": "Puoi giocare al Memory Game con immagini su temi come $OPTION1$ e tanti altri. Per favore, dimmi quale tema scegli.",
+        "japanese": "私はあなたが $OPTION1$ や他の多くのトピックについての写真でメモリーゲームをプレイする手助けをすることができます。 ジャンルを選択してください。"
+      },
+      "2": {
+        "english": "I can help you play a Memory Game with pictures about $OPTION1$, $OPTION2$ and many other topics. Please tell me which topic you choose.",
+        "italian": "Puoi giocare al Memory Game con immagini su temi come $OPTION1$, $OPTION2$ e tanti altri. Per favore, dimmi quale tema scegli.",
+        "japanese": "私はあなたが $OPTION1$ や $OPTION2$ さらに他の多くのトピックについての写真でメモリーゲームをプレイする手助けをすることができます。 ジャンルを選択してください。"
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "Which topic?",
+        "italian": "Quale tema?",
+        "japanese": "どのジャンル? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, let's play with pictures of $KEYWORD$.",
+        "italian": "Va bene, giochiamo con le foto a tema $KEYWORD$.",
+        "japanese": "それでは、 $KEYWORD$ の写真でメモリーゲームをしましょう."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want to play with pictures of $CONFIRM$?",
+        "italian": "Vuoi giocare con le foto a tema $CONFIRM$?",
+        "japanese": " $KEYWORD$ の写真でメモリーゲームがしたいですか?"
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is that correct?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と言ったことを分かりました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get the topic. Please select an option on my tablet.",
+        "italian": "Scusa, non ho capito il tema. Per favore, seleziona un'opzione sul tablet.",
+        "japanese": "すみません, ジャンルが理解できませんでした, タブレットのオプションを選択してください."
+      }
+    },
+    "other": {
+      "0": {
+        "english": "Let's play a Memory game!",
+        "italian": "Giochiamo a Memory!",
+        "japanese": "メモリーゲームをしましょう!"
+      },
+      "1": {
+        "english": "First I will show you a picture for a few seconds, then I will ask you a few questions. Let's start!",
+        "italian": "Ti mostrerò una foto per qualche secondo, dopo ti farò alcune domande. Cominciamo!",
+        "japanese": "最初に私はあなたに数秒間写真を見せます, それから私はあなたにいくつかの質問をします.始めましょう!"
+      },
+      "2": {
+        "english": "Are you ready?",
+        "italian": "Sei pronto?",
+        "japanese": "準備はできましたか? "
+      },
+      "3": {
+        "english": "It was fun to play with you!",
+        "italian": "E' stato divertente giocare con te!",
+        "japanese": "あなたと遊んで楽しかったです!"
+      },
+      "4": {
+        "english": "That's correct! Well done!",
+        "italian": "Risposta corretta! Bravo!",
+        "japanese": "正解です!さすがです!"
+      },
+      "5": {
+        "english": "I'm sorry, the answer is wrong. Let's try again!",
+        "italian": "Mi spiace, la risposta è sbagliata. Riprova!",
+        "japanese": "すみません,答えは間違っています.もう一度やりましょう!"
+      }
+      ,
+      "6": {
+        "english": "Do you want to play again?",
+        "italian": "Vuoi giocare ancora?",
+        "japanese": "もう一度してほしいですか? "
+      }
+    },
+    "evaluation": {
+      "0": {
+        "english": "Tell me, did you enjoy playing this game?" ,
+        "italian": "Puoi dirmi per favore se ti è piaciuto questo gioco?",
+        "japanese": "あなたはこのゲームを楽しめましたか, 教えてください"
+      },
+      "1": {
+        "english": "Thanks for telling me.",
+        "italian": "Grazie dell'informazione.",
+        "japanese": "教えてくれてありがとうございます."
+      }
+    }
+  },
+  "MoveCloserFarther": {
+    "parameters":{
+      "english": ["move closer", "move farther", "stay here"],
+      "italian": ["avvicinarmi", "allontanarmi", "star fermo"],
+      "japanese": ["もっと近づく","もっと離れる","ここにいる"]
+    },
+    "ask-parameters": {
+      "0": {
+        "english": "Please tell me, should I $OPTION1$, $OPTION2$ or $OPTION3$?",
+        "italian": "Per piacere, dimmi cosa devo fare: $OPTION1$, $OPTION2$ o $OPTION3$?",
+        "japanese": "私の位置は $OPTION1$ か $OPTION2$ か $OPTION3$ かどれがいいですか, 教えてください? "
+      }
+    },
+    "ask-before-options": {
+      "0": {
+        "english": "What should I do?",
+        "italian": "Cosa devo fare?",
+        "japanese": "私はどうするべきですか? "
+      }
+    },
+    "parameter-answer": {
+      "with-keyword": {
+        "english": "Alright, I will $KEYWORD$.",
+        "italian": "Va bene, proverò a $KEYWORD$.",
+        "japanese": "わかりました,私は $KEYWORD$ ことにします."
+      }
+    },
+    "ask-confirmation": {
+      "with-keyword": {
+        "english": "Do you want me to $CONFIRM$?",
+        "italian": "Mi hai chiesto di $CONFIRM$?",
+        "japanese": "私に $CONFIRM$  してほしいですか? "
+      },
+      "without-keyword": {
+        "english": "I understood that you said: '$CONFIRM$'. Is that right?",
+        "italian": "Ho capito questo: '$CONFIRM$'. E' corretto?",
+        "japanese": "私はあなたが '$CONFIRM$' と言ったことを分かりました, そうですか? "
+      }
+    },
+    "wrong-parameter": {
+      "0": {
+        "english": "Sorry, I didn't get what you said. Please select an option on my tablet.",
+        "italian": "Scusa, non ho capito cosa hai detto. Per favore, seleziona un'opzione sul tablet.",
+        "japanese": "すみません,私はあなたが言ったことがわかりませんでした. タブレットのオプションを選択してください."
+      }
+    },
+    "other": {}
+  }
+}

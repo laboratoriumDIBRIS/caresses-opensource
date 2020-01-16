@@ -1,0 +1,32 @@
+{
+  "IDs":{
+    "window":{
+      "full": "window",
+      "prep-object": "near the window"
+    },
+    "drawer":{
+      "full": "drawer",
+      "prep-object": "inside the drawer"
+    },
+    "charger":{
+      "full": "charger",
+      "prep-object": "near my docking station"
+    },
+    "wardrobe":{
+      "full": "wardrobe",
+      "prep-object": "inside the wardrobe"
+    },
+    "door":{
+      "full": "door",
+      "prep-object": "close to the door"
+    },
+    "bed":{
+      "full": "bed",
+      "prep-object": "on the bed"
+    },
+    "chair":{
+      "full": "chair",
+      "prep-object": "on the chair"
+    }
+  }
+}

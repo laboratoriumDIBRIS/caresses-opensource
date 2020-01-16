@@ -1,0 +1,34 @@
+{
+  "Pepper-conf": {
+    "IP": "<PEPPER-IP>",
+    "Port": "<PEPPER-PORT>",
+    "Password": "<PEPPER-PASSWORD>"
+  },
+  "CAHRIM-conf": {
+    "IP": "<IP-COMPUTER-RUNNING-KARAF/caressOS>",
+    "Port": "12345"
+  },
+  "CKB-conf": {
+    "IP": "<IP-COMPUTER-RUNNING-KARAF/caressOS>",
+    "Port": "12346"
+  },
+  "CSPEM-conf": {
+    "IP": "<IP-COMPUTER-RUNNING-KARAF/caressOS>",
+    "Port": "12347"
+  },
+  "ROBOT-conf": {
+    "IP": "",
+    "Port": "12349"
+  },
+  "CAHRIM-database": {
+    "user": "",
+    "password": "",
+    "host": "<IP-COMPUTER-RUNNING-MYSQL>",
+    "database": "",
+    "layout": ""
+  },
+  "interaction-node": "<DEFAULT-INTERACTION-NODE>(leave empty if not using an interaction node)",
+  "docking-station": false,
+  "input": 3,
+  "output": 3
+}

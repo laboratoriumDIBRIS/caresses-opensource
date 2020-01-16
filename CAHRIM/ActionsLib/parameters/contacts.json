@@ -1,0 +1,20 @@
+{
+  "IDs":{
+    "doctor":{
+      "full": "doctor",
+      "line": "john-doe-Line-ID",
+      "phone": "john-doe-Phone",
+      "skype": "john-doe-Skype-ID",
+      "telegram": "john-doe-Telegram-ID",
+      "email": "john-doe-email@john.doe"
+    },
+    "customPerson":{
+      "full": "a custom number",
+      "line": "",
+      "phone": "+39000",
+      "skype": "",
+      "telegram": "",
+      "email": ""
+    }
+  }
+}

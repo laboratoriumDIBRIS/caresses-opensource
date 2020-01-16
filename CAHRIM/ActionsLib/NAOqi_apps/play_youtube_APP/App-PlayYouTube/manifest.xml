@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="caresses-play-youtube">
+ <names>
+  <name lang="en_US">Caresses Play YouTube</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">Caresses Play YouTube</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="play-youtube">
+   <nature>interactive</nature>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.5" maxVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>

@@ -1,0 +1,50 @@
+<!doctype html>
+      <head>
+            <!-- No zoom in the page -->
+            
+            <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+		<!-- Include js files -->
+		<script src="index.js"></script>
+            <script src="/libs/qimessaging/1.0/qimessaging.js"></script>
+
+		<!-- Include css files -->
+		<link rel="stylesheet" href="index.css">
+	</head>
+  
+      <body onload="init()">
+            <div class="container">
+                  <form>
+                        <table id="numpad" cellpadding="2" cellspacing="2" border="0">
+                              <tr>
+                                    <td colspan="3" align="center"><input type="text" name="quantity" size="8" style="text-align:center;" id=mvar value="hh:mm"></td>
+                              </tr>
+                              <tr>
+                                    <td><input type="button" class="fbutton" name="1" value="  1  " id="1" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="2" value="  2  " id="2" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="3" value="  3  " id="3" onClick=addNumber(this); "></td>
+                              </tr>
+                              <tr>
+                                    <td><input type="button" class="fbutton" name="4" value="  4  " id="4" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="5" value="  5  " id="5" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="6" value="  6  " id="6" onClick=addNumber(this); "></td>
+                              </tr>
+                              <tr>
+                                    <td><input type="button" class="fbutton" name="7" value="  7  " id="7" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="8" value="  8  " id="8" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="9" value="  9  " id="9" onClick=addNumber(this); "></td>
+                              </tr>
+                              <tr>
+                                    <td><input type="button" class="fbutton" name="x" value="  x  " id="x" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="0" value="  0  " id="0" onClick=addNumber(this); "></td>
+                                    <td><input type="button" class="fbutton" name="v" value="  v  " id="v" onClick=addNumber(this); "></td>
+                              </tr>
+                              <tr>  
+                                    <td></td>
+                                    <td><input type="button" class="fbutton" name="exit" id="EXIT" value="EXIT" onClick="exitSelector(this)"></td>
+                              </tr>
+                        </table>
+                  </form>   
+            </div>
+      </body>
+  
+<html>

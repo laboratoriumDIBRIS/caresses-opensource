@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?><ChoregrapheProject xmlns="http://www.aldebaran-robotics.com/schema/choregraphe/project.xsd" xar_version="3"><Box name="root" id="-1" localization="8" tooltip="Root box of Choregraphe&apos;s behavior. Highest level possible." x="0" y="0"><bitmap>media/images/box/root.png</bitmap><script language="4"><content><![CDATA[]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /><Timeline enable="0"><BehaviorLayer name="behavior_layer1"><BehaviorKeyframe name="keyframe1" index="1"><Diagram><Box name="Send Pic by Email" id="1" localization="8" tooltip="This box sends a picture through Telegram according to the data stored in the memory by&#x0A;CARESSES action TakeAndSendPicture." x="352" y="154"><bitmap>media/images/box/box-python-script.png</bitmap><script language="4"><content><![CDATA[from email.mime.multipart import MIMEMultipart
+from email.mime.image import MIMEImage
+from email.mime.text import MIMEText
+import smtplib
+import ast
+
+class MyClass(GeneratedClass):
+    def __init__(self):
+        GeneratedClass.__init__(self)
+
+        self.sMemory = self.session().service("ALMemory")
+
+        data = self.sMemory.getData("CARESSES_send_pic")
+        self.sMemory.removeData("CARESSES_send_pic")
+
+        self.email_object = data[0]
+        self.sender_email = data[1]
+        self.sender_password = data[2]
+        self.smtp = data[3]
+        self.recipient = data[4]
+        self.message = data[5]
+        self.pic_file = data[6]
+
+    def onLoad(self):
+        #put initialization code here
+        pass
+
+    def onUnload(self):
+        #put clean-up code here
+        pass
+
+    def onInput_onStart(self):
+
+        # create message object instance
+        msg = MIMEMultipart()
+
+        # setup the parameters of the message
+        password = self.sender_password
+        msg['From'] = self.sender_email
+        msg['To'] = self.recipient
+        msg['Subject'] = self.email_object
+
+        message = self.message
+
+        # attach text to message body
+        msg.attach(MIMEText(message, 'plain'))
+
+        # attach image to message body
+        msg.attach(MIMEImage(open(self.pic_file, 'rb').read()))
+
+        # create server
+        server = smtplib.SMTP(self.smtp)
+
+        server.starttls()
+
+        # Login Credentials for sending the mail
+        server.login(msg['From'], password)
+
+        # send the message via the server.
+        server.sendmail(msg['From'], msg['To'], msg.as_string())
+
+        server.quit()
+
+        self.onStopped()
+
+    def onInput_onStop(self):
+        self.onUnload() #it is recommended to reuse the clean-up as the box is stopped
+        self.onStopped() #activate the output of the box]]></content></script><Input name="onLoad" type="1" type_size="1" nature="0" inner="1" tooltip="Signal sent when diagram is loaded." id="1" /><Input name="onStart" type="1" type_size="1" nature="2" inner="0" tooltip="Box behavior starts when a signal is received on this input." id="2" /><Input name="onStop" type="1" type_size="1" nature="3" inner="0" tooltip="Box behavior stops when a signal is received on this input." id="3" /><Output name="onStopped" type="1" type_size="1" nature="1" inner="0" tooltip="Signal sent when box behavior is finished." id="4" /></Box><Link inputowner="1" indexofinput="2" outputowner="0" indexofoutput="2" /><Link inputowner="0" indexofinput="4" outputowner="1" indexofoutput="4" /></Diagram></BehaviorKeyframe></BehaviorLayer></Timeline></Box></ChoregrapheProject>

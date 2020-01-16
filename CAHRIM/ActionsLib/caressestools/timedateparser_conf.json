@@ -1,0 +1,132 @@
+{
+  "weekday":{
+    "english": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "italian": ["lunedì","martedì","mercoledì","giovedì","venerdì","sabato","domenica"],
+    "french": ["lundi","mardi","mercredi","jeudi","vendredi","samedi","dimanche"],
+    "german": ["Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag"],
+    "japanese": ["月曜日","火曜日","水曜日","木曜日","金曜日","土曜日","日曜日"]
+  },
+  "months": {
+    "english": ["January","February","March","April","May","June","July","August","September","October","November","December"],
+    "italian": ["Gennaio","Febbraio","Marzo","Aprile","Maggio","Giugno","Luglio","Agosto","Settembre","Ottobre","Novembre","Dicembre"],
+    "french": ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],
+    "german": ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],
+    "japanese": ["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月"]
+  },
+  "day-delimiter": {
+    "english": "st|nd|rd|th",
+    "italian": "",
+    "french:": "er",
+    "german": "\\.",
+    "japanese": ""
+  },
+  "preposition": {
+    "english": "of",
+    "italian": "di|del|dell'",
+    "french": "",
+    "german": "",
+    "japanese": ""
+  },
+  "date-adverbs":{
+    "today":{
+      "english": "today",
+      "italian": "oggi",
+      "french:": "",
+      "german": "",
+      "japanese": "今日"
+    },
+    "tomorrow":{
+      "english": "tomorrow",
+      "italian": "domani",
+      "french:": "",
+      "german": "",
+      "japanese": "明日"
+    },
+    "day-after-tomorrow":{
+      "english": "the day after tomorrow",
+      "italian": "dopodomani",
+      "french:": "",
+      "german": "",
+      "japanese": "あさって"
+    },
+    "yesterday":{
+      "english": "yesterday",
+      "italian": "ieri",
+      "french:": "",
+      "german": "",
+      "japanese": "昨日"
+    },
+    "day-before-yesterday":{
+      "english": "the day before yesterday",
+      "italian": "l'altro ieri",
+      "french:": "",
+      "german": "",
+      "japanese": "おととい"
+    }
+  },
+  "time-as-string":{
+    "english": "at %s",
+    "italian": "alle %s",
+    "french": "",
+    "german": "",
+    "japanese": "%s に"
+  },
+  "date-as-string":{
+    "weekday":{
+      "english": "on %s",
+      "italian": "%s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "day":{
+      "english": "on the %s",
+      "italian": "il %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "month":{
+      "english": "in %s",
+      "italian": "a %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "year":{
+      "english": "in %s",
+      "italian": "nel %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "weekday-day":{
+      "english": "on %s %s",
+      "italian": "%s %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "day-month":{
+      "english": "on the %s of %s",
+      "italian": "il %s %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "month-year":{
+      "english": "on %s %s",
+      "italian": "nel %s %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    },
+    "day-month-year":{
+      "english": "on the %s of %s %s",
+      "italian": "il %s %s %s",
+      "french:": "",
+      "german": "",
+      "japanese": "%s に"
+    }
+  }
+}
