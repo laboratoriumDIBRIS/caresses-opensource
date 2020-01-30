@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Copyright October 2019 Bui Ha Duong & Roberto Menicatti & Università degli Studi di Genova
+Copyright October 2019 Japan Advanced Institute of Science and Technology & Roberto Menicatti & Università degli Studi di Genova
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -40,7 +40,7 @@ import caressestools.multipage_choice_manager as mcm
 
 from action import Action
 
-LINE_BOT_URL = 'https://caresses-line-bot.herokuapp.com/sendmessage'
+LINE_BOT_URL = '<LINE_BOT_SERVER>'
 
 
 ## Action "Send Line Message"

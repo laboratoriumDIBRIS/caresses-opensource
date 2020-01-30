@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Copyright October 2019 Bui Ha Duong & Roberto Menicatti & Università degli Studi di Genova
+Copyright October 2019 Japan Advanced Institute of Science and Technology & Roberto Menicatti & Università degli Studi di Genova
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -77,7 +77,7 @@ if __name__ == "__main__":
     
     # Run Action
     apar = '"n/a" "n/a"'
-    cpar = "1.0 100 1.1 english John sevenSamurai"
+    cpar = "1.0 100 1.1 english John bollywoodMovie&&loveStory"
 
     caressestools.startPepper(session, caressestools.Settings.interactionNode)
     action = PlayVideo(apar, cpar, session, "normal")

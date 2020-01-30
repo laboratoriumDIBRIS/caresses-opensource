@@ -10,7 +10,7 @@ window.console = {
     }
 }
 
-var appKey = "e0750e2ae2304dd9ca21c5e6cdaa320a";
+var appKey = "<openweathermap-API-ID>";
 
 var session;
 

@@ -48,8 +48,11 @@ import caressestools.multipage_choice_manager as mcm
 
 from action import Action
 
+TELEGRAM_BOT_ROOT = "https://api.telegram.org/bot"
+TELEGRAM_BOT_TOKEN = "<TELEGRAM_BOT_TOKEN>"
+TELEGRAM_BOT_COMMAND = "/sendMessage?chat_id=%s&text=%s"
 
-TELEGRAM_BOT_URL = "https://api.telegram.org/bot610049265:AAEIjdSgq9KrCc0W1Vk4VjQf5ikwqWXxI5I/sendMessage?chat_id=%s&text=%s"
+TELEGRAM_BOT_URL = TELEGRAM_BOT_ROOT + TELEGRAM_BOT_TOKEN + TELEGRAM_BOT_COMMAND 
 
 
 ## Action "Send Telegram Message"

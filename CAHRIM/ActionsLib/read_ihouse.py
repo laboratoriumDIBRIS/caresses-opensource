@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Copyright October 2019 Bui Ha Duong & Roberto Menicatti & Università degli Studi di Genova
+Copyright October 2019 Japan Advanced Institute of Science and Technology & Roberto Menicatti & Università degli Studi di Genova
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -28,18 +28,20 @@ import caressestools.caressestools as caressestools
 import caressestools.speech as speech
 import timeit
 
+## Action "Read iHouse".
+#
+#  Pepper reads the value or the status of ECHONET-based smart devices in the iHouse through uAAL_CAHRIM.
+#  This action requires the running of uAAL modules.
 class ReadiHouse(Action):
-    """
-    Action ReadiHouse
 
-    Attributes:
-        apar : device, room
-        cpar : volume, speed, pitch, language, username, suggestions
-        session : robot's session
-        output_handler : uAAL-CAHRIM Message Sender module
-        input_queue: uAAL-CAHRIM Message Receiver module
-        provided_event: threading.Event()
-    """
+    ## The constructor.
+    # @param self The object pointer.
+    # @param apar (string) Device, room, operation; separated by a white space.
+    # @param cpar (string) Volume, speed, pitch, language, username, suggestions; separated by a white space.  <b>Volume</b>, <b>speed</b> and <b>pitch</b> must be compliant with NAOqi ALTextToSpeech requirements. <b>Language</b> must be the full language name lowercase (e.g. english). <b>Suggestions</b> should be a series of IDs as listed in the related parameter file, separated by "&&".
+    # @param session (qi session) NAOqi session.
+    # @param output_handler (Queue.Queue) uAAL-CAHRIM Message Sender module
+    # @param input_queue (Queue.Queue) uAAL-CAHRIM Message Receiver module
+    # @param provided_event (threading.Event) threading.Event()
     def __init__(self, apar, cpar, session, output_handler, input_queue, provided_event):
         Action.__init__(self, apar, cpar, session)
 
@@ -90,6 +92,7 @@ class ReadiHouse(Action):
         self.topic_item = "ReadiHouse"
         self.topic_room = "IoT-iHouse-Room"
 
+    ## Method executed when the thread is started.
     def run(self):
 
         if not self.isAvailable(self.item_id):
@@ -128,6 +131,9 @@ class ReadiHouse(Action):
         else:
             self.sp.say(self.sp.script[speech.STOP_INTERACTION][self.language])
     
+    ## Get the status or the value of the desired room's device as specified by the input parameters.
+    #  @param device Device of which the status should be read.
+    #  @param room Room in which the device is located.
     def getDeviceStatus(self, device, room):
         msg_type_id = "iHouse.{room}.{device}".format(room=room.replace(" ", "-"), device=device)
         tic = timeit.default_timer()
