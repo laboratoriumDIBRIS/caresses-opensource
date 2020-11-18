@@ -1,0 +1,5 @@
+sensorNumber:locationName
+s1:Sofa
+s2:Table
+s3:Table
+s4:Sofa

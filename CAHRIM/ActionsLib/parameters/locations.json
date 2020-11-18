@@ -1,8 +1,24 @@
 {
   "IDs":{
+    "bed":{
+      "full": "bed",
+      "prep-object": "on the bed"
+    },
     "window":{
       "full": "window",
       "prep-object": "near the window"
+    },
+    "armchair":{
+      "full": "armchair",
+      "prep-object": "on the armchair"
+    },
+    "precharger":{
+      "full": "precharger",
+      "prep-object": ""
+    },
+    "tv":{
+      "full": "tv",
+      "prep-object": "near the TV"
     },
     "drawer":{
       "full": "drawer",
@@ -16,13 +32,17 @@
       "full": "wardrobe",
       "prep-object": "inside the wardrobe"
     },
+    "sofa":{
+      "full": "sofa",
+      "prep-object": "on the sofa"
+    },
+    "table":{
+      "full": "table",
+      "prep-object": "on the table"
+    },
     "door":{
       "full": "door",
       "prep-object": "close to the door"
-    },
-    "bed":{
-      "full": "bed",
-      "prep-object": "on the bed"
     },
     "chair":{
       "full": "chair",

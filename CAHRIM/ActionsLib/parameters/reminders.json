@@ -1,121 +1,118 @@
 {
   "IDs":{
-    "gettingDressed":{
-      "full": "dress"
-    },
-    "watchingAMovie":{
-      "full": "watch a movie"
-    },
-    "doingSomePhysicalExercise":{
-      "full": "make physical exercises"
-    },
-    "makingChairExercise":{
-      "full": "make chair exercises"
-    },
-    "brushingTeeth":{
-      "full": "brush the teeth"
-    },
-    "makingBreathingExercise":{
-      "full": "make breathing exercise"
-    },
-    "playingAMusicalInstrument":{
-      "full": "play an instrument"
-    },
-    "goingToTheChurch":{
-      "full": "attend the church"
-    },
-    "takingCareOfAPet":{
-      "full": "take care of the pet"
-    },
-    "watchingTelevision":{
-      "full": "watch TV"
-    },
-    "goingToTheTemple":{
-      "full": "attend the temple"
-    },
-    "singingInAChoir":{
+    "attendingChoir":{
       "full": "attend the choir"
     },
-    "goingToACricketClub":{
-      "full": "attending the cricket club"
-    },
-    "feedingAPet":{
-      "full": "feed the pet"
-    },
-    "readingComics":{
-      "full": "read comics"
-    },
-    "makingBallExercise":{
-      "full": "make exercises with a ball"
-    },
-    "goingToAWomenClub":{
+    "attendingWomenClub":{
       "full": "attend the women club"
     },
-    "havingDinner":{
-      "full": "have dinner"
+    "attendingTempleActivity":{
+      "full": "attend the temple"
     },
-    "havingBreakfast":{
-      "full": "have breakfast"
+    "playingInstrument":{
+      "full": "play an instrument"
     },
-    "beingVisitedByFamilyOrFriends":{
-      "full": "receive visits"
+    "watchingTV":{
+      "full": " watch TV"
     },
-    "walkingAtHome":{
-      "full": "walk at home"
+    "attendingChurchActivity":{
+      "full": "attend the church"
     },
-    "beingVisitedByADoctorOrNurse":{
-      "full": "go to the doctor's"
+    "watchingMovie":{
+      "full": " watch a movie"
+    },
+    "hennaArt":{
+      "full": " perform henna art"
+    },
+    "makingBallExercise":{
+      "full": " make exercises with a ball"
     },
     "listeningToMusic":{
-      "full": "listen to music"
+      "full": " listen to music"
     },
-    "playingAGame":{
-      "full": "play a game"
+    "feedingThePet":{
+      "full": " feed the pet"
     },
-    "readingABook":{
+    "makingBreathingExercise":{
+      "full": " make breathing exercise"
+    },
+    "havingDinner":{
+      "full": " have dinner"
+    },
+    "flowerArrangement":{
+      "full": " perform flower arrangement"
+    },
+    "receivingDoctorOrNurse":{
+      "full": " go to the doctor's"
+    },
+    "havingLunch":{
+      "full": " have lunch"
+    },
+    "audioVideoCalling":{
+      "full": "make an audio or video call"
+    },
+    "artsAndCraftTherapy":{
+      "full": "make arts and craft"
+    },
+    "readingBook":{
       "full": "read a book"
     },
-    "goingToABridgeClub":{
-      "full": "attend the bridge club"
+    "attendingBookClub":{
+      "full": "attend the book club"
+    },
+    "havingBreakfast":{
+      "full": " have breakfast"
+    },
+    "buyingStuffForThePet":{
+      "full": "buy stuff for the pet"
+    },
+    "walkingAtHome":{
+      "full": " walk at home"
+    },
+    "jewelryMaking":{
+      "full": " make jewels"
+    },
+    "playingGame":{
+      "full": " play a game"
+    },
+    "takingMedicine":{
+      "full": "take the medicine"
+    },
+    "walkingInTheGarden":{
+      "full": " walk in the garden"
+    },
+    "makingChairExercise":{
+      "full": " make chair exercises"
     },
     "water":{
       "full": "drink some water"
     },
-    "havingLunch":{
-      "full": "have lunch"
-    },
-    "makingAnAudioOrVideoCall":{
-      "full": "make an audio or video call"
-    },
-    "doingSomeArtsAndCrafts":{
-      "full": "make arts and craft"
-    },
-    "doingSomeFlowerArranging":{
-      "full": "perform flower arrangement"
-    },
-    "walkingInTheGarden":{
-      "full": "walk in the garden"
-    },
-    "changingAPetSWater":{
-      "full": "change the water for the pet"
-    },
-    "goingToABowlsClub":{
+    "attendingBowlsClub":{
       "full": "attending the bowls club"
     },
-    "goingToABookClub":{
-      "full": "attend the book club"
+    "changingWaterForThePet":{
+      "full": "change the water for the pet"
     },
-    "makingJewels":{
-      "full": "make jewels"
+    "receivingVisit":{
+      "full": " receive visits"
     },
-    "takingAMedicine":{
-      "full": "take the medicine"
+    "makingExercise":{
+      "full": " make physical exercises"
     },
-    "makingHennaTattoos":{
-      "full": "perform henna art"
+    "dressing":{
+      "full": " dress"
     },
-    "buyingSuppliesForAPetOnline":{
-      "full": "buy stuff for the pet"
+    "brushingTeeth":{
+      "full": "brush the teeth"
+    },
+    "takingCareOfPet":{
+      "full": "take care of the pet"
+    },
+    "attendingCricketClub":{
+      "full": "attending the cricket club"
+    },
+    "attendingBridgeClub":{
+      "full": "attend the bridge club"
     }
   }
 }

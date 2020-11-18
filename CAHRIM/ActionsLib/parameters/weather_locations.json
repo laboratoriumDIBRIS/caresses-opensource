@@ -1,40 +1,31 @@
 {
   "IDs":{
-    "mumbai":{
-      "fulleng": "Mumbai",
-      "full": "Mumbai"
-    },
-    "tokyo":{
-      "fulleng": "Tokyo",
-      "full": "Tokyo"
-    },
-    "london":{
-      "fulleng": "London",
-      "full": "London"
-    },
-    "luton":{
-      "fulleng": "Luton",
-      "full": "Luton"
-    },
-    "paris":{
-      "fulleng": "Paris",
-      "full": "Paris"
-    },
-    "genova":{
-      "fulleng": "Genoa",
-      "full": "Genoa"
-    },
-    "york":{
-      "fulleng": "York",
-      "full": "York"
-    },
     "kanazawa":{
-      "fulleng": "Kanazawa",
       "full": "Kanazawa"
     },
+    "mumbay":{
+      "full": "Mumbay"
+    },
+    "paris":{
+      "full": "Paris"
+    },
     "newDelhi":{
-      "fulleng": "New Delhi",
       "full": "New Delhi"
+    },
+    "york":{
+      "full": "York"
+    },
+    "genova":{
+      "full": "Genova"
+    },
+    "luton":{
+      "full": "Luton"
+    },
+    "london":{
+      "full": "London"
+    },
+    "tokyo":{
+      "full": "Tokyo"
     }
   }
 }

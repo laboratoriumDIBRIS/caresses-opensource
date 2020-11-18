@@ -1,34 +1,34 @@
 {
   "IDs":{
+    "indianFestivalsMemoryGame":{
+      "full": "Indian festivals"
+    },
     "indianLifeEventsCelebrationsMemoryGame":{
       "full": "Indian life and events celebrations"
     },
-    "britishMonumentsMemoryGame":{
-      "full": "British monuments"
+    "indianMonumentsMemoryGame":{
+      "full": "Indian monuments"
+    },
+    "japaneseFestivalsMemoryGame":{
+      "full": "Japanese festivals"
+    },
+    "japaneseLifeEventsCelebrationsMemoryGame":{
+      "full": "Japanese life and events celebrations"
     },
     "japaneseMonumentsMemoryGame":{
       "full": "Japanese monuments"
     },
     "britishFestivalsMemoryGame":{
-      "full": "British Festivals"
-    },
-    "japaneseLifeEventsCelebrationsMemoryGame":{
-      "full": "Japanese life and events celebrations"
-    },
-    "japaneseFestivalsMemoryGame":{
-      "full": "Japanese Festivals"
-    },
-    "indianMonumentsMemoryGame":{
-      "full": "Indian monuments"
+      "full": "British festivals"
     },
     "britishLifeEventsCelebrationsMemoryGame":{
       "full": "British life and events celebrations"
     },
+    "britishMonumentsMemoryGame":{
+      "full": "British monuments"
+    },
     "britishRoyalFamilyMemoryGame":{
       "full": "the British Royal Family"
-    },
-    "indianFestivalsMemoryGame":{
-      "full": "Indian Festivals"
     }
   }
 }

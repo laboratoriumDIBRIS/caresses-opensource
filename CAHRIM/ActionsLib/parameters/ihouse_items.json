@@ -1,0 +1,114 @@
+{
+  "IDs": {
+    "iHouseTemperature": {
+      "full": "the temperature sensor",
+      "type": "sensor",
+      "as-sensor": "the temperature",
+      "locations": [
+        "living room"
+      ],
+      "status":{
+        "value": {
+          "format": "$VALUE$ $UNIT$",
+          "unit": "Celcius degrees"
+        } 
+      }
+    },
+    "iHouseLight": {
+      "full": "the light",
+      "type": "device",
+      "as-sensor": "the light status",
+      "locations": [
+        "living room"
+      ],
+      "operations":{
+        "off": "Turn off",
+        "on": "Turn on",
+        ">": "Increase level",
+        "<": "Decrease level",
+        "r": "Reset level"
+      },
+      "range":{
+        "max": 100,
+        "min": 0,
+        "step": 50
+      },
+      "status":{
+        "off": "off",
+        "on": "on",
+        "value": {
+          "format": "$VALUE$ $UNIT$",
+          "unit": "percent"
+        }
+      }
+    },
+    "iHouseRadio": {
+      "full": "the radio",
+      "type": "device",
+      "as-sensor": "the radio status",
+      "locations": [
+        "living room"
+      ],
+      "operations": {
+        "off": "turn off",
+        "on": "turn on"
+      },
+      "status": {
+        "off": "off",
+        "on": "on",
+        "value": ""
+      }
+    },
+    "iHouseAir-conditioner": {
+      "full": "the air-conditioner",
+      "type": "device",
+      "as-sensor": "the air-conditioner status",
+      "locations": [
+        "living room"
+      ],
+      "operations": {
+        "off": "turn off",
+        "on": "turn on"
+      },
+      "status": {
+        "off": "off",
+        "on": "on",
+        "value": ""
+      }
+    },
+    "iHouseCurtain": {
+      "full": "the curtains",
+      "type": "device",
+      "as-sensor": "the curtains status",
+      "locations": [
+        "living room"
+      ],
+      "operations": {
+        "close": "close",
+        "open": "open"
+      },
+      "status": {
+        "close": "close",
+        "open": "open",
+        "value": ""
+      }
+    },
+    "iHouseWindow": {
+      "full": "the window",
+      "type": "device",
+      "as-sensor": "the window status",
+      "locations": [
+        "living room"
+      ],
+      "operations": {
+        "close": "close",
+        "open": "open"
+      },
+      "status": {
+        "close": "close",
+        "open": "open",
+        "value": ""
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+sensorNumber:locationName
+s1:Bed
+s2:Table
+s3:Room
+s4:Kitchen

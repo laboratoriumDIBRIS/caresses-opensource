@@ -1,19 +1,19 @@
 {
   "IDs":{
+    "havingBreakfast":{
+      "full": "breakfast"
+    },
     "havingDessert":{
       "full": "dessert"
-    },
-    "havingSnack":{
-      "full": "snack"
     },
     "havingDinner":{
       "full": "dinner"
     },
-    "havingBreakfast":{
-      "full": "breakfast"
-    },
     "havingLunch":{
       "full": "lunch"
+    },
+    "havingSnack":{
+      "full": "snack"
     },
     "havingTea":{
       "full": "tea"

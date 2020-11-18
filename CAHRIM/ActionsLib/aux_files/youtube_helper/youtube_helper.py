@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Copyright October 2019 Japan Advanced Institute of Science and Technology & Roberto Menicatti & Università degli Studi di Genova
+Copyright October 2019 Bui Ha Duong & Roberto Menicatti & Università degli Studi di Genova
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import isodate
 import urllib2
 import re
 
-DEVELOPER_KEY = '<YOUTUBE_DEVELOPER_KEY>'
+DEVELOPER_KEY = 'AIzaSyCr-g1oTB-sOgydsCEUjhdNhZZdg6XoxoY'
 YOUTUBE_API_SERVICE_NAME = 'youtube'
 YOUTUBE_API_VERSION = 'v3'
 YOUTUBE_EMBED_LINK = "https://www.youtube.com/embed/%s?autoplay=1&mute=0"

@@ -1,0 +1,62 @@
+{
+  "1": {
+    "experimental": {
+      "english": "",
+      "japanese": ""
+    },
+    "control": {
+      "english": "",
+      "japanese": ""
+    }
+  },
+  "2": {
+    "experimental": {
+      "english": "",
+      "japanese": ""
+    },
+    "control": {
+      "english": "",
+      "japanese": ""
+    }
+  },
+  "3": {
+    "experimental": {
+      "english": "I have really enjoyed talking to you today and also during the time we spent together before. However, I want you to know that from the start of our next session, I am going to try even harder to learn more about you as an individual. I am looking forward to it! Thank you.",
+      "japanese": ""
+    },
+    "control": {
+      "english": "I have really enjoyed talking to you today and also during the time we spent together before. However, I want you to know that from the start of our next session, I am going to try even harder to learn more about you as an individual. I am looking forward to it! Thank you.",
+      "japanese": ""
+    }
+  },
+  "4": {
+    "experimental": {
+      "english": "",
+      "japanese": ""
+    },
+    "control": {
+      "english": "",
+      "japanese": ""
+    }
+  },
+  "5": {
+    "experimental": {
+      "english": "",
+      "japanese": ""
+    },
+    "control": {
+      "english": "",
+      "japanese": ""
+    }
+  },
+  "6": {
+    "experimental": {
+      "english": "Thanks for spending time with me over these past two weeks. I have enjoyed really talking to you about your cultural background but also what you value and enjoy as an individual too. Thank you very much.",
+      "japanese": ""
+    },
+    "control": {
+      "english": "",
+      "japanese": ""
+    }
+  }
+}

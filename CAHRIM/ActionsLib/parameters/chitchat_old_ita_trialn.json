@@ -1,0 +1,201 @@
+{
+    "action1": {
+      "confirmation": "Sei sicuro di voler vedere il menù dei tuoi pranzi?",
+        "id_request": "(show-menu \"n/a\" \"n/a\")",
+        "request_parameters_1": [
+          "mostra",
+          "fammi vedere",
+          "voglio vedere",
+          "menù"
+        ],
+        "request_parameters_2": [
+          "menù",
+          "pranzo",
+          "colazione",
+          "cena",
+          "dessert"
+        ]
+    },
+    "action2": {
+        "confirmation": "Sei sicuro di voler ascoltare della musica rilassante?",
+        "id_request": "relax",
+        "request_parameters_1": [
+          "sentire",
+          "ascoltare",
+          "voglio"
+        ],
+        "request_parameters_2": [
+          "musica rilassante",
+          "relax"
+        ]
+    },
+    "action3": {
+        "confirmation": "Vuoi che ti fornisca un po' di privacy?",
+        "id_request": "provide-privacy",
+        "request_parameters_1": [
+          "privacy",
+          "voglio",
+          "ho bisogno"
+        ],
+        "request_parameters_2": [
+          "privacy"
+        ]
+    },
+    "action4": {
+        "confirmation": "Vuoi che imposti un reminder per te?",
+        "id_request": "(set-reminder \"n/a\")",
+        "request_parameters_1": ["imposta", "voglio", "ho bisogno"],
+        "request_parameters_2": ["reminder"]
+    },
+    "action5": {
+        "confirmation": "Vuoi chiamare qualcuno?",
+        "id_request": "(audio-video-call \"n/a\" \"n/a\")",
+        "request_parameters_1": ["chiama", "telefona"],
+        "request_parameters_2": ["skype","amic","dottore","sorella","fratello","figli","moglie","marito","infermiera","caregiver","staff medico", "nipot", "voglio", "ho bisogno"]
+    },
+    "action6": {
+         "confirmation": "Vuoi che ti faccia vedere il report del meteo?",
+        "id_request": "(display-weather \"n/a\")",
+        "request_parameters_1": [
+              "voglio",
+              "ho bisogno",
+              "mostra",
+              "vorrei",
+              "dimmi",
+              "mostra",
+              "com'è"
+          ],
+        "request_parameters_2": [
+            "tempo",
+            "meteo"
+          ]
+    },
+    "action7": {
+        "confirmation": "Vuoi che ti aiuti a scegliere cosa mangiare?",
+        "id_request": "(help-with-meal \"n/a\")",
+        "request_parameters_1": ["aiuta"],
+        "request_parameters_2": ["pranzo", "pasto", "colazione", "cena "]
+    },
+    "action8": {
+        "confirmation": "Vuoi che ti faccia vedere le notizie?",
+        "id_request": "(show-news \"n/a\" \"n/a\")",
+        "request_parameters_1": ["mostra", "fammi vedere", "leggere"],
+        "request_parameters_2": ["notizie", "giornal"]
+    },
+    "action9": {
+        "confirmation": "Vuoi giocare ad un memory-game con me?",
+        "id_request": "(play-game-memory \"n/a\")",
+        "request_parameters_1": ["gioca"],
+        "request_parameters_2": ["memory game","memory"]
+    },
+     "action10": {
+        "confirmation": "Vuoi che ti aiuti a vestirti?",
+        "id_request": "help-with-dressing",
+        "request_parameters_1": [
+              "voglio",
+              "ho bisogno",
+              "aiut",
+              "vorrei",
+              "è il momento di"
+          ],
+         "request_parameters_2": [
+            "vestir"
+        ]
+    },
+    "action11": {
+      "confirmation": "Vuoi che ti aiuti a svolgere degli esercizi fisici?",
+      "id_request": "help-with-exercise",
+        "request_parameters_1": ["aiut","voglio","ho bisogno","vorrei","mi piacerebbe","è il momento di"],
+        "request_parameters_2": ["esercizi"]
+    },
+    "action12": {
+      "confirmation": "Vuoi mandare un messaggio a qualcuno che conosci?",
+      "id_request": "(send-msg \"n/a\" \"n/a\")",
+        "request_parameters_1": ["un messaggio"],
+        "request_parameters_2": ["amic","dottore","sorella","fratello","figli","figlia","moglie","marito","infermiera","caregiver","staff medico","messaggio", "nipote"]
+    },
+    "action14": {
+      "confirmation": "Vuoi scattare delle foto?",
+      "id_request": "(take-selfie \"n/a\")",
+        "request_parameters_1": ["scattare", "fare", "farmi"],
+        "request_parameters_2": ["foto","selfie"]
+    },
+  "action15": {
+        "confirmation": "Vuoi andare da qualche parte?",
+        "id_request": "robot-at pepper-1) \"n/a\"",
+        "request_parameters_1": [
+          " vai ",
+          "andiamo",
+          "vieni",
+          "accompagna",
+          "ho bisogno",
+          "andar",
+          "vorrei"
+        ],
+        "request_parameters_2": [
+            "sofa",
+            "poltrona",
+            "televisione",
+            "finestra",
+            "porta ",
+            "armadio",
+            " tavolo",
+            "caricabatterie",
+            " sedia",
+            " letto"
+        ]
+    },
+    "action16": {
+      "confirmation": "Vuoi cantare qualche canzone con il karaoke?",
+      "id_request": "(play-karaoke \"n/a\")",
+        "request_parameters_1": ["canta", "riproduci"],
+        "request_parameters_2": ["karaoke","canzon"]
+    },
+    "action17": {
+      "confirmation": "Vuoi che ti faccia vedere degli spezzoni di film?",
+      "id_request": "(play-video \"n/a\" \"n/a\")",
+        "request_parameters_1": ["riproduci", "vedere", "guardare"],
+        "request_parameters_2": ["film"]
+    },
+    "action18": {
+      "confirmation": "Vuoi ascoltare della musica?",
+      "id_request": "(play-music \"n/a\" \"n/a\")",
+        "request_parameters_1": ["ascolt", "sent"],
+        "request_parameters_2": ["musica", "canzon"]
+    },
+     "action19": {
+      "confirmation": "Vuoi che legga un libro per te?",
+      "id_request": "(play-audio-book \"n/a\" \"n/a\")",
+        "request_parameters_1": ["legg", "ascolt"],
+        "request_parameters_2": ["libro","libri", "audiobook", "audiolibr"]
+    },
+    "action20": {
+      "confirmation": "Vuoi che ti aiuti con le preghiere?",
+      "id_request": "help-with-ritual",
+        "request_parameters_1": ["preg"],
+        "request_parameters_2": ["preg"]
+    },
+    "action21": {
+      "confirmation": "Vuoi che ti faccia vedere un video tutòrial?",
+      "id_request": "(display-instructions \"n/a\" \"n/a\")",
+        "request_parameters_1": ["fammi vedere", "mostra"],
+        "request_parameters_2": ["tutorial", "video", "youtube"]
+    },
+    "action22": {
+      "confirmation": "Vuoi che ti faccia vedere le tue foto sul tablet?",
+      "id_request": "show-photos",
+        "request_parameters_1": ["mostra","fammi vedere"],
+        "request_parameters_2": ["foto", "selfie"]
+    },
+    "action23": {
+      "confirmation": "Vuoi che ti dica l'ora e il giorno di oggi?",
+      "id_request": "(show-date-and-time \"n/a\")",
+        "request_parameters_1": ["dimmi","vorrei", "che ora", "che giorno"],
+        "request_parameters_2": ["giorno e ora", "giorno è oggi", "ora è"]
+    },
+    "action24": {
+      "confirmation": "Vuoi che mi sposti più vicino o più lontano?",
+      "id_request": "move-closer-farther",
+        "request_parameters_1": ["muovi", "vieni"],
+        "request_parameters_2": ["più vicino", "più lontano"]
+    },

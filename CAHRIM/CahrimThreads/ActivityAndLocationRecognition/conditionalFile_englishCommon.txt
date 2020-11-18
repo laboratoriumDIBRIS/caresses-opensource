@@ -1,0 +1,5 @@
+act:cond
+1:( ((AVG(s1) > 0) and (AVG(s4) > 0)) and (AVG(s5) = 0) )
+2:( (AVG(s1) > 0) and (AVG(s5) > 0) )
+3:( (AVG(s3) > 0) and (AVG(s2) = 0) )
+4:( (AVG(s3) > 0) and (AVG(s2) > 0) ) 

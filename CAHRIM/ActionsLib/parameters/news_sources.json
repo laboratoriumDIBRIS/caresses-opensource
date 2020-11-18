@@ -1,34 +1,39 @@
 {
-  "IDs":{
-    "nhkNews":{
-      "full": "NHK News",
-      "url-article": "",
-      "url-root": "https://www3.nhk.or.jp/rss/news/cat0.xml"
-    },
-    "skyNews":{
-      "full": "Sky News",
-      "url-article": "",
-      "url-root": "http://feeds.skynews.com/feeds/rss/uk.xml"
+  "IDs": {
+      "ndtv":{
+        "full": "NDTV",
+        "url-article": "",
+        "url-root": "http://feeds.feedburner.com/ndtvnews-india-news"
     },
     "theHindu":{
-      "full": "The Hindu",
-      "url-article": "",
-      "url-root": "https://www.thehindu.com/news/national/feeder/default.rss"
+        "full": "The Hindu",
+        "url-article": "",
+        "url-root": "https://www.thehindu.com/news/national/feeder/default.rss"
     },
     "bBC":{
-      "full": "BBC News",
-      "url-article": "",
-      "url-root": "http://feeds.bbci.co.uk/news/uk/rss.xml"
+        "full": "BBC News",
+        "url-article": "",
+        "url-root": "http://feeds.bbci.co.uk/news/uk/rss.xml"
     },
-    "ndtv":{
-      "full": "NDTV",
-      "url-article": "",
-      "url-root": "http://feeds.feedburner.com/ndtvnews-india-news"
+    "skyNews":{
+        "full": "Sky News",
+        "url-article": "",
+        "url-root": "http://feeds.skynews.com/feeds/rss/uk.xml"
     },
     "reuters":{
-      "full": "Reuters Japan",
-      "url-article": "",
-      "url-root": "https://assets.wor.jp/rss/rdf/reuters/top.rdf"
+        "full": "ロイター",
+        "url-article": "",
+        "url-root": "https://assets.wor.jp/rss/rdf/reuters/top.rdf"
+    },
+    "nhkNews":{
+        "full": "NHKニュース",
+        "url-article": "",
+        "url-root": "https://www3.nhk.or.jp/rss/news/cat0.xml"
+    },
+    "corriere":{
+        "full": "Corriere della Sera",
+        "url-article": "",
+        "url-root": "http://xml2.corriereobjects.it/rss/homepage.xml"
     }
   }
 }

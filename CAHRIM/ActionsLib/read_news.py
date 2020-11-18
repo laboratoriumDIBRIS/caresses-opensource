@@ -251,7 +251,7 @@ if __name__ == "__main__":
     # Run Action
     caressestools.startPepper(session, caressestools.Settings.interactionNode)
 
-    apar = '"n/a" "n/a"'
+    apar = 'bBC "n/a"'
     cpar = "0.7 90 1.0 english John skyNews"
 
     action = ReadNews(apar, cpar, session, "normal")

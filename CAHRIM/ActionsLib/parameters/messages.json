@@ -1,5 +1,10 @@
 {
   "IDs":{
+    "assistanceMessage":{
+      "full": "ask for assistance",
+      "compulsory-recipient": "MedicalStaff",
+      "message": "$USERNAME$ asks for your assistance."
+    },
     "callMessage":{
       "full": "Please, call me",
       "compulsory-recipient": "",
@@ -8,17 +13,12 @@
     "customMessage":{
       "full": "CUSTOM MESSAGE",
       "compulsory-recipient": "",
-      "message": "$USERNAME$ writes: $CONTENT$"
+      "message": "$USERNAME$ asks the following: $CONTENT$"
     },
     "emergencyMessage":{
       "full": "urgent HELP",
       "compulsory-recipient": "MedicalStaff",
       "message": "EMERGENCY: $USERNAME$ asks for urgent help!"
-    },
-    "assistanceMessage":{
-      "full": "ask for assistance",
-      "compulsory-recipient": "MedicalStaff",
-      "message": "$USERNAME$ asks for your assistance."
     }
   }
 }

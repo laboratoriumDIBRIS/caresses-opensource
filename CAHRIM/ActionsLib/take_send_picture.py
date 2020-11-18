@@ -315,7 +315,7 @@ if __name__ == "__main__":
 
     # Run Action
     apar = '"n/a"'
-    cpar = "1.0 100 1.1 english John doctor"
+    cpar = "1.0 100 1.1 english John friend&&husband"
 
     caressestools.startPepper(session, caressestools.Settings.interactionNode)
     action = TakeAndSendPicture(apar, cpar, session, "normal")

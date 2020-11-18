@@ -1,0 +1,206 @@
+{
+    "action1": {
+      "confirmation": "Are you sure that you want to see the menu of one of your meals?",
+        "id_request": "(show-menu \"n/a\" \"n/a\")",
+        "request_parameters_1": [
+          " show",
+          "display",
+          "want to see",
+          " menu"
+        ],
+        "request_parameters_2": [
+          " menu",
+          " meal",
+          "breakfast",
+          "lunch",
+          "dinner",
+          "dessert"
+        ]
+    },
+    "action2": {
+        "confirmation": "Are you sure that you want to listen to some relaxing music?",
+        "id_request": "relax",
+        "request_parameters_1": [
+          " play",
+          " want"
+        ],
+        "request_parameters_2": [
+          "relaxing music",
+          "relax"
+        ]
+    },
+    "action3": {
+        "confirmation": "Are you sure that you need privacy?",
+        "id_request": "provide-privacy",
+        "request_parameters_1": [
+          "provide",
+          " want",
+          " need",
+          " give"
+        ],
+        "request_parameters_2": [
+          "privacy"
+        ]
+    },
+    "action4": {
+        "confirmation": "Do you want me to set a reminder for you?",
+        "id_request": "(set-reminder \"n/a\")",
+        "request_parameters_1": [" set"],
+        "request_parameters_2": ["reminder"]
+    },
+    "action5": {
+        "confirmation": "Are you sure that you want to start a call?",
+        "id_request": "(audio-video-call \"n/a\" \"n/a\")",
+        "request_parameters_1": [" call", "phone"],
+        "request_parameters_2": ["skype","friend","doctor","sister","brother"," son","daughter"," wife","husband","nurse","caregiver","medical staff", "grandchild", "grandkid", " make", " want"]
+    },
+    "action6": {
+         "confirmation": "Do you want me to display the weather report?",
+        "id_request": "(display-weather \"n/a\")",
+        "request_parameters_1": [
+              " want",
+              "need",
+              " show",
+              " like",
+              "tell",
+              "display",
+              "what"
+          ],
+        "request_parameters_2": [
+            "weather"
+          ]
+    },
+    "action7": {
+        "confirmation": "Do you want me to help you to choose your meal?",
+        "id_request": "(help-with-meal \"n/a\")",
+        "request_parameters_1": ["help"],
+        "request_parameters_2": [" meal", "lunch", "breakfast", "dinner"]
+    },
+    "action8": {
+        "confirmation": "Are you sure that you want to read the news?",
+        "id_request": "(show-news \"n/a\" \"n/a\")",
+        "request_parameters_1": [" show", " tell", " read", "display"],
+        "request_parameters_2": [" news"]
+    },
+    "action9": {
+        "confirmation": "Do you want to play a memory game with me?",
+        "id_request": "(play-game-memory \"n/a\")",
+        "request_parameters_1": [" play"],
+        "request_parameters_2": [" game","memory"]
+    },
+     "action10": {
+        "confirmation": "Do you want me to help you to get dressed?",
+        "id_request": "help-with-dressing",
+        "request_parameters_1": [
+              " want",
+              " need",
+              " help",
+              " like",
+              " time",
+              " will"
+          ],
+         "request_parameters_2": [
+            "dress",
+            "dressing"
+        ]
+    },
+    "action11": {
+      "confirmation": "Are you sure that you want to perform some physical exercises?",
+      "id_request": "help-with-exercise",
+        "request_parameters_1": [" help"," want"," need"," time"," will"," like"],
+        "request_parameters_2": ["exercise"]
+    },
+    "action12": {
+      "confirmation": "Do you want me to send a message for you?",
+      "id_request": "(send-msg \"n/a\" \"n/a\")",
+        "request_parameters_1": ["send a message"],
+        "request_parameters_2": ["friend","doctor","sister","brother"," son","daughter"," wife","husband","nurse","caregiver","medical staff","message", "grandchild", "grandkid"]
+    },
+    "action14": {
+      "confirmation": "Do you want me to take and send photos of you?",
+      "id_request": "(take-selfie \"n/a\")",
+        "request_parameters_1": [" take", " send"],
+        "request_parameters_2": ["photo","selfie", "picture"]
+    },
+  "action15": {
+        "confirmation": "Are you sure that you want me to go somewhere?",
+        "id_request": "robot-at pepper-1) \"n/a\"",
+        "request_parameters_1": [
+          " go ",
+          " come",
+          "going",
+          "coming",
+          "accompany",
+          "accompanying",
+          " need",
+          " want",
+          " like"
+        ],
+        "request_parameters_2": [
+            "sofa",
+            "armchair",
+            "television",
+            "window",
+            " door",
+            "wardrobe",
+            " table",
+            "closet",
+            "charger",
+            " chair",
+            " bed"
+        ]
+    },
+    "action16": {
+      "confirmation": "Do you want to sing a song with karaoke?",
+      "id_request": "(play-karaoke \"n/a\")",
+        "request_parameters_1": [" sing", " play"],
+        "request_parameters_2": ["karaoke"," song"]
+    },
+    "action17": {
+      "confirmation": "Do you want me to display a movie clip for you?",
+      "id_request": "(play-video \"n/a\" \"n/a\")",
+        "request_parameters_1": [" play", "watch", "display"],
+        "request_parameters_2": ["film","movie"]
+    },
+    "action18": {
+      "confirmation": "Do you want to listen to some music?",
+      "id_request": "(play-music \"n/a\" \"n/a\")",
+        "request_parameters_1": [" play", "listen"],
+        "request_parameters_2": ["music", " song"]
+    },
+     "action19": {
+      "confirmation": "Do you want me to read an audiobook for you?",
+      "id_request": "(play-audio-book \"n/a\" \"n/a\")",
+        "request_parameters_1": [" play", " read"],
+        "request_parameters_2": [" book","audiobook"]
+    },
+    "action20": {
+      "confirmation": "Do you want me to help you with your prayers?",
+      "id_request": "help-with-ritual",
+        "request_parameters_1": [" pray"],
+        "request_parameters_2": [" pray"]
+    },
+    "action21": {
+      "confirmation": "Do you want me to show some instructions video for you?",
+      "id_request": "(display-instructions \"n/a\" \"n/a\")",
+        "request_parameters_1": ["display", " show"],
+        "request_parameters_2": ["instructions", "video"]
+    },
+    "action22": {
+      "confirmation": "Do you want me to show your pictures on my tablet?",
+      "id_request": "show-photos",
+        "request_parameters_1": [" show","display"],
+        "request_parameters_2": ["photos", "picture", "selfie"]
+    },
+    "action23": {
+      "confirmation": "Do you want me to tell you the current date and time?",
+      "id_request": "(show-date-and-time \"n/a\")",
+        "request_parameters_1": ["what"," tell"],
+        "request_parameters_2": [" time", "date and time", "day is today"]
+    },
+    "action24": {
+      "confirmation": "Do you want me to move?",
+      "id_request": "move-closer-farther",
+        "request_parameters_1": [" move", " come"],
+        "request_parameters_2": ["closer", "farther"]
+    },

@@ -84,8 +84,7 @@ try:
     with open(fname) as f:
         gkey = f.read()
 except:
-    gkey = None
-    print("WARNING: File not found - %s" % fname)
+    print("ERROR: File not found - %s" % fname)
 
 ########################################################################################################################
 

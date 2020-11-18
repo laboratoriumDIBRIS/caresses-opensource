@@ -1,0 +1,6 @@
+act:cond
+1:(  (AVG(s3) > 0) and (AVG(s4) = 0) )
+2:( (AVG(s3) > 0) and  (AVG(s4) > 0) )
+3:( (time <='09:00:00' or time >='22:00:00' ) and (AVG(s1) > 0) )
+4:( (time >'09:00:00' or time <'22:00:00' ) and (AVG(s1) > 0) )
+5:(  (AVG(s5) > 0) )

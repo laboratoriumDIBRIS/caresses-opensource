@@ -1,0 +1,353 @@
+{
+  "IDs":{
+    "buyingStuffForThePetGoal":{
+      "full": "help you to buy",
+      "confirmation": "help you to buy stuff online",
+      "question-t": "What do you want to buy?",
+      "tablet-view": "Buy Online",
+      "pddl": "(:goal(?G1 (shopping ?Object) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"game", "medicine", "food", "other"],
+        "full":[ "a game for the pet", "a medicine for the pet", "food for the pet", "other"]
+       }
+
+    },
+    "showMenuGoal":{
+      "full": "show the menu for",
+      "confirmation": "show the menu",
+      "question-t": "Meal?",
+      "tablet-view": "Show Menu",
+      "pddl": "(:goal(?G1 (show-menu ?Meal ?Period)  true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"havingLunch", "havingBreakfast", "havingDinner", "havingDessert", "other"],
+        "full":[ "lunch", "breakfast", "dinner", "dessert", "other"]
+       }
+
+    },
+    "readIoTGoal":{
+      "full": "read the value of",
+      "confirmation": "read smart sensors",
+      "question-t": "Which sensor?",
+      "tablet-view": "Read Sensors",
+      "pddl": "(:goal(?G1 (read-iot ?Device ?Room) true)(?G2 accept-request true))(:temporal(before ?G1 G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"temperatureSensor", "smartRadio", "smartFan", "smartLamp", "other"],
+        "full":[ "the temperature sensor", "the smart radio", "the smart fan", "the smart lamp", "other"]
+       }
+
+    },
+    "playRelaxingMusicGoal":{
+      "full": "play relaxing music",
+      "confirmation": "play relaxing music",
+      "tablet-view": "Relax",
+      "pddl": "(:goal(?G1 relax true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "providePrivacyGoal":{
+      "full": "provide privacy",
+      "confirmation": "provide privacy",
+      "tablet-view": "Provide Privacy",
+      "pddl": "(:goal(?G1 provide-privacy true)(?G2 react-sound true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "takeHumanByHandGoal":{
+      "full": "take you by the hand",
+      "confirmation": "take you by the hand",
+      "tablet-view": "Take by Hand",
+      "pddl": "(:goal(?G1 take-robot-by-hand true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "moveObjectGoal":{
+      "full": "move",
+      "confirmation": "move objects for you",
+      "question-t": "Which Object?",
+      "tablet-view": "Move Object",
+      "pddl": "(:goal(?G1 (object-at-na ?Object) true) (?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"ganeshPicture", "lamp", "colourfulPillows", "familyPhotos", "incenseHolderAndSticks", "salwar", "kurta", "slippers" ],
+        "full":[ "the picture of Ganesh", "the lamp", "the colourful pillows", "the picture of the family", "the incense holder and sticks", "the salwar", "the kurta", "the slippers" ]
+       }
+
+    },
+    "setReminderGoal":{
+      "full": "set a reminder for",
+      "confirmation": "set a reminder",
+      "question-t": "Reminder?",
+      "tablet-view": "Set Reminder",
+      "pddl": "(:goal(?G1 (set-reminder ?Topic) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"water", "watchingTV", "attendingTempleActivity", "jewelryMaking", "makingBreathingExercise", "receivingDoctorOrNurse", "other"],
+        "full":[ "drinking water", "watching TV", "attending the temple", "making jewels", "the breathing exercises", "visiting the doctor", "other"]
+       }
+
+    },
+    "audioVideoCallGoal":{
+      "full": "make an audio or video call to your",
+      "confirmation": "make a Skype call",
+      "question-t": "Who do you want to call?",
+      "tablet-view": "Make a Call",
+      "pddl": "(:goal(?G1 (audio-video-call ?Recipient ?Video) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"doctor", "grandChild", "medicalStaff", "husband", "son", "brother", "other"],
+        "full":[ "doctor", "grandchild Alex", "medical staff", "husband Tom", "son Alfred", "brother Jack", "other"]
+       }
+
+    },
+    "prepareForEventGoal":{
+      "full": "help you with the preparation of",
+      "confirmation": "help you in the preparation of an event",
+      "question-t": "Which event?",
+      "tablet-view": "Prepare Event",
+      "pddl": "(:goal(?G1 (prepare-event ?Event ?Location) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"tea", "carrom", "chess", "greenTea", "monopoly", "ludo", "other"],
+        "full":[ "a tea", "a carrom game", "a chess game", "a green tea", "a Monopoly game", "a ludo game", "other"]
+       }
+
+    },
+    "playGameMemoryGoal":{
+      "full": "let you play a memory game with",
+      "confirmation": "play a game",
+      "question-t": "Which memory game?",
+      "tablet-view": "Play Game",
+      "pddl": "(:goal(?G1 (play-game-memory ?Topic) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"britishRoyalFamilyMemoryGame", "japaneseWeddingCeremonyMemoryGame", "other"],
+        "full":[ "the British Royal Family", "Japanese traditional weddings", "other"]
+       }
+
+    },
+    "showWeatherForecastGoal":{
+      "full": "show the weather forecast in ",
+      "confirmation": "show the weather forecast",
+      "question-t": "Location?",
+      "tablet-view": "Show Weather",
+      "pddl": "(:goal(?G1 (display-weather ?WorldLocation) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"london", "york", "luton", "mumbay", "newDelhi", "tokyo", "other"],
+        "full":[ "London", "York", "Luton", "Mumbay", "New Delhi", "Tokyo", "other"]
+       }
+
+    },
+    "showPhotoGoal":{
+      "full": "show your photos on my tablet",
+      "confirmation": "show your photos",
+      "tablet-view": "Show Photos",
+      "pddl": "(:goal(?G1 show-photos true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "danceGoal":{
+      "full": "perform",
+      "confirmation": "dance for you",
+      "question-t": "Which dance?",
+      "tablet-view": "Dance",
+      "pddl": "(:goal(?G1 (dance ?Dance) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"indianDance", "englishDance", "japaneseDance", "other"],
+        "full":[ "a typical indian dance", "a typical english dance", "a typical japanese dance", "other"]
+       }
+
+    },
+    "havingMealGoal":{
+      "full": "help you to choose",
+      "confirmation": "help you to choose your meal",
+      "question-t": "Which meal?",
+      "tablet-view": "Help with Meal",
+      "pddl": "(:goal(?G1 (help-with-meal ?Meal)  true))",
+      "options":{
+        "IDs":[	"havingBreakfast", "havingDinner", "havingLunch", "other"],
+        "full":[ "the breakfast", "the dinner", "the lunch", "other"]
+       }
+
+    },
+    "showNewsGoal":{
+      "full": "show news from ",
+      "confirmation": "show news",
+      "question-t": "Channel?",
+      "tablet-view": "Show News",
+      "pddl": "(:goal(?G1 (show-news ?Source ?Topic) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"indiaToday", "skyNews", "other"],
+        "full":[ "India Today", "Sky News", "other"]
+       }
+
+    },
+    "remindObjectPositionGoal":{
+      "full": "remind the position of some of your objects, for example",
+      "confirmation": "remind object position",
+      "question-t": "Which Object?",
+      "tablet-view": "Remind Object Position",
+      "pddl": "(:goal(?G1 (remind-object-position ?ReminderObject) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"incenseHolderAndSticks", "ganeshPicture", "familyPhotos", "colourfulPillows", "lamp", "salwar", "kurta", "slippers" ],
+        "full":[ "the incense holder and sticks", "the picture of Ganesh", "the picture of the family", "the colourful pillows", "the lamp", "the salwar", "the kurta", "the slippers" ]
+       }
+
+    },
+    "setParametersGoal":{
+      "full": "modify my",
+      "confirmation": "change some of my parameters",
+      "question-t": "Parameter?",
+      "tablet-view": "Set Parameter",
+      "pddl": "(:goal(?G1 (set-parameter ?Parameter) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"english", "mediumWaitingTime", "mediumVolume", "mediumPitch", "mediumDistance", "mediumSpeed", "other"],
+        "full":[ "language", "waiting time", "volume", "voice pitch", "approach distance", "voice speed", "other"]
+       }
+
+    },
+    "dressingGoal":{
+      "full": "help you to get dressed",
+      "confirmation": "help you to get dressed",
+      "tablet-view": "Help Get Dressed",
+      "pddl": "(:goal(?G1 help-with-dressing true))"
+    },
+    "makingExerciseGoal":{
+      "full": "help you to make physical exercises",
+      "confirmation": "help you to make physical exercises",
+      "question-t": "Which exercise?",
+      "tablet-view": "Help with Exercises",
+      "pddl": "(:goal(?G1 help-with-exercise true))"
+    },
+    "sendMsgGoal":{
+      "full": "send a message to your",
+      "confirmation": "send a message",
+      "question-t": "Recipient?",
+      "tablet-view": "Send Message",
+      "pddl": "(:goal(?G1 (send-msg ?Recipient ?Message) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"medicalStaff", "grandChild", "doctor", "nurse", "husband", "son", "other"],
+        "full":[ "medical staff", "grandchild Alex", "doctor", "nurse", "husband Tom", "son Alfred", "other"]
+       }
+
+    },
+    "operateSmartDeviceGoal":{
+      "full": "operate",
+      "confirmation": "control smart devices",
+      "question-t": "Which device?",
+      "tablet-view": "Control Devices",
+      "pddl": "(:goal(?G1 (operate-smart-device ?Device ?Room ?Command) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"smartRadio", "smartFan", "smartLamp", "other"],
+        "full":[ "the smart radio", "the smart fan", "the smart lamp", "other"]
+       }
+
+    },
+    "takePhotoGoal":{
+      "full": "take photos",
+      "confirmation": "take photos",
+      "tablet-view": "Take Photos",
+      "pddl": "(:goal(?G1 (take-selfie ?Recipient) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "accompanyToGoal":{
+      "full": "help you to go to",
+      "confirmation": "accompany you somewhere",
+      "question-t": "Where do you want to go?",
+      "tablet-view": "Go Somewhere",
+      "pddl": "(:goal(?G1 (robot-at pepper-1) ?Location) (?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"armchair", "door", "bed", "tv", "window", "wardrobe", "other"],
+        "full":[ "the armchair", "the door", "the bed", "the television", "the window", "the wardrobe", "other"]
+       }
+
+    },
+    "showDateAndTimeGoal":{
+      "full": "tell you date and time",
+      "confirmation": "tell you current date and time",
+      "tablet-view": "Date and Time",
+      "pddl": "(:goal(?G1 (show-date-and-time ?Date) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "playKaraokeSongGoal":{
+      "full": "sing with karaoke",
+      "confirmation": "play a Karaoke song",
+      "question-t": "Which Song?",
+      "tablet-view": "Play Karaoke",
+      "pddl": "(:goal(?G1 (play-karaoke ?Song) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"palPalDilKePas", "timeAfterTime", "redDragonfly", "tornaASurrento", "nadaSouSou", "other"],
+        "full":[ "Pal Pal Dil Ke Paas", "Time After Time", "Red Dragonfly", "Torna a Surrento", "Nada Sou Sou", "other"]
+       }
+
+    },
+    "playMovieGoal":{
+      "full": "play on my tablet",
+      "confirmation": "play a movie for you",
+      "question-t": "Which Movie?",
+      "tablet-view": "Play Movie",
+      "pddl": "(:goal(?G1 (play-video ?Video ?Continue) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"italianMovie", "bollywoodMovie", "loveStory", "actionMovie", "hollywoodMovie", "frenchMovie", "other"],
+        "full":[ "an Italian movie", "a bollywood movie", "a love story movie", "an action movie", "an Hollywood movie", "a French movie", "other"]
+       }
+
+    },
+    "playMusicGoal":{
+      "full": "play",
+      "confirmation": "play music for you",
+      "question-t": "Music?",
+      "tablet-view": "Play Music",
+      "pddl": "(:goal(?G1 (play-music ?Media ?Continue) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"festivalMusic", "palPalDilKePas", "relaxingMusic", "indianMusic", "popMusic", "movieSong", "other"],
+        "full":[ "festival music", "Pal Pal Dil Ke Paas", "relaxing music", "indian music", "pop music", "movie songs", "other"]
+       }
+
+    },
+    "readAudioBookGoal":{
+      "full": "read the audiobook",
+      "confirmation": "read an audiobook for you",
+      "question-t": "Which book?",
+      "tablet-view": "Read Audiobook",
+      "pddl": "(:goal(?G1 (play-audio-book ?AudioBook ?Continue) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"romeoAndJuliet", "thousandNightsAndANight", "warAndPeace", "onTheRoad", "theBethrothed", "danceDanceDance", "other"],
+        "full":[ "the book Romeo and Juliet", "the book Thousand Nights and a Night", "the book War And Peace", "the book On The Road", "the book The Bethrothed", "the book Dance Dance Dance", "other"]
+       }
+
+    },
+    "showGoogleEarthGoal":{
+      "full": "use Google Earth for showing you",
+      "confirmation": "show Google Earth",
+      "question-t": "Location?",
+      "tablet-view": "Google Earth",
+      "pddl": "(:goal(?G1 (view-google-earth ?WorldLocation) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"india", "uK", "japan", "italy", "other"],
+        "full":[ "India", "United Kingdom", "Japan", "Italy", "other"]
+       }
+
+    },
+    "prayingGoal":{
+      "full": "help you to pray",
+      "confirmation": "help you to pray",
+      "tablet-view": "Help to Pray",
+      "pddl": "(:goal(?G1 help-with-ritual true))"
+    },
+    "tellJokeGoal":{
+      "full": "tell you some jokes",
+      "confirmation": "tell you some jokes",
+      "tablet-view": "Tell Jokes",
+      "pddl": "(:goal(?G1 tell-joke true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))"
+    },
+    "showVideoInstructionsGoal":{
+      "full": "show you a video about ",
+      "confirmation": "show you a tutorial video",
+      "question-t": "Instructions For?",
+      "tablet-view": "Show Instructions",
+      "pddl": "(:goal(?G1 (display-instructions ?Topic ?Continue) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"indianMainDish", "indianSideDish", "indianDessert", "indianFood", "indianBreakfastFood", "salwar", "other"],
+        "full":[ "the top indian dishes", "traditional indian side dishes", "traditional indian desserts", "traditional indian food", "traditional indian breakfast food", "how to wear a salwar", "other"]
+       }
+
+    },
+    "setPersonalDataGoal":{
+      "full": "set",
+      "confirmation": "set some personal data",
+      "question-t": "Personal Data?",
+      "tablet-view": "Set Data",
+      "pddl": "(:goal(?G1 (set-personal-data ?PersonalData) true)(?G2 accept-request true))(:temporal(before ?G1 ?G2 [1500 inf]))",
+      "options":{
+        "IDs":[	"birthday", "name", "other"],
+        "full":[ "birthday", "the name", "other"]
+       }
+
+    }
+  }
+}

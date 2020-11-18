@@ -1,0 +1,5 @@
+user:root
+password:caressespro
+host:127.0.0.1
+database: sensor_simulator
+layout:englishCommon

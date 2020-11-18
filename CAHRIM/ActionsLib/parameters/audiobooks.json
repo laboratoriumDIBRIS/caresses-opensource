@@ -1,64 +1,28 @@
 {
   "IDs":{
-    "middlemarch":{
-      "full": "Middlemarch",
-      "url": "https://www.youtube.com/watch?v=Pte2HtOxbWM"
+    "theBethrothed":{
+      "full": "the book The Bethrothed",
+      "url": "https://www.youtube.com/watch?v=e1EigjWCkH8"
     },
-    "frankenstein":{
-      "full": "Frankenstein",
-      "url": "https://www.youtube.com/watch?v=vvtCLJ-1N34"
+    "romeoAndJuliet":{
+      "full": "the book Romeo and Juliet",
+      "url": "https://www.youtube.com/watch?v=AYDFQL_LfeY"
     },
-    "bleakHouse":{
-      "full": "Bleak House",
-      "url": "https://www.youtube.com/watch?v=pd6wvaZbQPA"
+    "onTheRoad":{
+      "full": "the book On The Road",
+      "url": "https://www.youtube.com/watch?v=jjq43EZ1OxA"
     },
-    "janeEyre":{
-      "full": "Jane Eyre",
-      "url": "https://www.youtube.com/watch?v=QB2FHfiVv4Y"
+    "danceDanceDance":{
+      "full": "the book Dance Dance Dance",
+      "url": "https://www.youtube.com/watch?v=c9USvnq9Gi0"
     },
-    "davidCopperfield":{
-      "full": "David Copperfield",
-      "url": "https://www.youtube.com/watch?v=kTiOqMihZxM"
+    "warAndPeace":{
+      "full": "the book War And Peace",
+      "url": "https://www.youtube.com/watch?v=1FYn-pySRKg"
     },
-    "mahabharata":{
-      "full": "Mahabharata",
-      "url": "https://www.youtube.com/watch?v=KMWWeeqJKEM"
-    },
-    "book1984":{
-      "full": "1984",
-      "url": "https://www.youtube.com/watch?v=wM3GFyuJwQ8"
-    },
-    "harryPotterAndThePhilosophersStone":{
-      "full": "Harry Potter",
-      "url": "https://www.youtube.com/watch?v=oQCUZs_Tkd0"
-    },
-    "theStoryOfMyExperimentsWithTheTruth":{
-      "full": "The story of my experiments with the truth",
-      "url": "https://www.youtube.com/watch?v=f32BcRnw2A4"
-    },
-    "greatExpectations":{
-      "full": "Great Expectations",
-      "url": "https://www.youtube.com/watch?v=ET63dDXLEgs"
-    },
-    "tottoChanTheLittleGirlAtTheWindow":{
-      "full": "Totto-Chan: the little Girl at the Window",
-      "url": "https://www.youtube.com/watch?v=wk1FfSuQ7tk"
-    },
-    "aFineBalance":{
-      "full": "A Fine Balance",
-      "url": "https://www.youtube.com/watch?v=bMB1VlpuHkE"
-    },
-    "toTheLighthouse":{
-      "full": "To the Lighthouse",
-      "url": "https://www.youtube.com/watch?v=yF2yN5F7ry0"
-    },
-    "wutheringHeights":{
-      "full": "Wuthering Heights",
-      "url": "https://www.youtube.com/watch?v=FzbOAR7N5WU"
-    },
-    "sunAndSteel":{
-      "full": "Sun and Steel",
-      "url": "https://www.youtube.com/watch?v=amk1fAxZeJs"
+    "thousandNightsAndANight":{
+      "full": "the book Thousand Nights and a Night",
+      "url": "https://www.youtube.com/watch?v=9gIGvOSi_jI"
     }
   }
 }

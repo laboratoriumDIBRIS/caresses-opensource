@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-Copyright October 2019 Japan Advanced Institute of Science and Technology
+Copyright October 2019 Bui Ha Duong
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.

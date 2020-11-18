@@ -1,0 +1,6 @@
+act:info
+1:Intention of changing clothes
+2:Changing clothes
+3:Sleeping
+4:Resting
+5:Listening to radio

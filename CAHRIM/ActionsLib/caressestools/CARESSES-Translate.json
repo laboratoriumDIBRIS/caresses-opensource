@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "caresses-transla-1561625092893",
+  "private_key_id": "943d8b7a604c19a3f9296ba9a6162302e457a5c3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDSsnw3iR4Vvv5k\nPnUiW1aUIVzd13wE0QYx/CQCZXd7fU7GvkvpoqNhsiaUaXOFWJ59DYlUvwJODv8Q\noWaGusWAy01rkqyF0oAbuKOuyxPwnYPCPabkHqSasSDjOyN8hqKkJcabOdaH/4rM\nayiDci68qaB28JXqaZv+IHY/XytQEf9Uj5K4v644HBQvceNIATya9T+PbXrO+RsB\nVeEdrymT5NI2PdhE0dUQf2ou1E7W/pJ6oXfMKfGCbfXWp+sQgiGxlTYoWZL3UZdW\nTYIMbHxVdXk3QG+Kq0xOGoZvHLS4vMrnfxaNcYHJ543wU9LO5fZnYyeLlodyVU+j\nwZkKrE+1AgMBAAECggEAUq7tdUPPdRw3K7Kg+AMdFlODZKF4D1HR2xLGNNSJz4HM\nxMyP8Nc8w42Me0hop6cvxwZlYsb0ihpzeRzFpdCsyg6+Sp1MK9YAJSDPxzv1jsLZ\nnoPgNvxZf0VMkS+3jNovADi82FSZvlQHrZHN28uW0L3GdXaTdmLMby1hChx4XFqF\nF5ZaTJcSvqFOMIJooDrGDeIt2luLykr+sWQa2P1kqNXRzXT2lKZFbMlbQw1BuIiu\nvMpO8WfdTrJaxaH5EsPReyeTt1JLZ22dIRjL3yda5kwNJ9UNVxd/iCChEKN3Y6uC\nONT18xW9a2VgLwK8cFPlyi2aucIYn5OaqReCmH4DrwKBgQD25IBYoeIdxdgq/sOm\nB0QE+aZTmPwt43eIolObscr+wicVagBNI+BbF6Ahfcs3jIjfCYh06fyPQk6S+X4k\nmnjlYp4KnrjTs/9gJuglZKJEl2t4UJRoeTB4XXyGsb5kmlGgweEOgqnUNI07AxBw\nnmHw0/WVS12i8vb/od690g/KIwKBgQDaeC1toZ1QNOimb55JaQTIf3pA+AQsk4aJ\n9hEQuC5EjESYy/Q+DehppGU6e7UJjniOFcFLgptJtV5GgBYp+Rr+8+bFszSSEy3H\nVfVLxil8eQEOL4wtpfRCcnbq/4CBIW5Bo8lVSgFkD/ehRniZBSNc7415fenYO4pE\nRlPgVRvARwKBgQDjvHq3RvvwQqLXZhDKgUE45Z+K1T8ohP2pxzIgF6wLusOaeSC2\nBzXYUL6gpgxhvPwz3/NDBOK2so8P+5tj4ClMTd9CJI6QmSQjaUAR3fXgF1xGqu16\nQO9416MaC7J30fEhvDUA0X4eBCuSF41+lFn7b0jE4bQJrtwviPyRU8bEyQKBgQCN\nxmOku7a9MDiymcjc1vw1qRSLSOhcjThIG5mjggL0lRqHFgRgqOHkfLz8oP8xPnXZ\nryCLgiyIPtz5X3ICtxff0CQ4tD0vdqbEr3HKRMTzdAtNS2nqzcGfxWyKwFiCdFF6\n43FqmeYhK4OF85ebpgv26baj2ySAINNvzzvrXw/tTQKBgC4o9f15LDlEEmeom9W6\npI9NWMFleO+qgbkpJnGpcxQAaKOUaPfQ+vjFd372OJZkZ73AkA1GqmngYHc6H97a\npCrtGPGO6v7XFCYmPEqf2/iYlE0MucoFm9L8Vm3EeAc/fTGqGLxbTHPrhzn+9nIK\ngh9QGGubVdalUDbt9ccKkXrk\n-----END PRIVATE KEY-----\n",
+  "client_email": "caresses-translate@caresses-transla-1561625092893.iam.gserviceaccount.com",
+  "client_id": "106493577013016307088",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/caresses-translate%40caresses-transla-1561625092893.iam.gserviceaccount.com"
+}

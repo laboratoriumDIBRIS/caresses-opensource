@@ -46,7 +46,7 @@ from date_time_selector import DateTimeSelector
 from caressestools import Settings, setAutonomousAbilities, getAutonomousAbilities
 from custom_number import CustomNumber
 
-# import CahrimThreads.socket_handlers
+import CahrimThreads.socket_handlers
 
 # # Constants
 
@@ -501,96 +501,96 @@ class Speech():
         except sr.RequestError as e:
             return ""
 
-    # def getInputFromSmartphone(self):
-    #     '''!
-    #     Get the user input from a smartphone mic. The smartphone should have the CARESSES app installed in it.
-    #     @return (unicode) User input
-    #     '''
+    def getInputFromSmartphone(self):
+        '''!
+        Get the user input from a smartphone mic. The smartphone should have the CARESSES app installed in it.
+        @return (unicode) User input
+        '''
 
-    #     #connected = False
-    #     #while not connected:
-    #     #    try:
-    #     #        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    #     #        sock.connect(("127.0.0.1", 12350))
-    #     #        connected = True
-    #     #    except Exception as e:
-    #     #        time.sleep(2)
+        #connected = False
+        #while not connected:
+        #    try:
+        #        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        #        sock.connect(("127.0.0.1", 12350))
+        #        connected = True
+        #    except Exception as e:
+        #        time.sleep(2)
 
-    #     #output_queue = Queue.Queue(maxsize=0)
-    #     #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
-    #     #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
-    #     #thread.start()
+        #output_queue = Queue.Queue(maxsize=0)
+        #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
+        #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
+        #thread.start()
 
-    #     #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
+        #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
 
-    #     CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
-    #     while (CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone() is None):
-    #         pass
+        CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
+        while (CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone() is None):
+            pass
 
-    #     toret = CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone()
-    #     CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
+        toret = CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone()
+        CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
 
-    #     #sock.close()
-    #     #thread.stop()
-    #     #time.sleep(1)
+        #sock.close()
+        #thread.stop()
+        #time.sleep(1)
 
-    #     return toret
+        return toret
 
-    # def getOptionsFromSmartphone(self, options):
+    def getOptionsFromSmartphone(self, options):
 
-    #     try:
-    #         options_str = [a.encode('ascii','ignore') for a in options]
-    #     except:
-    #         pass
+        try:
+            options_str = [a.encode('ascii','ignore') for a in options]
+        except:
+            pass
 
 
-    #     #connected = False
-    #     #while not connected:
-    #     #    try:
-    #     #        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    #     #        sock.connect(("127.0.0.1", 12350))
-    #     #        connected = True
-    #     #    except Exception as e:
-    #     #        time.sleep(2)
+        #connected = False
+        #while not connected:
+        #    try:
+        #        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        #        sock.connect(("127.0.0.1", 12350))
+        #        connected = True
+        #    except Exception as e:
+        #        time.sleep(2)
 
-    #     #output_queue = Queue.Queue(maxsize=0)
-    #     #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
-    #     #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
-    #     #thread.start()
+        #output_queue = Queue.Queue(maxsize=0)
+        #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
+        #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
+        #thread.start()
 
-    #     #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
-    #     #time.sleep(1)
-    #     #sock.close()
-    #     #thread.stop()
+        #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
+        #time.sleep(1)
+        #sock.close()
+        #thread.stop()
 
-    #     while(self.gothread):
-    #         CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
-    #         while (self.gothread and (CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone() is None)):
-    #             pass
+        while(self.gothread):
+            CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
+            while (self.gothread and (CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone() is None)):
+                pass
 
-    #         toret = CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone()
-    #         CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
-    #         if toret is not None and toret.lower() in map(str.lower,options_str) and toret is not "":
-    #             self.sMemory.insertData("WordRecognized", ["<...> "+toret+" <...>", 1])
-    #         elif toret is not None:
-    #             connected = False
-    #             while not connected:
-    #                 try:
-    #                     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    #                     sock.connect(("127.0.0.1", 12350))
-    #                     connected = True
-    #                 except Exception as e:
-    #                     time.sleep(2)
+            toret = CahrimThreads.socket_handlers.InputMsgHandler.getSmartphone()
+            CahrimThreads.socket_handlers.InputMsgHandler.resetSmartphone()
+            if toret is not None and toret.lower() in map(str.lower,options_str) and toret is not "":
+                self.sMemory.insertData("WordRecognized", ["<...> "+toret+" <...>", 1])
+            elif toret is not None:
+                connected = False
+                while not connected:
+                    try:
+                        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                        sock.connect(("127.0.0.1", 12350))
+                        connected = True
+                    except Exception as e:
+                        time.sleep(2)
 
-    #             #output_queue = Queue.Queue(maxsize=0)
-    #             #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
-    #             #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
-    #             #thread.start()
+                #output_queue = Queue.Queue(maxsize=0)
+                #output_handler = CahrimThreads.socket_handlers.OutputMsgHandler(output_queue)
+                #thread = CahrimThreads.socket_handlers.MsgSender(sock, output_queue)
+                #thread.start()
 
-    #             #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
-    #             #time.sleep(1)
-    #             #sock.close()
-    #             #thread.stop()
+                #output_handler.writeSupplyMessage("publish", "D11.6", "robotListens")
+                #time.sleep(1)
+                #sock.close()
+                #thread.stop()
 
 
     def getInputFromGoogle(self, wait=0.1, blocking=True, noisy="normal"):

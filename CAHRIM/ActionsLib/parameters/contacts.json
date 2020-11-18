@@ -2,11 +2,11 @@
   "IDs":{
     "doctor":{
       "full": "doctor",
-      "line": "john-doe-Line-ID",
-      "phone": "john-doe-Phone",
-      "skype": "john-doe-Skype-ID",
-      "telegram": "john-doe-Telegram-ID",
-      "email": "john-doe-email@john.doe"
+      "line": "",
+      "phone": "",
+      "skype": "roberto.menicatti",
+      "telegram": "224507624",
+      "email": "roberto.menicatti@dibris.unige.it"
     },
     "customPerson":{
       "full": "a custom number",
@@ -15,6 +15,70 @@
       "skype": "",
       "telegram": "",
       "email": ""
+    },
+    "nurse":{
+      "full": "nurse",
+      "line": "U7fca51c43fc8dcdafc4ec548a9811e5c",
+      "phone": "",
+      "skype": "belquitro",
+      "telegram": "45582040",
+      "email": "carmine.recchiuto@dibris.unige.it"
+    },
+    "friend":{
+      "full": "friend Bob",
+      "line": "",
+      "phone": "",
+      "skype": "roberto.menicatti",
+      "telegram": "224507624",
+      "email": "roberto.menicatti@dibris.unige.it"
+    },
+    "husband":{
+      "full": "husband Tom",
+      "line": "U7fca51c43fc8dcdafc4ec548a9811e5c",
+      "phone": "",
+      "skype": "belquitro",
+      "telegram": "45582040",
+      "email": "carmine.recchiuto@dibris.unige.it"
+    },
+    "medicalStaff":{
+      "full": "medical staff",
+      "line": "",
+      "phone": "",
+      "skype": "roberto.menicatti",
+      "telegram": "224507624",
+      "email": "roberto.menicatti@dibris.unige.it"
+    },
+    "son":{
+      "full": "son Alfred",
+      "line": "",
+      "phone": "+390103532801",
+      "skype": "roberto.menicatti",
+      "telegram": "",
+      "email": "roberto.menicatti@dibris.unige.it"
+    },
+    "sister":{
+      "full": "sister Jane",
+      "line": "U7fca51c43fc8dcdafc4ec548a9811e5c",
+      "phone": "",
+      "skype": "belquitro",
+      "telegram": "45582040",
+      "email": "carmine.recchiuto@dibris.unige.it"
+    },
+    "grandChild":{
+      "full": "grandchild Alex",
+      "line": "U7fca51c43fc8dcdafc4ec548a9811e5c",
+      "phone": "+393480667920",
+      "skype": "belquitro",
+      "telegram": "45582040",
+      "email": "carmine.recchiuto@dibris.unige.it"
+    },
+    "brother":{
+      "full": "brother Jack",
+      "line": "U7fca51c43fc8dcdafc4ec548a9811e5c",
+      "phone": "",
+      "skype": "belquitro",
+      "telegram": "45582040",
+      "email": "carmine.recchiuto@dibris.unige.it"
     }
   }
 }

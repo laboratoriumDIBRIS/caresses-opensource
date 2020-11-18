@@ -1,0 +1,212 @@
+{
+   "action1": {
+     "confirmation":"食事のメニューを見たいですか？",
+       "id_request":"(show-menu \"n/a\"\"n/a\")",
+       "request_parameters_1": [
+         "見せる",
+         "表示する",
+         "見たい",
+         "メニュー"
+        ],
+       "request_parameters_2": [
+         "メニュー",
+         "食事",
+         "朝食",
+         "昼食",
+         "ディナー",
+         "デザート"
+        ]
+    },
+   "action2": {
+       "confirmation":"リラックスした音楽を聴きたいですか？",
+       "id_request":"relax",
+       "request_parameters_1": [
+         "再生する",
+         "たい"
+        ],
+       "request_parameters_2": [
+         "リラックスした音楽",
+         "リラックス"
+        ]
+    },
+   "action3": {
+       "confirmation":"あなたはプライバシーが必要ですか？",
+       "id_request":"provide-privacy",
+       "request_parameters_1": [
+         "プライバシー",
+         "たい",
+         "必要",
+         "あげる"
+        ],
+       "request_parameters_2": [
+         "プライバシー"
+        ]
+    },
+   "action4": {
+       "confirmation":"あなたのためにリマインダーを設定して欲しいですか？",
+       "id_request":"(set-reminder \"n/a\")",
+       "request_parameters_1": ["設定"],
+       "request_parameters_2": ["リマインダー"]
+    },
+   "action5": {
+       "confirmation":"電話をかけますか？",
+       "id_request":"(audio-video-call \"n/a\"\"n/a\")",
+       "request_parameters_1": ["かけます","電話"],
+       "request_parameters_2": ["スカイプ","友だち","医者","姉妹","兄弟","息子","娘","妻","夫","ナース","介護者","医療者","孫","孫","作る","たい"]
+    },
+   "action6": {
+        "confirmation":"天気予報を示すことがほしいですか？",
+       "id_request":"(display-weather \"n/a\")",
+       "request_parameters_1": [
+             "ほしい",
+             "必要",
+             "示す",
+             "好き",
+             "伝える",
+             "表示する",
+             "何"
+          ],
+       "request_parameters_2": [
+           "天気"
+          ]
+    },
+   "action7": {
+       "confirmation":"あなたの食事を選ぶのを手伝うことがほしいですか？",
+       "id_request":"(help-with-meal \"n/a\")",
+       "request_parameters_1": ["手伝う"],
+       "request_parameters_2": ["食事","ランチ","朝食","ディナー"]
+    },
+   "action8": {
+       "confirmation":"あなたはそのニュースを読みたいですか？",
+       "id_request":"(show-news \"n/a\"\"n/a\")",
+       "request_parameters_1": ["見せる","伝える","読む","示す"],
+       "request_parameters_2": ["ニュース"]
+    },
+   "action9": {
+       "confirmation":"あなたは私と一緒に記憶ゲームをしたいですか？",
+       "id_request":"(play-game-memory \"n/a\")",
+       "request_parameters_1": ["する"],
+       "request_parameters_2": ["ゲーム","記憶"]
+    },
+    "action10": {
+       "confirmation":"私があなたの服を着るのを手伝ってほしいですか？",
+       "id_request":"help-with-dressing",
+       "request_parameters_1": [
+             "ほしい",
+             "必要",
+             "手伝う",
+             "好き",
+             "時間",
+             "will"
+          ],
+        "request_parameters_2": [
+           "ドレス",
+           "服を着る"
+        ]
+    },
+   "action11": {
+     "confirmation":"いくつかの運動をしたいですか？",
+     "id_request":"help-with-exercise",
+       "request_parameters_1": ["手伝う","ほしい","必要","時間","will","好き"],
+       "request_parameters_2": ["運動"]
+    },
+   "action12": {
+     "confirmation":"あなたにメッセージを送って欲しいですか？",
+     "id_request":"(send-msg \"n/a\"\"n/a\")",
+       "request_parameters_1": ["メッセージを送る"],
+       "request_parameters_2": ["友だち","医者","姉妹","兄弟","息子","娘","妻","夫","ナース","介護者","医療者","メッセージ","孫","孫"]
+    },
+   "action14": {
+     "confirmation":"私にあなたの写真を撮って送ってもらいたいですか？",
+     "id_request":"(take-selfie \"n/a\")",
+       "request_parameters_1": ["撮る","送る"],
+       "request_parameters_2": ["写真","自撮り","写真"]
+    },
+ "action15": {
+       "confirmation":"私にどこかへ行ってもらいたいのですか？",
+       "id_request":"robot-at pepper-1) \"n/a\"",
+       "request_parameters_1": [
+         "行く",
+         "来る",
+         "行き",
+         "帰り",
+         "同行",
+         "付き従う",
+         "必要",
+         "ほしい",
+         "好き"
+        ],
+       "request_parameters_2": [
+           "ソファー",
+           "肘掛けいす",
+           "テレビ",
+           "窓",
+           "ドア",
+           "ワードローブ",
+           "テーブル",
+           "押入れ棚",
+           "充電器",
+           "いす",
+           "ベッド"
+        ]
+    },
+   "action16": {
+     "confirmation":"カラオケで歌いたいですか？",
+     "id_request":"(play-karaoke \"n/a\")",
+       "request_parameters_1": ["歌う","再生する"],
+       "request_parameters_2": ["カラオケ","歌"]
+    },
+   "action17": {
+     "confirmation":"あなたは私にあなたのために映画クリップを見せて欲しいですか？",
+     "id_request":"(play-video \"n/a\"\"n/a\")",
+       "request_parameters_1": ["再生する","みる","表示する"],
+       "request_parameters_2": ["映画","映画"]
+    },
+   "action18": {
+     "confirmation":"あなたは音楽を聴きたいですか？",
+     "id_request":"(play-music \"n/a\"\"n/a\")",
+       "request_parameters_1": ["再生する","聞く"],
+       "request_parameters_2": ["音楽","歌"]
+    },
+    "action19": {
+     "confirmation":"あなたに私にあなたのためにオーディオブックを読んでもらいたいですか？",
+     "id_request":"(play-audio-book \"n/a\"\"n/a\")",
+       "request_parameters_1": ["再生する","読む"],
+       "request_parameters_2": ["本","オーディオブック"]
+    },
+   "action20": {
+     "confirmation":"あなたが私にあなたの祈りを手助けしてほしいですか？",
+     "id_request":"help-with-ritual",
+       "request_parameters_1": ["祈り"],
+       "request_parameters_2": ["祈り"]
+    },
+   "action21": {
+     "confirmation":"私にあなたに説明ビデオを見せてほしいですか？",
+     "id_request":"(display-instructions \"n/a\"\"n/a\")",
+       "request_parameters_1": ["表示する","見せる"],
+       "request_parameters_2": ["説明","ビデオ"]
+    },
+   "action22": {
+     "confirmation":"あなたは私のタブレットにあなたの写真を見せてほしいですか？",
+     "id_request":"show-photos",
+       "request_parameters_1": ["見せる","表示する"],
+       "request_parameters_2": ["写真","写真","自撮り"]
+    },
+   "action23": {
+     "confirmation":"あなたは現在の日時を知りたいですか？",
+     "id_request":"(show-date-and-time \"n/a\")",
+       "request_parameters_1": ["何","伝える"],
+       "request_parameters_2": ["時間","日時","今日"]
+    },
+   "action24": {
+     "confirmation":"私を動いて欲しいですか？",
+     "id_request":"move-closer-farther",
+       "request_parameters_1": ["動く","来る"],
+       "request_parameters_2": ["近く","遠く"]
+    },
+   "action13": {
+     "confirmation":"あなたが私にあなたのためにスマートデバイスを操作させたいですか？",
+     "id_request":"(operate-smart-device \"n/a\"\"n/a\"\"n/a\")",
+       "request_parameters_1": ["コントロール","操作する","開ける","消す","つける","消す"],
+       "request_parameters_2": ["デバイス","スマート","ランプ","光"]
+    },
